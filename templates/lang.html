@@ -1,0 +1,146 @@
+{% extends "layout.html" %}
+{% block form %}
+<body>
+
+    <label for="lang">Enter Language</label><br>
+    <select type="text" id="lang" name="lang"><br>
+
+      <option value="af">afrikaans</option>
+      <option value="sq">shqip</option>
+      <option value="am">አማርኛ</option>
+      <option value="ar">عربى</option>
+      <option value="hy">հայերեն</option>
+      <option value="az">azərbaycanlı</option>
+      <option value="eu">euskalduna</option>
+      <option value="be">беларуская</option>
+      <option value="bn">বাংলা</option>
+      <option value="bs">bosanski</option>
+      <option value="bg">български</option>
+      <option value="ca">català</option>
+      <option value="ceb">Cebuano</option>
+      <option value="ny">chichewa</option>
+      <option value="zh-cn">简体中文）</option>
+      <option value="zh-tw">中國傳統的）</option>
+      <option value="co">Corsu</option>
+      <option value="hr">Hrvatski</option>
+      <option value="cs">čeština</option>
+      <option value="da">dansk</option>
+      <option value="nl">nederlands</option>
+      <option value="en">english</option>
+      <option value="eo">esperanto</option>
+      <option value="et">eesti keel</option>
+      <option value="tl">pilipino</option>
+      <option value="fi">Suomalainen</option>
+      <option value="fr">français</option>
+      <option value="fy">frysk</option>
+      <option value="gl">galego</option>
+      <option value="ka">ქართველი</option>
+      <option value="de">deutsch</option>
+      <option value="el">Ελληνικά</option>
+      <option value="gu">ગુજરાતી</option>
+      <option value="ht">kreyol ayisyen</option>
+      <option value="ha">hausa</option>
+      <option value="haw">ʻŌlelo Hawaiʻi</option>
+      <option value="iw">עִברִית</option>
+      <option value="he">עִברִית</option>
+      <option value="hi">हिन्दी</option>
+      <option value="hmn">hmoob</option>
+      <option value="hu">Magyar</option>
+      <option value="is">íslensku</option>
+      <option value="ig">igbo</option>
+      <option value="id">bahasa Indonesia</option>
+      <option value="ga">Gaeilge</option>
+      <option value="it">italiano</option>
+      <option value="ja">日本</option>
+      <option value="jw">basa jawa</option>
+      <option value="kn">ಕನ್ನಡ</option>
+      <option value="kk">қазақ</option>
+      <option value="km">ខ្មែរ</option>
+      <option value="ko">한국어</option>
+      <option value="ku">kurdî (kurmancî)</option>
+      <option value="ky">Кыргызча</option>
+      <option value="lo">ລາວ</option>
+      <option value="la">latin</option>
+      <option value="lv">latviski</option>
+      <option value="lt">lietuvis</option>
+      <option value="lb">lëtzebuergesch</option>
+      <option value="mk">македонски</option>
+      <option value="mg">malagasy</option>
+      <option value="ms">melayu</option>
+      <option value="ml">മലയാളം</option>
+      <option value="mt">malti</option>
+      <option value="mi">maori</option>
+      <option value="mr">मराठी</option>
+      <option value="mn">монгол</option>
+      <option value="my">မြန်မာ (ဗမာ)</option>
+      <option value="ne">नेपाली</option>
+      <option value="no">norsk</option>
+      <option value="or">ଓଡିଆ</option>
+      <option value="ps">پښتو</option>
+      <option value="fa">فارسی</option>
+      <option value="pl">Polskie</option>
+      <option value="pt">Português</option>
+      <option value="pa">ਪੰਜਾਬੀ</option>
+      <option value="ro">Română</option>
+      <option value="ru">русский</option>
+      <option value="sm">Samoa</option>
+      <option value="gd">Gàidhlig na h-Alba</option>
+      <option value="sr">Српски</option>
+      <option value="st">sesotho</option>
+      <option value="sn">shona</option>
+      <option value="sd">سنڌي</option>
+      <option value="si">සිංහල</option>
+      <option value="sk">slovenčina</option>
+      <option value="sl">Slovenščina</option>
+      <option value="so">somaliyeed</option>
+      <option value="es">español</option>
+      <option value="su">basa sunda</option>
+      <option value="sw">kiswahili</option>
+      <option value="sv">svenska</option>
+      <option value="tg">тоҷикӣ</option>
+      <option value="ta">தமிழ்</option>
+      <option value="te">తెలుగు</option>
+      <option value="th">แบบไทย</option>
+      <option value="tr">Türk</option>
+      <option value="uk">український</option>
+      <option value="ur">اردو</option>
+      <option value="ug">uyghur</option>
+      <option value="uz">o'zbek</option>
+      <option value="vi">Tiếng Việt</option>
+      <option value="cy">cymraeg</option>
+      <option value="xh">isiXhosa</option>
+      <option value="yi">ייִדיש</option>
+      <option value="yo">yoruba</option>
+      <option value="zu">zulu</option>
+</select>
+
+    <button id='lang_button' type="button"> Submit </button><br>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+      const socket = io();
+      socket.on('connect', function() {
+        console.log('Connected');
+      });
+
+
+    $('#lang_button').click(function(e){
+        console.log('lang event')
+        const lang = $('#lang').val();
+        //console.log(`from lang.html ${socket.id}`);
+        if(lang != ''){
+          sessionStorage.setItem('lang', lang);
+          socket.emit('lang', {'lang':lang});
+        window.location.replace('/chat');
+      }
+      else{
+        alert('Language field Cannot be empty');
+      }
+
+    });
+});
+</script>
+</body>
+{% endblock %}

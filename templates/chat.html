@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block form %}
+<body>
+<ul id="messages"></ul>
+<input type="text" id="myMessage">
+<button  id="sendbutton">Send</button><br>
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    var currentdate = new Date();
+    var now = currentdate.getDate() + "/"
+          + (currentdate.getMonth()+1)  + "/"
+          + currentdate.getFullYear() + " @ "
+          + currentdate.getHours() + ":"
+          + currentdate.getMinutes();
+
+    const socket = io();
+    socket.on('connect', function() {
+      const lang = sessionStorage.getItem('lang');
+      socket.emit('client_connected', {'lang': lang});
+    });
+
+    socket.on('disconnect', function() {
+      socket.emit('client_disconnected', {});
+    });
+
+  socket.on('recieve', function(msg, sender){
+    console.log(msg + sender);
+    $('#messages').append('<li>'+now+' '+` [${sender}] `+' '+msg+'</li>');
+  })
+
+  $("#sendbutton").click(function () {
+        console.log(sessionStorage.getItem('lang'));
+          let msg = $('#myMessage').val();
+          if (msg != ''){
+            console.log(`from chat.html send event ${socket.id}`);
+            socket.emit('send', {msg : msg});
+            let newMsg = '<li>' + now + ' [You] ' + msg + '</li>';
+            $('#messages').append(newMsg);
+            $('#myMessage').val('');
+        }
+        });
+});
+
+
+
+
+</script>
+</body>
+{% endblock %}

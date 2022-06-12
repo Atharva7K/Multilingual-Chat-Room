@@ -21,9 +21,12 @@
       socket.emit('client_connected', {'lang': lang});
     });
 
-    socket.on('disconnect', function() {
-      socket.emit('client_disconnected', {});
-    });
+    // $(window).onbeforeunload(function () {
+    //           socket.emit('client_disconnected');
+    //         });
+    window.onbeforeunload = function () {
+    socket.emit('client_disconnected');
+    }
 
   socket.on('recieve', function(msg, sender){
     console.log(msg + sender);

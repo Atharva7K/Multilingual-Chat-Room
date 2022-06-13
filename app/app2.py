@@ -9,8 +9,8 @@ from models import User
 translator = Translator()
 
 app = Flask(__name__)
-login = LoginManager(app)
 app.config.from_object(Config)
+login = LoginManager(app)
 db = SQLAlchemy(app)
 socketio = SocketIO(app)
 

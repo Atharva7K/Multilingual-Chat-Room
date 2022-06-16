@@ -27,8 +27,8 @@ class Chat(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     body = db.Column(db.String(140))
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
-    sender_username = db.Column(db.Integer, db.ForeignKey('user.id'))
-    reciever_username = db.Column(db.Integer, db.ForeignKey('user.id'))
+    sender_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    reciever_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     def __repr__(self):
         return '<Chat {}, sent by {}, recieved by {}>'.format(self.body,

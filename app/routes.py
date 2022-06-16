@@ -7,13 +7,13 @@ db.create_all()
 from app.forms import LoginForm, RegistrationForm
 from app import socketio
 from googletrans import Translator
-
+from datetime import datetime
 
 sid2username = {}
 sid2lang = {}
 translator = Translator()
 
-def broadcast(sender_sid, msg, sid2lang, translator, sid2username, socket):
+def broadcast(sender_sid, msg, sid2lang, translator, sid2username, user_id, socket):
     print(sid2username)
     src = sid2lang[sender_sid]
     for reciever_sid, lang in sid2lang.items():
@@ -23,13 +23,13 @@ def broadcast(sender_sid, msg, sid2lang, translator, sid2username, socket):
             translated = translator.translate(msg, src=src, dest=dest).text
             socket.emit('recieve', data=(translated, sid2username[sender_sid]), room=reciever_sid)
             print(f'Msg from {sid2username[sender_sid]} to {sid2username[reciever_sid]}')
-
-            # chat = Chat(body = translated,
-            #             timestamp = datetime.utcnow(),
-            #             sender_username = sender_username,
-            #             reciever_username = reciever_username)
-            # db.session.add(chat)
-            # db.session.commit()
+            reciever_id = User.query.filter_by(username=sid2username[reciever_sid]).first().id
+            chat = Chat(body = translated,
+                        timestamp = datetime.utcnow(),
+                        sender_id = user_id,
+                        reciever_id = reciever_id)
+            db.session.add(chat)
+            db.session.commit()
 
 @socketio.on('client_disconnected')
 def client_disconnected():
@@ -55,7 +55,8 @@ def event(data):
     print(f'Senders username {current_user.username}; senders sid {request.sid}')
     broadcast(request.sid,data['msg'],
              sid2lang, translator,
-             sid2username, socketio)
+             sid2username, current_user.id,
+             socketio)
     #broadcast(current_user.username, data['msg'], sid2lang, translator, socketio)
 
     #socketio.emit('recieve', data['msg'], broadcast=True)

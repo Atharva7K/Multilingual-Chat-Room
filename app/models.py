@@ -4,13 +4,13 @@ from datetime import datetime
 from app import db
 from app import login
 
-print(f' From models {id(db)}')
 
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(120), index=True, unique=True)
     password_hash = db.Column(db.String(128))
+    lang = db.Column(db.String(5))
 
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
@@ -18,6 +18,8 @@ class User(UserMixin, db.Model):
     def check_password(self, password):
         return check_password_hash(self.password_hash, password)
 
+    def set_lang(self, lang):
+        self.lang = lang
     def __repr__(self):
         return '<User {}>'.format(self.username)
 
@@ -25,10 +27,11 @@ class Chat(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     body = db.Column(db.String(140))
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
-    sender_id = db.Column(db.Integer, db.ForeignKey('user.id'))
-    reciever_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    sender_username = db.Column(db.Integer, db.ForeignKey('user.id'))
+    reciever_username = db.Column(db.Integer, db.ForeignKey('user.id'))
+
     def __repr__(self):
-        return '<Post {}, sent by {}, recieved by {}>'.format(self.body,
+        return '<Chat {}, sent by {}, recieved by {}>'.format(self.body,
         self.sender_id, self.reciever_id)
 
 @login.user_loader

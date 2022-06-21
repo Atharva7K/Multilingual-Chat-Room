@@ -11,6 +11,8 @@ class User(UserMixin, db.Model):
     email = db.Column(db.String(120), index=True, unique=True)
     password_hash = db.Column(db.String(128))
     lang = db.Column(db.String(5))
+    sent = db.relationship('Chat', backref='sender', lazy='dynamic', foreign_keys = '[chat.c.sender_id]')
+    recieved = db.relationship('Chat', backref='reciever', lazy='dynamic', foreign_keys = '[chat.c.reciever_id]')
 
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
@@ -31,8 +33,12 @@ class Chat(db.Model):
     reciever_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     def __repr__(self):
-        return '<Chat {}, sent by {}, recieved by {}>'.format(self.body,
-        self.sender_id, self.reciever_id)
+        return str({
+        'timestamp':self.timestamp.strftime('%d %b %Y %I:%M %p'),
+        'sender_id':self.sender_id,
+        'reciever_id':self.reciever_id,
+        'body':self.body
+        })
 
 @login.user_loader
 def load_user(id):

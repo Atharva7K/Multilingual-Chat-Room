@@ -1,54 +1,84 @@
 {% extends "layout.html" %}
 {% block form %}
+
 <body>
-<ul id="messages"></ul>
-<input type="text" id="myMessage">
-<button  id="sendbutton">Send</button><br>
+  <ul id="messages"></ul>
+  <input type="text" id="myMessage">
+  <button id="sendbutton">Send</button><br>
 
-<script type="text/javascript">
+  <script type="text/javascript">
 
-  $(document).ready(function(){
-    var currentdate = new Date();
-    var now = currentdate.getDate() + "/"
-          + (currentdate.getMonth()+1)  + "/"
-          + currentdate.getFullYear() + " @ "
-          + currentdate.getHours() + ":"
-          + currentdate.getMinutes();
+    $(document).ready(function () {
 
-    const socket = io();
-    socket.on('connect', function() {
-      const lang = sessionStorage.getItem('lang');
-      socket.emit('client_connected', {'lang': lang});
+      function formatAMPM(date) {
+
+        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+        var hours = date.getHours();
+        var _date = date.getDate();
+        var month = date.getMonth();
+        var year = date.getFullYear();
+        var minutes = date.getMinutes();
+        var ampm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12; // the hour '0' should be '12'
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        var strTime = _date + ' ' + months[month] + ' ' + year + ' ' + hours + ':' + minutes + ' ' + ampm;
+
+        return strTime;
+      }
+
+      const socket = io();
+
+      socket.on('connect', function () {
+        console.log('{{current_user.username}}');
+        const lang = sessionStorage.getItem('lang');
+        socket.emit('client_connected', { 'lang': lang });
+
+        {% if chats %}
+        {% for chat in chats %}
+
+        var txt = '<li>' + '{{ chat.timestamp.strftime(' %d %b %Y %I:%M %p') }}'
+          + ' ' + {% if chat.sender.username != current_user.username %}
+                               '[{{chat.sender.username}}]'
+                      {% else %}
+                                '[You]'
+                      {% endif %}
+      + ' ' + '{{chat.body}}' + '</li>';
+    $('#messages').append(txt);
+    {% endfor %}
+    {% endif %}
     });
 
     // $(window).onbeforeunload(function () {
     //           socket.emit('client_disconnected');
     //         });
     window.onbeforeunload = function () {
-    socket.emit('client_disconnected');
+      socket.emit('client_disconnected');
     }
 
-  socket.on('recieve', function(msg, sender){
-    console.log(msg + sender);
-    $('#messages').append('<li>'+now+' '+` [${sender}] `+' '+msg+'</li>');
-  })
+    socket.on('recieve', function (msg, sender) {
+      var now = formatAMPM(new Date());
+      $('#messages').append('<li>' + now + ' ' + ` [${sender}] ` + ' ' + msg + '</li>');
+    });
 
-  $("#sendbutton").click(function () {
-        console.log(sessionStorage.getItem('lang'));
-          let msg = $('#myMessage').val();
-          if (msg != ''){
-            console.log(`from chat.html send event ${socket.id}`);
-            socket.emit('send', {msg : msg});
-            let newMsg = '<li>' + now + ' [You] ' + msg + '</li>';
-            $('#messages').append(newMsg);
-            $('#myMessage').val('');
-        }
-        });
-});
+    $("#sendbutton").click(function () {
+
+      var now = formatAMPM(new Date());
+      let msg = $('#myMessage').val();
+      if (msg != '') {
+        console.log(`from chat.html send event ${socket.id}`);
+        socket.emit('send', { msg: msg });
+        let newMsg = '<li>' + now + ' [You] ' + msg + '</li>';
+        $('#messages').append(newMsg);
+        $('#myMessage').val('');
+      }
+    }
+    );
+
+    });
 
 
-
-
-</script>
+  </script>
 </body>
 {% endblock %}

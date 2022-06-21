@@ -8,13 +8,21 @@ from app.forms import LoginForm, RegistrationForm
 from app import socketio
 from googletrans import Translator
 from datetime import datetime
+from dateutil import tz
+from sqlalchemy import or_, asc
 
 sid2username = {}
 sid2lang = {}
 translator = Translator()
 
-def broadcast(sender_sid, msg, sid2lang, translator, sid2username, user_id, socket):
-    print(sid2username)
+def broadcast(sender_sid, sender_id, msg, sid2lang, translator, sid2username, user_id, socket):
+    self_chat = Chat(body = msg,
+                     timestamp = datetime.utcnow(),
+                     sender_id = sender_id,
+                     reciever_id = sender_id)
+    db.session.add(self_chat)
+    db.session.commit()
+    #print(sid2username)
     src = sid2lang[sender_sid]
     for reciever_sid, lang in sid2lang.items():
         dest = lang
@@ -38,8 +46,8 @@ def client_disconnected():
     del(sid2username[request.sid])
     #print(f'session is {session}')
     #session.clear()
-    print(sid2lang)
-    print(sid2username)
+    #print(sid2lang)
+    #print(sid2username)
 
 @socketio.on('client_connected')
 def client_connected(data):
@@ -47,16 +55,16 @@ def client_connected(data):
     #print(f'connected {request.sid} {data["lang"]}')
     sid2lang[request.sid] = data['lang']
     sid2username[request.sid] = current_user.username
-    print(f' sid2username {sid2username}')
-    print(f'sid2lang {sid2lang}')
+    #print(f' sid2username {sid2username}')
+    #print(f'sid2lang {sid2lang}')
 
 @socketio.on('send')
 def event(data):
-    print(f'Senders username {current_user.username}; senders sid {request.sid}')
-    broadcast(request.sid,data['msg'],
-             sid2lang, translator,
-             sid2username, current_user.id,
-             socketio)
+    #print(f'Senders username {current_user.username}; senders sid {request.sid}')
+    broadcast(request.sid, current_user.id,
+             data['msg'], sid2lang,
+             translator, sid2username,
+             current_user.id, socketio)
     #broadcast(current_user.username, data['msg'], sid2lang, translator, socketio)
 
     #socketio.emit('recieve', data['msg'], broadcast=True)
@@ -89,9 +97,7 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
-        print(user)
         if user is None or not user.check_password(form.password.data):
-            print(' ran')
             flash('Invalid username or password')
             return redirect(url_for('login'))
         login_user(user, remember=form.remember_me.data)
@@ -110,5 +116,17 @@ def lang():
     return render_template('lang.html')
 
 @app.route('/chat', methods=['GET', 'POST'])
+@login_required
 def chat():
-    return render_template('chat.html')
+    id = current_user.id
+    chats = Chat.query.filter(Chat.reciever_id==current_user.id) \
+    .order_by(asc(Chat.timestamp)).all()
+
+    from_zone = tz.tzutc()
+    to_zone = tz.tzlocal()
+    for chat in chats:
+        chat.timestamp = chat.timestamp.replace(tzinfo=from_zone).astimezone(to_zone)
+    if len(chats) != 0:
+        return render_template('chat.html', chats = chats)
+    else:
+        return render_template('chat.html')

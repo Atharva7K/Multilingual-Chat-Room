@@ -121,16 +121,16 @@
 <script type="text/javascript">
 
     $(document).ready(function(){
+
       const socket = io();
+
       socket.on('connect', function() {
         console.log('Connected');
       });
 
-
     $('#lang_button').click(function(e){
         console.log('lang event')
         const lang = $('#lang').val();
-        //console.log(`from lang.html ${socket.id}`);
         if(lang != ''){
           sessionStorage.setItem('lang', lang);
           socket.emit('lang', {'lang':lang});

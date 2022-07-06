@@ -1,10 +1,8 @@
 {% extends "layout.html" %}
 {% block form %}
 <body>
-    <h1> Hello, {{current_user.username}}!</h1><br><br>
-
-    <label for="lang">Enter Language</label><br>
-    <select type="text" id="lang" name="lang"><br>
+  <form action="{{ url_for('index') }}" method="POST">
+    <select id="lang" name="lang"><br>
 
       <option value="af">afrikaans</option>
       <option value="sq">shqip</option>
@@ -27,7 +25,7 @@
       <option value="cs">čeština</option>
       <option value="da">dansk</option>
       <option value="nl">nederlands</option>
-      <option value="en">english</option>
+      <option value="en" selected="selected" name='en'>english</option>
       <option value="eo">esperanto</option>
       <option value="et">eesti keel</option>
       <option value="tl">pilipino</option>
@@ -115,33 +113,19 @@
       <option value="zu">zulu</option>
 </select>
 
-    <button id='lang_button' type="button"> Submit </button><br>
+    <input type="submit" value="Submit" onclick="save_lang()"><br>
+</form>
 
+<script>
 
-<script type="text/javascript">
-
-    $(document).ready(function(){
-
-      const socket = io();
-
-      socket.on('connect', function() {
-        console.log('Connected');
-      });
-
-    $('#lang_button').click(function(e){
-        console.log('lang event')
+    function save_lang(){
         const lang = $('#lang').val();
-        if(lang != ''){
-          sessionStorage.setItem('lang', lang);
-          socket.emit('lang', {'lang':lang});
-        window.location.replace('/chat');
-      }
-      else{
-        alert('Language field Cannot be empty');
+          document.cookie = 'lang='+lang;
+          let cookie = document.cookie;
+          console.log(cookie);
+          console.log(lang);
       }
 
-    });
-});
 </script>
 </body>
 {% endblock %}

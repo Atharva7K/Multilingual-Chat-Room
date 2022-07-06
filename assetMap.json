@@ -7,7 +7,14 @@
             "Send": "Stuur",
             "Enter Language": "Voer Taal in",
             "Submit": "Indien",
-            "Language field Cannot be empty": "Taalveld kan nie leeg wees nie"
+            "Language field Cannot be empty": "Taalveld kan nie leeg wees nie",
+            "Username": "Gebruikersnaam",
+            "Password": "Wagwoord",
+            "Remember Me": "Onthou my",
+            "Sign In": "Meld aan",
+            "Repeat Password": "Herhaal wagwoord",
+            "Please use a different username.": "Gebruik asseblief 'n ander gebruikersnaam.",
+            "Please use a different email address.": "Gebruik asseblief 'n ander e-posadres."
       },
       "sq": {
             "Home": "Sht\u00ebpi",
@@ -17,7 +24,14 @@
             "Send": "D\u00ebrgo",
             "Enter Language": "Fut gjuh\u00ebn",
             "Submit": "Paraqisni",
-            "Language field Cannot be empty": "Fusha e gjuh\u00ebs Nuk mund t\u00eb jet\u00eb bosh"
+            "Language field Cannot be empty": "Fusha e gjuh\u00ebs Nuk mund t\u00eb jet\u00eb bosh",
+            "Username": "Emri i p\u00ebrdoruesit",
+            "Password": "Fjal\u00ebkalimi",
+            "Remember Me": "M\u00eb kujto Mua",
+            "Sign In": "Hyni",
+            "Repeat Password": "P\u00ebrs\u00ebritni fjal\u00ebkalimin",
+            "Please use a different username.": "Ju lutemi p\u00ebrdorni nj\u00eb em\u00ebr p\u00ebrdoruesi tjet\u00ebr.",
+            "Please use a different email address.": "Ju lutemi p\u00ebrdorni nj\u00eb adres\u00eb tjet\u00ebr emaili."
       },
       "am": {
             "Home": "\u1264\u1275",
@@ -27,7 +41,14 @@
             "Send": "\u120b\u12ad",
             "Enter Language": "\u124b\u1295\u124b \u12a0\u1235\u1308\u1263",
             "Submit": "\u12a0\u1235\u1308\u1263",
-            "Language field Cannot be empty": "\u12e8\u124b\u1295\u124b \u1218\u1235\u12ad \u1263\u12f6 \u120a\u1206\u1295 \u12a0\u12ed\u127d\u120d\u121d\u1362"
+            "Language field Cannot be empty": "\u12e8\u124b\u1295\u124b \u1218\u1235\u12ad \u1263\u12f6 \u120a\u1206\u1295 \u12a0\u12ed\u127d\u120d\u121d\u1362",
+            "Username": "\u12e8\u1270\u1320\u1243\u121a \u1235\u121d",
+            "Password": "\u1355\u1235\u12c8\u122d\u12f5",
+            "Remember Me": "\u12a0\u1235\u1273\u12c8\u1235\u12a8\u129d",
+            "Sign In": "\u1235\u130d\u1295 \u12a5\u1295",
+            "Repeat Password": "\u12e8\u121b\u1208\u134a\u12eb \u1243\u120d\u12ce\u1295 \u12ed\u12f5\u1308\u1219",
+            "Please use a different username.": "\u12a5\u1263\u12ad\u12ce \u12e8\u1270\u1208\u12e8 \u12e8\u1270\u1320\u1243\u121a \u1235\u121d \u12ed\u1320\u1240\u1219\u1362",
+            "Please use a different email address.": "\u12a5\u1263\u12ad\u12ce \u12e8\u1270\u1208\u12e8 \u12e8\u12a2\u121c\u12ed\u120d \u12a0\u12f5\u122b\u123b \u12ed\u1320\u1240\u1219\u1362"
       },
       "ar": {
             "Home": "\u0645\u0633\u0643\u0646",
@@ -37,7 +58,14 @@
             "Send": "\u0625\u0631\u0633\u0627\u0644",
             "Enter Language": "\u0623\u062f\u062e\u0644 \u0627\u0644\u0644\u063a\u0629",
             "Submit": "\u064a\u064f\u0642\u062f\u0651\u0650\u0645",
-            "Language field Cannot be empty": "\u0644\u0627 \u064a\u0645\u0643\u0646 \u062a\u0631\u0643 \u062d\u0642\u0644 \u0627\u0644\u0644\u063a\u0629 \u0641\u0627\u0631\u063a\u064b\u0627"
+            "Language field Cannot be empty": "\u0644\u0627 \u064a\u0645\u0643\u0646 \u062a\u0631\u0643 \u062d\u0642\u0644 \u0627\u0644\u0644\u063a\u0629 \u0641\u0627\u0631\u063a\u064b\u0627",
+            "Username": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645",
+            "Password": "\u0643\u0644\u0645\u0629 \u0627\u0644\u0645\u0631\u0648\u0631",
+            "Remember Me": "\u062a\u0630\u0643\u0631\u0646\u0649",
+            "Sign In": "\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u062f\u062e\u0648\u0644",
+            "Repeat Password": "\u0627\u0639\u062f \u0643\u0644\u0645\u0629 \u0627\u0644\u0633\u0631",
+            "Please use a different username.": "\u0627\u0644\u0631\u062c\u0627\u0621 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0633\u0645 \u0645\u0633\u062a\u062e\u062f\u0645 \u0645\u062e\u062a\u0644\u0641.",
+            "Please use a different email address.": "\u064a\u0631\u062c\u0649 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0639\u0646\u0648\u0627\u0646 \u0628\u0631\u064a\u062f \u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0645\u062e\u062a\u0644\u0641."
       },
       "hy": {
             "Home": "\u057f\u0578\u0582\u0576",
@@ -47,7 +75,14 @@
             "Send": "\u0548\u0582\u0572\u0561\u0580\u056f\u0565\u056c",
             "Enter Language": "\u0544\u0578\u0582\u057f\u0584\u0561\u0563\u0580\u0565\u0584 \u056c\u0565\u0566\u0578\u0582\u0576",
             "Submit": "\u0546\u0565\u0580\u056f\u0561\u0575\u0561\u0581\u0576\u0565\u056c",
-            "Language field Cannot be empty": "\u053c\u0565\u0566\u057e\u056b \u0564\u0561\u0577\u057f\u0568 \u0579\u056b \u056f\u0561\u0580\u0578\u0572 \u0564\u0561\u057f\u0561\u0580\u056f \u056c\u056b\u0576\u0565\u056c"
+            "Language field Cannot be empty": "\u053c\u0565\u0566\u057e\u056b \u0564\u0561\u0577\u057f\u0568 \u0579\u056b \u056f\u0561\u0580\u0578\u0572 \u0564\u0561\u057f\u0561\u0580\u056f \u056c\u056b\u0576\u0565\u056c",
+            "Username": "\u0555\u0563\u057f\u0561\u0563\u0578\u0580\u056e\u0578\u0572\u056b \u0561\u0576\u0578\u0582\u0576\u0568",
+            "Password": "\u0533\u0561\u0572\u057f\u0576\u0561\u0562\u0561\u057c",
+            "Remember Me": "\u0540\u056b\u0577\u056b\u0580 \u056b\u0576\u0571",
+            "Sign In": "\u0544\u0578\u0582\u057f\u0584 \u0563\u0578\u0580\u056e\u0565\u056c",
+            "Repeat Password": "\u053f\u0580\u056f\u0576\u0565\u0584 \u0563\u0561\u0572\u057f\u0576\u0561\u0562\u0561\u057c\u0568",
+            "Please use a different username.": "\u053d\u0576\u0564\u0580\u0578\u0582\u0574 \u0565\u0576\u0584 \u0585\u0563\u057f\u0561\u0563\u0578\u0580\u056e\u0565\u056c \u0561\u0575\u056c \u0585\u0563\u057f\u057e\u0578\u0572\u056b \u0561\u0576\u0578\u0582\u0576:",
+            "Please use a different email address.": "\u053d\u0576\u0564\u0580\u0578\u0582\u0574 \u0565\u0576\u0584 \u0585\u0563\u057f\u0561\u0563\u0578\u0580\u056e\u0565\u056c \u0561\u0575\u056c \u0567\u056c\u0583\u0578\u057d\u057f\u056b \u0570\u0561\u057d\u0581\u0565:"
       },
       "az": {
             "Home": "Ev",
@@ -57,7 +92,14 @@
             "Send": "G\u00f6nd\u0259r",
             "Enter Language": "Dili daxil edin",
             "Submit": "t\u0259qdim",
-            "Language field Cannot be empty": "Dil sah\u0259si bo\u015f ola bilm\u0259z"
+            "Language field Cannot be empty": "Dil sah\u0259si bo\u015f ola bilm\u0259z",
+            "Username": "\u0130stifad\u0259\u00e7i ad\u0131",
+            "Password": "parol",
+            "Remember Me": "M\u0259ni xat\u0131rla",
+            "Sign In": "Daxil ol",
+            "Repeat Password": "Parolu t\u0259krarlay\u0131n",
+            "Please use a different username.": "F\u0259rqli istifad\u0259\u00e7i ad\u0131 istifad\u0259 edin.",
+            "Please use a different email address.": "F\u0259rqli e-po\u00e7t \u00fcnvan\u0131 istifad\u0259 edin."
       },
       "eu": {
             "Home": "Hasiera",
@@ -67,7 +109,14 @@
             "Send": "Bidali",
             "Enter Language": "Sartu Hizkuntza",
             "Submit": "Bidali",
-            "Language field Cannot be empty": "Hizkuntza eremua Ezin da hutsik egon"
+            "Language field Cannot be empty": "Hizkuntza eremua Ezin da hutsik egon",
+            "Username": "Erabiltzaile izena",
+            "Password": "Pasahitza",
+            "Remember Me": "Gogora nazazu",
+            "Sign In": "Hasi saioa",
+            "Repeat Password": "Errepikatu pasahitza",
+            "Please use a different username.": "Mesedez, erabili beste erabiltzaile-izen bat.",
+            "Please use a different email address.": "Mesedez, erabili beste helbide elektroniko bat."
       },
       "be": {
             "Home": "\u0414\u0430\u0434\u043e\u043c\u0443",
@@ -77,7 +126,14 @@
             "Send": "\u0410\u0434\u043f\u0440\u0430\u0432\u0456\u0446\u044c",
             "Enter Language": "\u0423\u0432\u044f\u0434\u0437\u0456\u0446\u0435 \u043c\u043e\u0432\u0443",
             "Submit": "\u0410\u0434\u043f\u0440\u0430\u0432\u0456\u0446\u044c",
-            "Language field Cannot be empty": "\u041f\u043e\u043b\u0435 \u043c\u043e\u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0430 \u0431\u044b\u0446\u044c \u043f\u0443\u0441\u0442\u044b\u043c"
+            "Language field Cannot be empty": "\u041f\u043e\u043b\u0435 \u043c\u043e\u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0430 \u0431\u044b\u0446\u044c \u043f\u0443\u0441\u0442\u044b\u043c",
+            "Username": "\u0406\u043c\u044f \u043a\u0430\u0440\u044b\u0441\u0442\u0430\u043b\u044c\u043d\u0456\u043a\u0430",
+            "Password": "\u041f\u0430\u0440\u043e\u043b\u044c",
+            "Remember Me": "\u0417\u0430\u043f\u043e\u043c\u043d\u0456 \u043c\u044f\u043d\u0435",
+            "Sign In": "\u0423\u0432\u0430\u0439\u0441\u0446\u0456",
+            "Repeat Password": "\u041f\u0430\u045e\u0442\u0430\u0440\u044b\u0446\u0435 \u043f\u0430\u0440\u043e\u043b\u044c",
+            "Please use a different username.": "\u041a\u0430\u043b\u0456 \u043b\u0430\u0441\u043a\u0430, \u0432\u044b\u043a\u0430\u0440\u044b\u0441\u0442\u043e\u045e\u0432\u0430\u0439\u0446\u0435 \u0456\u043d\u0448\u0430\u0435 \u0456\u043c\u044f \u043a\u0430\u0440\u044b\u0441\u0442\u0430\u043b\u044c\u043d\u0456\u043a\u0430.",
+            "Please use a different email address.": "\u041a\u0430\u043b\u0456 \u043b\u0430\u0441\u043a\u0430, \u0432\u044b\u043a\u0430\u0440\u044b\u0441\u0442\u043e\u045e\u0432\u0430\u0439\u0446\u0435 \u0456\u043d\u0448\u044b \u0430\u0434\u0440\u0430\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0430\u0439 \u043f\u043e\u0448\u0442\u044b."
       },
       "bn": {
             "Home": "\u09ac\u09be\u09a1\u09bc\u09bf",
@@ -87,7 +143,14 @@
             "Send": "\u09aa\u09be\u09a0\u09be\u09a8",
             "Enter Language": "\u09ad\u09be\u09b7\u09be \u09b2\u09bf\u0996\u09c1\u09a8",
             "Submit": "\u099c\u09ae\u09be \u09a6\u09bf\u09a8",
-            "Language field Cannot be empty": "\u09ad\u09be\u09b7\u09be\u09b0 \u0995\u09cd\u09b7\u09c7\u09a4\u09cd\u09b0 \u0996\u09be\u09b2\u09bf \u09b0\u09be\u0996\u09be \u09af\u09be\u09ac\u09c7 \u09a8\u09be"
+            "Language field Cannot be empty": "\u09ad\u09be\u09b7\u09be\u09b0 \u0995\u09cd\u09b7\u09c7\u09a4\u09cd\u09b0 \u0996\u09be\u09b2\u09bf \u09b0\u09be\u0996\u09be \u09af\u09be\u09ac\u09c7 \u09a8\u09be",
+            "Username": "\u09ac\u09cd\u09af\u09ac\u09b9\u09be\u09b0\u0995\u09be\u09b0\u09c0\u09b0 \u09a8\u09be\u09ae",
+            "Password": "\u09aa\u09be\u09b8\u0993\u09af\u09bc\u09be\u09b0\u09cd\u09a1",
+            "Remember Me": "\u0986\u09ae\u09be\u0995\u09c7 \u09ae\u09a8\u09c7 \u0995\u09b0",
+            "Sign In": "\u09b8\u09be\u0987\u09a8 \u0987\u09a8 \u0995\u09b0\u09c1\u09a8",
+            "Repeat Password": "\u09aa\u09c1\u09a8\u09b0\u09be\u09ac\u09c3\u09a4\u09cd\u09a4\u09bf \u09aa\u09be\u09b8\u0993\u09af\u09bc\u09be\u09b0\u09cd\u09a1",
+            "Please use a different username.": "\u098f\u0995\u099f\u09bf \u09ad\u09bf\u09a8\u09cd\u09a8 \u09ac\u09cd\u09af\u09ac\u09b9\u09be\u09b0\u0995\u09be\u09b0\u09c0\u09b0 \u09a8\u09be\u09ae \u09ac\u09cd\u09af\u09ac\u09b9\u09be\u09b0 \u0995\u09b0\u09c1\u09a8.",
+            "Please use a different email address.": "\u098f\u0995\u099f\u09bf \u09ad\u09bf\u09a8\u09cd\u09a8 \u0987\u09ae\u09c7\u09b2 \u09a0\u09bf\u0995\u09be\u09a8\u09be \u09ac\u09cd\u09af\u09ac\u09b9\u09be\u09b0 \u0995\u09b0\u09c1\u09a8."
       },
       "bs": {
             "Home": "Dom",
@@ -97,17 +160,31 @@
             "Send": "Po\u0161alji",
             "Enter Language": "Unesite jezik",
             "Submit": "Submit",
-            "Language field Cannot be empty": "Polje za jezik ne mo\u017ee biti prazno"
+            "Language field Cannot be empty": "Polje za jezik ne mo\u017ee biti prazno",
+            "Username": "Korisni\u010dko ime",
+            "Password": "Lozinka",
+            "Remember Me": "Zapamti me",
+            "Sign In": "Prijavite se",
+            "Repeat Password": "Ponovi lozinku",
+            "Please use a different username.": "Molimo koristite druga\u010dije korisni\u010dko ime.",
+            "Please use a different email address.": "Molimo koristite drugu adresu e-po\u0161te."
       },
       "bg": {
             "Home": "\u0423 \u0434\u043e\u043c\u0430",
             "Login": "\u0412\u043b\u0438\u0437\u0430\u043c",
             "Register": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u0430\u043c",
             "Logout": "\u0418\u0437\u043b\u0435\u0437 \u043e\u0442 \u043f\u0440\u043e\u0444\u0438\u043b\u0430 \u0441\u0438",
-            "Send": "\u0418\u0437\u043f\u0440\u0430\u0442\u0435\u0442\u0435",
+            "Send": "\u0418\u0437\u043f\u0440\u0430\u0442\u0438",
             "Enter Language": "\u0412\u044a\u0432\u0435\u0434\u0435\u0442\u0435 \u0435\u0437\u0438\u043a",
             "Submit": "\u0418\u0437\u043f\u0440\u0430\u0449\u0430\u043d\u0435",
-            "Language field Cannot be empty": "\u0415\u0437\u0438\u043a\u043e\u0432\u043e\u0442\u043e \u043f\u043e\u043b\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0431\u044a\u0434\u0435 \u043f\u0440\u0430\u0437\u043d\u043e"
+            "Language field Cannot be empty": "\u0415\u0437\u0438\u043a\u043e\u0432\u043e\u0442\u043e \u043f\u043e\u043b\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0431\u044a\u0434\u0435 \u043f\u0440\u0430\u0437\u043d\u043e",
+            "Username": "\u041f\u043e\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043b\u0441\u043a\u043e \u0438\u043c\u0435",
+            "Password": "\u043f\u0430\u0440\u043e\u043b\u0430",
+            "Remember Me": "\u041f\u043e\u043c\u043d\u0438 \u043c\u0435",
+            "Sign In": "\u0412\u043f\u0438\u0448\u0438 \u0441\u0435",
+            "Repeat Password": "\u041f\u043e\u0432\u0442\u043e\u0440\u0438 \u043f\u0430\u0440\u043e\u043b\u0430\u0442\u0430",
+            "Please use a different username.": "\u041c\u043e\u043b\u044f, \u0438\u0437\u043f\u043e\u043b\u0437\u0432\u0430\u0439\u0442\u0435 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u043e \u043f\u043e\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043b\u0441\u043a\u043e \u0438\u043c\u0435.",
+            "Please use a different email address.": "\u041c\u043e\u043b\u044f, \u0438\u0437\u043f\u043e\u043b\u0437\u0432\u0430\u0439\u0442\u0435 \u0440\u0430\u0437\u043b\u0438\u0447\u0435\u043d \u0438\u043c\u0435\u0439\u043b \u0430\u0434\u0440\u0435\u0441."
       },
       "ca": {
             "Home": "a casa",
@@ -117,7 +194,14 @@
             "Send": "Enviar",
             "Enter Language": "Introdu\u00efu l'idioma",
             "Submit": "Presentar",
-            "Language field Cannot be empty": "El camp d'idioma no pot estar buit"
+            "Language field Cannot be empty": "El camp d'idioma no pot estar buit",
+            "Username": "Nom d'usuari",
+            "Password": "Contrasenya",
+            "Remember Me": "Recorda'm",
+            "Sign In": "Inicia sessi\u00f3",
+            "Repeat Password": "Repeteix la contrassenya",
+            "Please use a different username.": "Si us plau, utilitzeu un nom d'usuari diferent.",
+            "Please use a different email address.": "Si us plau, utilitzeu una adre\u00e7a de correu electr\u00f2nic diferent."
       },
       "ceb": {
             "Home": "Balay",
@@ -127,7 +211,14 @@
             "Send": "Ipadala",
             "Enter Language": "Pagsulod sa Pinulongan",
             "Submit": "Isumite",
-            "Language field Cannot be empty": "Natad sa pinulongan Dili mahimong walay sulod"
+            "Language field Cannot be empty": "Natad sa pinulongan Dili mahimong walay sulod",
+            "Username": "Username",
+            "Password": "Password",
+            "Remember Me": "Hinumdumi Ako",
+            "Sign In": "Sign In",
+            "Repeat Password": "Balika ang Password",
+            "Please use a different username.": "Palihug gamit ug lain nga username.",
+            "Please use a different email address.": "Palihug gamit ug lain nga email address."
       },
       "ny": {
             "Home": "Kunyumba",
@@ -137,7 +228,14 @@
             "Send": "Tumizani",
             "Enter Language": "Lowani Chinenero",
             "Submit": "Tumizani",
-            "Language field Cannot be empty": "Malo a chinenero sangakhale opanda kanthu"
+            "Language field Cannot be empty": "Malo a chinenero sangakhale opanda kanthu",
+            "Username": "Dzina lolowera",
+            "Password": "Mawu achinsinsi",
+            "Remember Me": "Ndikumbukireni",
+            "Sign In": "Lowani muakaunti",
+            "Repeat Password": "Bwerezani mawu achinsinsi",
+            "Please use a different username.": "Chonde gwiritsani ntchito dzina lolowera lina.",
+            "Please use a different email address.": "Chonde gwiritsani ntchito imelo adilesi ina."
       },
       "zh-cn": {
             "Home": "\u5bb6",
@@ -147,7 +245,14 @@
             "Send": "\u53d1\u9001",
             "Enter Language": "\u8f93\u5165\u8bed\u8a00",
             "Submit": "\u63d0\u4ea4",
-            "Language field Cannot be empty": "\u8bed\u8a00\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a"
+            "Language field Cannot be empty": "\u8bed\u8a00\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a",
+            "Username": "\u7528\u6237\u540d",
+            "Password": "\u5bc6\u7801",
+            "Remember Me": "\u8bb0\u5f97\u6211",
+            "Sign In": "\u767b\u5165",
+            "Repeat Password": "\u91cd\u590d\u8f93\u5165\u5bc6\u7801",
+            "Please use a different username.": "\u8bf7\u4f7f\u7528\u4e0d\u540c\u7684\u7528\u6237\u540d\u3002",
+            "Please use a different email address.": "\u8bf7\u4f7f\u7528\u4e0d\u540c\u7684\u7535\u5b50\u90ae\u4ef6\u5730\u5740\u3002"
       },
       "zh-tw": {
             "Home": "\u5bb6",
@@ -157,7 +262,14 @@
             "Send": "\u767c\u9001",
             "Enter Language": "\u8f38\u5165\u8a9e\u8a00",
             "Submit": "\u63d0\u4ea4",
-            "Language field Cannot be empty": "\u8a9e\u8a00\u5b57\u6bb5\u4e0d\u80fd\u70ba\u7a7a"
+            "Language field Cannot be empty": "\u8a9e\u8a00\u5b57\u6bb5\u4e0d\u80fd\u70ba\u7a7a",
+            "Username": "\u7528\u6236\u540d",
+            "Password": "\u5bc6\u78bc",
+            "Remember Me": "\u8a18\u5f97\u6211",
+            "Sign In": "\u767b\u5165",
+            "Repeat Password": "\u91cd\u8907\u8f38\u5165\u5bc6\u78bc",
+            "Please use a different username.": "\u8acb\u4f7f\u7528\u4e0d\u540c\u7684\u7528\u6236\u540d\u3002",
+            "Please use a different email address.": "\u8acb\u4f7f\u7528\u4e0d\u540c\u7684\u96fb\u5b50\u90f5\u4ef6\u5730\u5740\u3002"
       },
       "co": {
             "Home": "A casa",
@@ -167,7 +279,14 @@
             "Send": "Mandate",
             "Enter Language": "Entre in lingua",
             "Submit": "Mandate",
-            "Language field Cannot be empty": "U campu di lingua \u00f9n p\u00f2 esse viotu"
+            "Language field Cannot be empty": "U campu di lingua \u00f9n p\u00f2 esse viotu",
+            "Username": "Nome d'utilizatore",
+            "Password": "Codice",
+            "Remember Me": "Arriccorda ti di m\u00e8",
+            "Sign In": "Firm\u00e0 lu",
+            "Repeat Password": "Repetite Password",
+            "Please use a different username.": "Per piac\u00e8 aduprate un altru nome d'utilizatore.",
+            "Please use a different email address.": "Per piac\u00e8 utilizate un altru indirizzu email."
       },
       "hr": {
             "Home": "Dom",
@@ -177,7 +296,14 @@
             "Send": "Poslati",
             "Enter Language": "Unesite jezik",
             "Submit": "podnijeti",
-            "Language field Cannot be empty": "Polje jezika ne mo\u017ee biti prazno"
+            "Language field Cannot be empty": "Polje jezika ne mo\u017ee biti prazno",
+            "Username": "Korisni\u010dko ime",
+            "Password": "Zaporka",
+            "Remember Me": "Zapamti me",
+            "Sign In": "Prijaviti se",
+            "Repeat Password": "Ponovi lozinku",
+            "Please use a different username.": "Molimo koristite druga\u010dije korisni\u010dko ime.",
+            "Please use a different email address.": "Molimo koristite drugu adresu e-po\u0161te."
       },
       "cs": {
             "Home": "Domov",
@@ -187,7 +313,14 @@
             "Send": "Poslat",
             "Enter Language": "Zadejte jazyk",
             "Submit": "P\u0159edlo\u017eit",
-            "Language field Cannot be empty": "Pole jazyka nem\u016f\u017ee b\u00fdt pr\u00e1zdn\u00e9"
+            "Language field Cannot be empty": "Pole jazyka nem\u016f\u017ee b\u00fdt pr\u00e1zdn\u00e9",
+            "Username": "u\u017eivatelsk\u00e9 jm\u00e9no",
+            "Password": "Heslo",
+            "Remember Me": "Zapamatuj si m\u011b",
+            "Sign In": "P\u0159ihl\u00e1sit se",
+            "Repeat Password": "Zopakovat heslo",
+            "Please use a different username.": "Pou\u017eijte pros\u00edm jin\u00e9 u\u017eivatelsk\u00e9 jm\u00e9no.",
+            "Please use a different email address.": "Pou\u017eijte pros\u00edm jinou e-mailovou adresu."
       },
       "da": {
             "Home": "Hjem",
@@ -197,7 +330,14 @@
             "Send": "Sende",
             "Enter Language": "Indtast sprog",
             "Submit": "Indsend",
-            "Language field Cannot be empty": "Sprogfeltet m\u00e5 ikke v\u00e6re tomt"
+            "Language field Cannot be empty": "Sprogfeltet m\u00e5 ikke v\u00e6re tomt",
+            "Username": "Brugernavn",
+            "Password": "Adgangskode",
+            "Remember Me": "Husk mig",
+            "Sign In": "Log ind",
+            "Repeat Password": "Gentag adgangskode",
+            "Please use a different username.": "Brug venligst et andet brugernavn.",
+            "Please use a different email address.": "Brug venligst en anden e-mailadresse."
       },
       "nl": {
             "Home": "Huis",
@@ -207,7 +347,14 @@
             "Send": "Versturen",
             "Enter Language": "Voer taal in",
             "Submit": "Indienen",
-            "Language field Cannot be empty": "Taalveld Mag niet leeg zijn"
+            "Language field Cannot be empty": "Taalveld Mag niet leeg zijn",
+            "Username": "gebruikersnaam",
+            "Password": "Wachtwoord",
+            "Remember Me": "Onthoud mij",
+            "Sign In": "Log in",
+            "Repeat Password": "Herhaal wachtwoord",
+            "Please use a different username.": "Gebruik een andere gebruikersnaam.",
+            "Please use a different email address.": "Gebruik een ander e-mailadres."
       },
       "en": {
             "Home": "Home",
@@ -217,7 +364,14 @@
             "Send": "Send",
             "Enter Language": "Enter Language",
             "Submit": "Submit",
-            "Language field Cannot be empty": "Language field Cannot be empty"
+            "Language field Cannot be empty": "Language field Cannot be empty",
+            "Username": "Username",
+            "Password": "Password",
+            "Remember Me": "Remember Me",
+            "Sign In": "Sign In",
+            "Repeat Password": "Repeat Password",
+            "Please use a different username.": "Please use a different username.",
+            "Please use a different email address.": "Please use a different email address."
       },
       "eo": {
             "Home": "Hejmo",
@@ -227,7 +381,14 @@
             "Send": "Sendu",
             "Enter Language": "Enigu Lingvon",
             "Submit": "Submeti",
-            "Language field Cannot be empty": "Lingva kampo Ne povas esti malplena"
+            "Language field Cannot be empty": "Lingva kampo Ne povas esti malplena",
+            "Username": "Uzantnomo",
+            "Password": "Pasvorto",
+            "Remember Me": "Memoru min",
+            "Sign In": "Ensaluti",
+            "Repeat Password": "Ripetu Pasvorton",
+            "Please use a different username.": "Bonvolu uzi alian uzantnomon.",
+            "Please use a different email address.": "Bonvolu uzi alian retadreson."
       },
       "et": {
             "Home": "Kodu",
@@ -237,7 +398,14 @@
             "Send": "Saada",
             "Enter Language": "Sisestage keel",
             "Submit": "Esita",
-            "Language field Cannot be empty": "Keelev\u00e4li ei saa olla t\u00fchi"
+            "Language field Cannot be empty": "Keelev\u00e4li ei saa olla t\u00fchi",
+            "Username": "Kasutajanimi",
+            "Password": "Parool",
+            "Remember Me": "M\u00e4leta mind",
+            "Sign In": "Logi sisse",
+            "Repeat Password": "Korda salas\u00f5na",
+            "Please use a different username.": "Palun kasutage teist kasutajanime.",
+            "Please use a different email address.": "Kasutage teist e-posti aadressi."
       },
       "tl": {
             "Home": "Bahay",
@@ -247,7 +415,14 @@
             "Send": "Ipadala",
             "Enter Language": "Ipasok ang Wika",
             "Submit": "Ipasa",
-            "Language field Cannot be empty": "Hindi maaaring walang laman ang field ng wika"
+            "Language field Cannot be empty": "Hindi maaaring walang laman ang field ng wika",
+            "Username": "Username",
+            "Password": "Password",
+            "Remember Me": "Tandaan mo ako",
+            "Sign In": "Mag-sign In",
+            "Repeat Password": "Ulitin ang password",
+            "Please use a different username.": "Mangyaring gumamit ng ibang username.",
+            "Please use a different email address.": "Mangyaring gumamit ng ibang email address."
       },
       "fi": {
             "Home": "Koti",
@@ -257,7 +432,14 @@
             "Send": "L\u00e4hett\u00e4\u00e4",
             "Enter Language": "Anna kieli",
             "Submit": "L\u00e4het\u00e4",
-            "Language field Cannot be empty": "Kielikentt\u00e4 ei voi olla tyhj\u00e4"
+            "Language field Cannot be empty": "Kielikentt\u00e4 ei voi olla tyhj\u00e4",
+            "Username": "K\u00e4ytt\u00e4j\u00e4tunnus",
+            "Password": "Salasana",
+            "Remember Me": "Muista minut",
+            "Sign In": "Kirjaudu sis\u00e4\u00e4n",
+            "Repeat Password": "Toista salasana",
+            "Please use a different username.": "K\u00e4yt\u00e4 toista k\u00e4ytt\u00e4j\u00e4tunnusta.",
+            "Please use a different email address.": "K\u00e4yt\u00e4 toista s\u00e4hk\u00f6postiosoitetta."
       },
       "fr": {
             "Home": "Maison",
@@ -267,7 +449,14 @@
             "Send": "Envoyer",
             "Enter Language": "Entrez la langue",
             "Submit": "Soumettre",
-            "Language field Cannot be empty": "Champ de langue Ne peut pas \u00eatre vide"
+            "Language field Cannot be empty": "Champ de langue Ne peut pas \u00eatre vide",
+            "Username": "Nom d'utilisateur",
+            "Password": "Mot de passe",
+            "Remember Me": "Souviens-toi de moi",
+            "Sign In": "S'identifier",
+            "Repeat Password": "R\u00e9p\u00e9ter le mot de passe",
+            "Please use a different username.": "Veuillez utiliser un nom d'utilisateur diff\u00e9rent.",
+            "Please use a different email address.": "Veuillez utiliser une adresse e-mail diff\u00e9rente."
       },
       "fy": {
             "Home": "Th\u00fas",
@@ -277,7 +466,14 @@
             "Send": "Stjoere",
             "Enter Language": "Taal ynfiere",
             "Submit": "Yntsjinje",
-            "Language field Cannot be empty": "Taalfjild Kin net leech w\u00eaze"
+            "Language field Cannot be empty": "Taalfjild Kin net leech w\u00eaze",
+            "Username": "Br\u00fbkersnamme",
+            "Password": "Wachtwurd",
+            "Remember Me": "Tink oan my",
+            "Sign In": "Ynlogge",
+            "Repeat Password": "Werhelje wachtwurd",
+            "Please use a different username.": "Br\u00fbk asjebleaft in oare br\u00fbkersnamme.",
+            "Please use a different email address.": "Br\u00fbk asjebleaft in oar e-mailadres."
       },
       "gl": {
             "Home": "Casa",
@@ -287,7 +483,14 @@
             "Send": "Enviar",
             "Enter Language": "Introduza o idioma",
             "Submit": "Enviar",
-            "Language field Cannot be empty": "O campo de idioma non pode estar baleiro"
+            "Language field Cannot be empty": "O campo de idioma non pode estar baleiro",
+            "Username": "Nome de usuario",
+            "Password": "Contrasinal",
+            "Remember Me": "L\u00e9mbrame",
+            "Sign In": "Rex\u00edstrate",
+            "Repeat Password": "Repite o contrasinal",
+            "Please use a different username.": "Use un nome de usuario diferente.",
+            "Please use a different email address.": "Utiliza un enderezo de correo electr\u00f3nico diferente."
       },
       "ka": {
             "Home": "\u10db\u10d7\u10d0\u10d5\u10d0\u10e0\u10d8",
@@ -297,7 +500,14 @@
             "Send": "\u10d2\u10d0\u10d2\u10d6\u10d0\u10d5\u10dc\u10d0",
             "Enter Language": "\u10e8\u10d4\u10d8\u10e7\u10d5\u10d0\u10dc\u10d4\u10d7 \u10d4\u10dc\u10d0",
             "Submit": "\u10d2\u10d0\u10d2\u10d6\u10d0\u10d5\u10dc\u10d0",
-            "Language field Cannot be empty": "\u10d4\u10dc\u10d8\u10e1 \u10d5\u10d4\u10da\u10d8 \u10d0\u10e0 \u10e8\u10d4\u10d8\u10eb\u10da\u10d4\u10d1\u10d0 \u10d8\u10e7\u10dd\u10e1 \u10ea\u10d0\u10e0\u10d8\u10d4\u10da\u10d8"
+            "Language field Cannot be empty": "\u10d4\u10dc\u10d8\u10e1 \u10d5\u10d4\u10da\u10d8 \u10d0\u10e0 \u10e8\u10d4\u10d8\u10eb\u10da\u10d4\u10d1\u10d0 \u10d8\u10e7\u10dd\u10e1 \u10ea\u10d0\u10e0\u10d8\u10d4\u10da\u10d8",
+            "Username": "\u10db\u10dd\u10db\u10ee\u10db\u10d0\u10e0\u10d4\u10d1\u10da\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10d8",
+            "Password": "\u10de\u10d0\u10e0\u10dd\u10da\u10d8",
+            "Remember Me": "\u1c93\u10d0\u10db\u10d8\u10db\u10d0\u10ee\u10e1\u10dd\u10d5\u10e0\u10d4",
+            "Sign In": "\u1ca8\u10d4\u10d1\u10e0\u10eb\u10d0\u10dc\u10d3\u10d8\u10d7",
+            "Repeat Password": "\u1c92\u10d0\u10d8\u10db\u10d4\u10dd\u10e0\u10d4\u10d7 \u10de\u10d0\u10e0\u10dd\u10da\u10d8",
+            "Please use a different username.": "\u10d2\u10d7\u10ee\u10dd\u10d5\u10d7, \u10d2\u10d0\u10db\u10dd\u10d8\u10e7\u10d4\u10dc\u10dd\u10d7 \u10e1\u10ee\u10d5\u10d0 \u10db\u10dd\u10db\u10ee\u10db\u10d0\u10e0\u10d4\u10d1\u10da\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10d8.",
+            "Please use a different email address.": "\u10d2\u10d7\u10ee\u10dd\u10d5\u10d7, \u10d2\u10d0\u10db\u10dd\u10d8\u10e7\u10d4\u10dc\u10dd\u10d7 \u10e1\u10ee\u10d5\u10d0 \u10d4\u10da\u10e4\u10dd\u10e1\u10e2\u10d8\u10e1 \u10db\u10d8\u10e1\u10d0\u10db\u10d0\u10e0\u10d7\u10d8."
       },
       "de": {
             "Home": "Heim",
@@ -307,7 +517,14 @@
             "Send": "Senden",
             "Enter Language": "Sprache eingeben",
             "Submit": "Einreichen",
-            "Language field Cannot be empty": "Sprachfeld Darf nicht leer sein"
+            "Language field Cannot be empty": "Sprachfeld Darf nicht leer sein",
+            "Username": "Nutzername",
+            "Password": "Passwort",
+            "Remember Me": "Erinnere dich an mich",
+            "Sign In": "Einloggen",
+            "Repeat Password": "Passwort wiederholen",
+            "Please use a different username.": "Bitte verwenden Sie einen anderen Benutzernamen.",
+            "Please use a different email address.": "Bitte verwenden Sie eine andere E-Mail-Adresse."
       },
       "el": {
             "Home": "\u03a3\u03c0\u03af\u03c4\u03b9",
@@ -317,7 +534,14 @@
             "Send": "\u03a3\u03c4\u03b5\u03af\u03bb\u03b5\u03c4\u03b5",
             "Enter Language": "\u0395\u03b9\u03c3\u03b1\u03b3\u03ac\u03b3\u03b5\u03c4\u03b5 \u03c4\u03b7 \u03b3\u03bb\u03ce\u03c3\u03c3\u03b1",
             "Submit": "\u03c5\u03c0\u03bf\u03b2\u03ac\u03bb\u03bb\u03bf\u03c5\u03bd",
-            "Language field Cannot be empty": "\u03a4\u03bf \u03c0\u03b5\u03b4\u03af\u03bf \u03b3\u03bb\u03ce\u03c3\u03c3\u03b1\u03c2 \u0394\u03b5\u03bd \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03b5\u03bd\u03cc"
+            "Language field Cannot be empty": "\u03a4\u03bf \u03c0\u03b5\u03b4\u03af\u03bf \u03b3\u03bb\u03ce\u03c3\u03c3\u03b1\u03c2 \u0394\u03b5\u03bd \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03b5\u03bd\u03cc",
+            "Username": "\u038c\u03bd\u03bf\u03bc\u03b1 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b7",
+            "Password": "\u039a\u03c9\u03b4\u03b9\u03ba\u03cc\u03c2 \u03c0\u03c1\u03cc\u03c3\u03b2\u03b1\u03c3\u03b7\u03c2",
+            "Remember Me": "\u0398\u03c5\u03bc\u03ae\u03c3\u03bf\u03c5 \u03bc\u03b5",
+            "Sign In": "\u03a3\u03c5\u03bd\u03b4\u03b5\u03b8\u03b5\u03af\u03c4\u03b5",
+            "Repeat Password": "\u0395\u03c0\u03b1\u03bd\u03b1\u03bb\u03ac\u03b2\u03b5\u03c4\u03b5 \u03c4\u03bf\u03bd \u03ba\u03c9\u03b4\u03b9\u03ba\u03cc \u03c0\u03c1\u03cc\u03c3\u03b2\u03b1\u03c3\u03b7\u03c2",
+            "Please use a different username.": "\u03a7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03c4\u03b5 \u03b4\u03b9\u03b1\u03c6\u03bf\u03c1\u03b5\u03c4\u03b9\u03ba\u03cc \u03cc\u03bd\u03bf\u03bc\u03b1 \u03c7\u03c1\u03ae\u03c3\u03c4\u03b7.",
+            "Please use a different email address.": "\u03a7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03c4\u03b5 \u03b4\u03b9\u03b1\u03c6\u03bf\u03c1\u03b5\u03c4\u03b9\u03ba\u03ae \u03b4\u03b9\u03b5\u03cd\u03b8\u03c5\u03bd\u03c3\u03b7 email."
       },
       "gu": {
             "Home": "\u0a98\u0ab0",
@@ -327,7 +551,14 @@
             "Send": "\u0aae\u0acb\u0a95\u0ab2\u0acb",
             "Enter Language": "\u0aad\u0abe\u0ab7\u0abe \u0aa6\u0abe\u0a96\u0ab2 \u0a95\u0ab0\u0acb",
             "Submit": "\u0ab8\u0aac\u0aae\u0abf\u0a9f \u0a95\u0ab0\u0acb",
-            "Language field Cannot be empty": "\u0aad\u0abe\u0ab7\u0abe \u0a95\u0acd\u0ab7\u0ac7\u0aa4\u0acd\u0ab0 \u0a96\u0abe\u0ab2\u0ac0 \u0ab9\u0acb\u0a88 \u0ab6\u0a95\u0aa4\u0ac1\u0a82 \u0aa8\u0aa5\u0ac0"
+            "Language field Cannot be empty": "\u0aad\u0abe\u0ab7\u0abe \u0a95\u0acd\u0ab7\u0ac7\u0aa4\u0acd\u0ab0 \u0a96\u0abe\u0ab2\u0ac0 \u0ab9\u0acb\u0a88 \u0ab6\u0a95\u0aa4\u0ac1\u0a82 \u0aa8\u0aa5\u0ac0",
+            "Username": "\u0ab5\u0aaa\u0ab0\u0abe\u0ab6\u0a95\u0ab0\u0acd\u0aa4\u0abe \u0aa8\u0abe\u0aae",
+            "Password": "\u0aaa\u0abe\u0ab8\u0ab5\u0ab0\u0acd\u0aa1",
+            "Remember Me": "\u0aae\u0aa8\u0ac7 \u0aaf\u0abe\u0aa6",
+            "Sign In": "\u0ab8\u0abe\u0a87\u0aa8 \u0a87\u0aa8 \u0a95\u0ab0\u0acb",
+            "Repeat Password": "\u0aaa\u0abe\u0ab8\u0ab5\u0ab0\u0acd\u0aa1 \u0aa8\u0ac1\u0a82 \u0aaa\u0ac1\u0aa8\u0ab0\u0abe\u0ab5\u0ab0\u0acd\u0aa4\u0aa8 \u0a95\u0ab0\u0acb",
+            "Please use a different username.": "\u0a95\u0ac3\u0aaa\u0abe \u0a95\u0ab0\u0ac0\u0aa8\u0ac7 \u0a95\u0acb\u0a88 \u0a85\u0ab2\u0a97 \u0ab5\u0aaa\u0ab0\u0abe\u0ab6\u0a95\u0ab0\u0acd\u0aa4\u0abe\u0aa8\u0abe\u0aae\u0aa8\u0acb \u0a89\u0aaa\u0aaf\u0acb\u0a97 \u0a95\u0ab0\u0acb.",
+            "Please use a different email address.": "\u0a95\u0ac3\u0aaa\u0abe \u0a95\u0ab0\u0ac0\u0aa8\u0ac7 \u0a95\u0acb\u0a88 \u0a85\u0ab2\u0a97 \u0a88\u0aae\u0ac7\u0ab2 \u0a8f\u0aa1\u0acd\u0ab0\u0ac7\u0ab8\u0aa8\u0acb \u0a89\u0aaa\u0aaf\u0acb\u0a97 \u0a95\u0ab0\u0acb."
       },
       "ht": {
             "Home": "Lakay",
@@ -337,7 +568,14 @@
             "Send": "Voye",
             "Enter Language": "Antre lang",
             "Submit": "Soum\u00e8t",
-            "Language field Cannot be empty": "Chan lang pa ka vid"
+            "Language field Cannot be empty": "Chan lang pa ka vid",
+            "Username": "Non itilizat\u00e8",
+            "Password": "Modpas",
+            "Remember Me": "Sonje mwen",
+            "Sign In": "Konekte",
+            "Repeat Password": "Repete Modpas",
+            "Please use a different username.": "Tanpri itilize yon non itilizat\u00e8 diferan.",
+            "Please use a different email address.": "Tanpri itilize yon l\u00f2t adr\u00e8s imel."
       },
       "ha": {
             "Home": "Gida",
@@ -347,7 +585,14 @@
             "Send": "Aika",
             "Enter Language": "Shigar da Harshe",
             "Submit": "Sallama",
-            "Language field Cannot be empty": "Filin harshe Ba zai iya zama fanko ba"
+            "Language field Cannot be empty": "Filin harshe Ba zai iya zama fanko ba",
+            "Username": "Sunan mai amfani",
+            "Password": "Kalmar wucewa",
+            "Remember Me": "Tuna Ni",
+            "Sign In": "Shiga",
+            "Repeat Password": "Maimaita Kalmar wucewa",
+            "Please use a different username.": "Da fatan za a yi amfani da sunan mai amfani na daban.",
+            "Please use a different email address.": "Da fatan za a yi amfani da wani adireshin imel na daban."
       },
       "haw": {
             "Home": "Home",
@@ -357,7 +602,14 @@
             "Send": "Ho\u02bbouna",
             "Enter Language": "E komo i ka \u02bb\u014dlelo",
             "Submit": "Waiho mai",
-            "Language field Cannot be empty": "Kahua \u02bb\u014dlelo \u02bbA\u02bbole hiki ke waiho \u02bbia"
+            "Language field Cannot be empty": "Kahua \u02bb\u014dlelo \u02bbA\u02bbole hiki ke waiho \u02bbia",
+            "Username": "inoa ho\u02bbohana",
+            "Password": "Hua huna",
+            "Remember Me": "Ho\u02bbomana\u02bbo ia\u02bbu",
+            "Sign In": "\u02bbe\u02bbe",
+            "Repeat Password": "E hana hou i ka \u02bb\u014dlelo huna",
+            "Please use a different username.": "E \u02bbolu\u02bbolu e ho\u02bbohana i kahi inoa inoa \u02bb\u0113 a\u02bbe.",
+            "Please use a different email address.": "E \u02bbolu\u02bbolu e ho\u02bbohana i kahi leka uila \u02bboko\u02bba."
       },
       "iw": {
             "Home": "\u05d1\u05d9\u05ea",
@@ -367,7 +619,14 @@
             "Send": "\u05dc\u05b4\u05e9\u05c1\u05b0\u05dc\u05d5\u05b9\u05d7\u05b7",
             "Enter Language": "\u05d4\u05d6\u05df \u05e9\u05e4\u05d4",
             "Submit": "\u05e9\u05dc\u05d7",
-            "Language field Cannot be empty": "\u05e9\u05d3\u05d4 \u05e9\u05e4\u05d4 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e8\u05d9\u05e7"
+            "Language field Cannot be empty": "\u05e9\u05d3\u05d4 \u05e9\u05e4\u05d4 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e8\u05d9\u05e7",
+            "Username": "\u05e9\u05dd \u05de\u05e9\u05ea\u05de\u05e9",
+            "Password": "\u05e1\u05d9\u05e1\u05de\u05d4",
+            "Remember Me": "\u05d6\u05db\u05d5\u05e8 \u05d0\u05d5\u05ea\u05d9",
+            "Sign In": "\u05dc\u05d4\u05ea\u05d7\u05d1\u05e8",
+            "Repeat Password": "\u05d7\u05d6\u05d5\u05e8 \u05e2\u05dc \u05d4\u05e1\u05d9\u05e1\u05de\u05d4",
+            "Please use a different username.": "\u05d0\u05e0\u05d0 \u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05e9\u05dd \u05de\u05e9\u05ea\u05de\u05e9 \u05d0\u05d7\u05e8.",
+            "Please use a different email address.": "\u05d0\u05e0\u05d0 \u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05db\u05ea\u05d5\u05d1\u05ea \u05d3\u05d5\u05d0\"\u05dc \u05d0\u05d7\u05e8\u05ea."
       },
       "he": {
             "Home": "\u05d1\u05d9\u05ea",
@@ -377,7 +636,14 @@
             "Send": "\u05dc\u05b4\u05e9\u05c1\u05b0\u05dc\u05d5\u05b9\u05d7\u05b7",
             "Enter Language": "\u05d4\u05d6\u05df \u05e9\u05e4\u05d4",
             "Submit": "\u05e9\u05dc\u05d7",
-            "Language field Cannot be empty": "\u05e9\u05d3\u05d4 \u05e9\u05e4\u05d4 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e8\u05d9\u05e7"
+            "Language field Cannot be empty": "\u05e9\u05d3\u05d4 \u05e9\u05e4\u05d4 \u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05d4\u05d9\u05d5\u05ea \u05e8\u05d9\u05e7",
+            "Username": "\u05e9\u05dd \u05de\u05e9\u05ea\u05de\u05e9",
+            "Password": "\u05e1\u05d9\u05e1\u05de\u05d4",
+            "Remember Me": "\u05d6\u05db\u05d5\u05e8 \u05d0\u05d5\u05ea\u05d9",
+            "Sign In": "\u05dc\u05d4\u05ea\u05d7\u05d1\u05e8",
+            "Repeat Password": "\u05d7\u05d6\u05d5\u05e8 \u05e2\u05dc \u05d4\u05e1\u05d9\u05e1\u05de\u05d4",
+            "Please use a different username.": "\u05d0\u05e0\u05d0 \u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05e9\u05dd \u05de\u05e9\u05ea\u05de\u05e9 \u05d0\u05d7\u05e8.",
+            "Please use a different email address.": "\u05d0\u05e0\u05d0 \u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05db\u05ea\u05d5\u05d1\u05ea \u05d3\u05d5\u05d0\"\u05dc \u05d0\u05d7\u05e8\u05ea."
       },
       "hi": {
             "Home": "\u0918\u0930",
@@ -387,7 +653,14 @@
             "Send": "\u092d\u0947\u091c\u0928\u093e",
             "Enter Language": "\u092d\u093e\u0937\u093e \u0926\u0930\u094d\u091c \u0915\u0930\u0947\u0902",
             "Submit": "\u092a\u094d\u0930\u0938\u094d\u0924\u0941\u0924 \u0915\u0930\u0928\u093e",
-            "Language field Cannot be empty": "\u092d\u093e\u0937\u093e \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0916\u093e\u0932\u0940 \u0928\u0939\u0940\u0902 \u0939\u094b \u0938\u0915\u0924\u093e"
+            "Language field Cannot be empty": "\u092d\u093e\u0937\u093e \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0916\u093e\u0932\u0940 \u0928\u0939\u0940\u0902 \u0939\u094b \u0938\u0915\u0924\u093e",
+            "Username": "\u0909\u092a\u092f\u094b\u0917\u0915\u0930\u094d\u0924\u093e \u0928\u093e\u092e",
+            "Password": "\u092a\u093e\u0938\u0935\u0930\u094d\u0921",
+            "Remember Me": "\u092e\u0941\u091d\u0947 \u092f\u093e\u0926 \u0930\u0916\u0947\u0902",
+            "Sign In": "\u0938\u093e\u0907\u0928 \u0907\u0928 \u0915\u0930\u0947\u0902",
+            "Repeat Password": "\u092a\u093e\u0938\u0935\u0930\u094d\u0921 \u0926\u094b\u0939\u0930\u093e\u090f\u0902",
+            "Please use a different username.": "\u0915\u0943\u092a\u092f\u093e \u0915\u093f\u0938\u0940 \u092d\u093f\u0928\u094d\u0928 \u0909\u092a\u092f\u094b\u0917\u0915\u0930\u094d\u0924\u093e \u0928\u093e\u092e \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0947\u0902\u0964",
+            "Please use a different email address.": "\u0915\u0943\u092a\u092f\u093e \u0915\u093f\u0938\u0940 \u092d\u093f\u0928\u094d\u0928 \u0908\u092e\u0947\u0932 \u092a\u0924\u0947 \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0947\u0902."
       },
       "hmn": {
             "Home": "Tsev",
@@ -397,7 +670,14 @@
             "Send": "Xa",
             "Enter Language": "Sau Lus",
             "Submit": "Xa",
-            "Language field Cannot be empty": "Cov lus teb Tsis tuaj yeem khoob"
+            "Language field Cannot be empty": "Cov lus teb Tsis tuaj yeem khoob",
+            "Username": "Tus neeg siv lub npe",
+            "Password": "Tus password",
+            "Remember Me": "Nco Kuv",
+            "Sign In": "Kos Npe",
+            "Repeat Password": "Rov ua dua Password",
+            "Please use a different username.": "Thov siv lwm lub npe siv.",
+            "Please use a different email address.": "Thov siv lwm tus email chaw nyob."
       },
       "hu": {
             "Home": "itthon",
@@ -407,7 +687,14 @@
             "Send": "K\u00fcld",
             "Enter Language": "\u00cdrja be a nyelvet",
             "Submit": "Bek\u00fcld\u00e9s",
-            "Language field Cannot be empty": "A Nyelv mez\u0151 nem lehet \u00fcres"
+            "Language field Cannot be empty": "A Nyelv mez\u0151 nem lehet \u00fcres",
+            "Username": "Felhaszn\u00e1l\u00f3n\u00e9v",
+            "Password": "Jelsz\u00f3",
+            "Remember Me": "Eml\u00e9kezz r\u00e1m",
+            "Sign In": "Bejelentkez\u00e9s",
+            "Repeat Password": "Jelsz\u00f3 \u00fajra",
+            "Please use a different username.": "K\u00e9rj\u00fck, haszn\u00e1ljon m\u00e1sik felhaszn\u00e1l\u00f3nevet.",
+            "Please use a different email address.": "K\u00e9rj\u00fck, haszn\u00e1ljon m\u00e1sik e-mail c\u00edmet."
       },
       "is": {
             "Home": "Heim",
@@ -417,7 +704,14 @@
             "Send": "Senda",
             "Enter Language": "Sl\u00e1\u00f0u inn tungum\u00e1l",
             "Submit": "Sendu inn",
-            "Language field Cannot be empty": "Tungum\u00e1lareitur m\u00e1 ekki vera t\u00f3mur"
+            "Language field Cannot be empty": "Tungum\u00e1lareitur m\u00e1 ekki vera t\u00f3mur",
+            "Username": "Notendanafn",
+            "Password": "Lykilor\u00f0",
+            "Remember Me": "Mundu eftir m\u00e9r",
+            "Sign In": "Skr\u00e1\u00f0u \u00feig inn",
+            "Repeat Password": "Endurtaktu lykilor\u00f0",
+            "Please use a different username.": "Vinsamlegast nota\u00f0u anna\u00f0 notendanafn.",
+            "Please use a different email address.": "Vinsamlegast nota\u00f0u anna\u00f0 netfang."
       },
       "ig": {
             "Home": "\u1ee4l\u1ecd",
@@ -427,7 +721,14 @@
             "Send": "Ziga",
             "Enter Language": "Tinye as\u1ee5s\u1ee5",
             "Submit": "Nyefee",
-            "Language field Cannot be empty": "Ogige as\u1ee5s\u1ee5 enwegh\u1ecb ike \u1ecbb\u1ee5 ihe efu"
+            "Language field Cannot be empty": "Ogige as\u1ee5s\u1ee5 enwegh\u1ecb ike \u1ecbb\u1ee5 ihe efu",
+            "Username": "Aha njirimara",
+            "Password": "Okwuntughe",
+            "Remember Me": "Cheta m",
+            "Sign In": "Banye",
+            "Repeat Password": "Tinyeghar\u1ecba okwuntughe",
+            "Please use a different username.": "Biko jiri aha njirimara d\u1ecb iche.",
+            "Please use a different email address.": "Biko jiri adrees\u1ecb ozi-e d\u1ecb iche."
       },
       "id": {
             "Home": "Rumah",
@@ -437,7 +738,14 @@
             "Send": "Kirim",
             "Enter Language": "Masukkan Bahasa",
             "Submit": "Kirim",
-            "Language field Cannot be empty": "Bidang bahasa Tidak boleh kosong"
+            "Language field Cannot be empty": "Bidang bahasa Tidak boleh kosong",
+            "Username": "Nama belakang",
+            "Password": "Kata sandi",
+            "Remember Me": "Ingat saya",
+            "Sign In": "Masuk",
+            "Repeat Password": "Ulangi kata kunci",
+            "Please use a different username.": "Harap gunakan nama pengguna yang berbeda.",
+            "Please use a different email address.": "Harap gunakan alamat email yang berbeda."
       },
       "ga": {
             "Home": "Baile",
@@ -447,7 +755,14 @@
             "Send": "Seol",
             "Enter Language": "Iontr\u00e1il Teanga",
             "Submit": "Cuir isteach",
-            "Language field Cannot be empty": "R\u00e9imse teanga N\u00ed f\u00e9idir a bheith folamh"
+            "Language field Cannot be empty": "R\u00e9imse teanga N\u00ed f\u00e9idir a bheith folamh",
+            "Username": "Ainm \u00fas\u00e1ideora",
+            "Password": "Pasfhocal",
+            "Remember Me": "Cuimhnigh orm",
+            "Sign In": "S\u00ednigh isteach",
+            "Repeat Password": "Athscr\u00edobh an Pasfhocal",
+            "Please use a different username.": "Bain \u00fas\u00e1id as ainm \u00fas\u00e1ideora eile le do thoil.",
+            "Please use a different email address.": "\u00das\u00e1id seoladh r\u00edomhphoist eile le do thoil."
       },
       "it": {
             "Home": "Casa",
@@ -457,7 +772,14 @@
             "Send": "Inviare",
             "Enter Language": "Inserisci Lingua",
             "Submit": "Invia",
-            "Language field Cannot be empty": "Il campo della lingua Non pu\u00f2 essere vuoto"
+            "Language field Cannot be empty": "Il campo della lingua Non pu\u00f2 essere vuoto",
+            "Username": "Nome utente",
+            "Password": "Parola d'ordine",
+            "Remember Me": "Ricordati di me",
+            "Sign In": "Registrazione",
+            "Repeat Password": "Ripeti la password",
+            "Please use a different username.": "Si prega di utilizzare un nome utente diverso.",
+            "Please use a different email address.": "Si prega di utilizzare un indirizzo email diverso."
       },
       "ja": {
             "Home": "\u5bb6",
@@ -467,7 +789,14 @@
             "Send": "\u9001\u4fe1",
             "Enter Language": "\u8a00\u8a9e\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044",
             "Submit": "\u9001\u4fe1",
-            "Language field Cannot be empty": "\u8a00\u8a9e\u30d5\u30a3\u30fc\u30eb\u30c9\u3092\u7a7a\u306b\u3059\u308b\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093"
+            "Language field Cannot be empty": "\u8a00\u8a9e\u30d5\u30a3\u30fc\u30eb\u30c9\u3092\u7a7a\u306b\u3059\u308b\u3053\u3068\u306f\u3067\u304d\u307e\u305b\u3093",
+            "Username": "\u30e6\u30fc\u30b6\u30fc\u540d",
+            "Password": "\u30d1\u30b9\u30ef\u30fc\u30c9",
+            "Remember Me": "\u79c1\u3092\u899a\u3048\u3066\u307e\u3059\u304b",
+            "Sign In": "\u30ed\u30b0\u30a4\u30f3",
+            "Repeat Password": "\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u518d\u5ea6\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044",
+            "Please use a different username.": "\u5225\u306e\u30e6\u30fc\u30b6\u30fc\u540d\u3092\u4f7f\u7528\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+            "Please use a different email address.": "\u5225\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u4f7f\u7528\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
       },
       "jw": {
             "Home": "Ngarep",
@@ -477,7 +806,14 @@
             "Send": "Ngirim",
             "Enter Language": "Ketik Basa",
             "Submit": "Kirimake",
-            "Language field Cannot be empty": "Bidang basa Ora bisa kosong"
+            "Language field Cannot be empty": "Bidang basa Ora bisa kosong",
+            "Username": "Jeneng panganggo",
+            "Password": "Sandi",
+            "Remember Me": "Elingi Aku",
+            "Sign In": "Mlebu",
+            "Repeat Password": "Baleni Sandi",
+            "Please use a different username.": "Mangga gunakake jeneng pangguna sing beda.",
+            "Please use a different email address.": "Mangga gunakake alamat email sing beda."
       },
       "kn": {
             "Home": "\u0cae\u0ca8\u0cc6",
@@ -487,7 +823,14 @@
             "Send": "\u0c95\u0cb3\u0cc1\u0cb9\u0cbf\u0cb8\u0cc1",
             "Enter Language": "\u0cad\u0cbe\u0cb7\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cae\u0cc2\u0ca6\u0cbf\u0cb8\u0cbf",
             "Submit": "\u0cb8\u0cb2\u0ccd\u0cb2\u0cbf\u0cb8\u0cc1",
-            "Language field Cannot be empty": "\u0cad\u0cbe\u0cb7\u0cbe \u0c95\u0ccd\u0cb7\u0cc7\u0ca4\u0ccd\u0cb0 \u0c96\u0cbe\u0cb2\u0cbf \u0c87\u0cb0\u0cc1\u0cb5\u0c82\u0ca4\u0cbf\u0cb2\u0ccd\u0cb2"
+            "Language field Cannot be empty": "\u0cad\u0cbe\u0cb7\u0cbe \u0c95\u0ccd\u0cb7\u0cc7\u0ca4\u0ccd\u0cb0 \u0c96\u0cbe\u0cb2\u0cbf \u0c87\u0cb0\u0cc1\u0cb5\u0c82\u0ca4\u0cbf\u0cb2\u0ccd\u0cb2",
+            "Username": "\u0cac\u0cb3\u0c95\u0cc6\u0ca6\u0cbe\u0cb0 \u0cb9\u0cc6\u0cb8\u0cb0\u0cc1",
+            "Password": "\u0c97\u0cc1\u0caa\u0ccd\u0ca4\u0caa\u0ca6",
+            "Remember Me": "\u0ca8\u0ca8\u0ccd\u0ca8\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cc6\u0ca8\u0caa\u0cbf\u0ca8\u0cb2\u0ccd\u0cb2\u0cbf \u0c87\u0ca1\u0cc1",
+            "Sign In": "\u0cb8\u0cc8\u0ca8\u0ccd \u0c87\u0ca8\u0ccd \u0cae\u0cbe\u0ca1\u0cbf",
+            "Repeat Password": "\u0caa\u0cbe\u0cb8\u0ccd\u0cb5\u0cb0\u0ccd\u0ca1\u0ccd \u0caa\u0cc1\u0ca8\u0cb0\u0cbe\u0cb5\u0cb0\u0ccd\u0ca4\u0cbf\u0cb8\u0cbf",
+            "Please use a different username.": "\u0ca6\u0caf\u0cb5\u0cbf\u0c9f\u0ccd\u0c9f\u0cc1 \u0cac\u0cc7\u0cb0\u0cc6 \u0cac\u0cb3\u0c95\u0cc6\u0ca6\u0cbe\u0cb0 \u0cb9\u0cc6\u0cb8\u0cb0\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0cb3\u0cb8\u0cbf.",
+            "Please use a different email address.": "\u0ca6\u0caf\u0cb5\u0cbf\u0c9f\u0ccd\u0c9f\u0cc1 \u0cac\u0cc7\u0cb0\u0cc6 \u0c87\u0cae\u0cc7\u0cb2\u0ccd \u0cb5\u0cbf\u0cb3\u0cbe\u0cb8\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0cb3\u0cb8\u0cbf."
       },
       "kk": {
             "Home": "\u04ae\u0439",
@@ -497,7 +840,14 @@
             "Send": "\u0416\u0456\u0431\u0435\u0440\u0443",
             "Enter Language": "\u0422\u0456\u043b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437",
             "Submit": "\u0416\u0456\u0431\u0435\u0440\u0443",
-            "Language field Cannot be empty": "\u0422\u0456\u043b \u04e9\u0440\u0456\u0441\u0456 \u0431\u043e\u0441 \u0431\u043e\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441"
+            "Language field Cannot be empty": "\u0422\u0456\u043b \u04e9\u0440\u0456\u0441\u0456 \u0431\u043e\u0441 \u0431\u043e\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441",
+            "Username": "\u041f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0443\u0448\u044b \u0430\u0442\u044b",
+            "Password": "\u049a\u04b1\u043f\u0438\u044f \u0441\u04e9\u0437",
+            "Remember Me": "\u041c\u0435\u043d\u0456 \u04b1\u043c\u044b\u0442\u043f\u0430\u04a3\u044b\u0437",
+            "Sign In": "\u041a\u0456\u0440\u0443",
+            "Repeat Password": "\u049a\u04b1\u043f\u0438\u044f \u0441\u04e9\u0437\u0434\u0456 \u049b\u0430\u0439\u0442\u0430\u043b\u0430\u04a3\u044b\u0437",
+            "Please use a different username.": "\u0411\u0430\u0441\u049b\u0430 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0443\u0448\u044b \u0430\u0442\u044b\u043d \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u044b\u04a3\u044b\u0437.",
+            "Please use a different email address.": "\u0411\u0430\u0441\u049b\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b\u049b \u043f\u043e\u0448\u0442\u0430 \u043c\u0435\u043a\u0435\u043d\u0436\u0430\u0439\u044b\u043d \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u044b\u04a3\u044b\u0437."
       },
       "km": {
             "Home": "\u1795\u17d2\u1791\u17c7",
@@ -507,7 +857,14 @@
             "Send": "\u1795\u17d2\u1789\u17be",
             "Enter Language": "\u1794\u1789\u17d2\u1785\u17bc\u179b\u1797\u17b6\u179f\u17b6",
             "Submit": "\u178a\u17b6\u1780\u17cb\u179f\u17d2\u1793\u17be",
-            "Language field Cannot be empty": "\u179c\u17b6\u179b\u1797\u17b6\u179f\u17b6\u1798\u17b7\u1793\u17a2\u17b6\u1785\u1791\u1791\u17c1\u1794\u17b6\u1793\u1791\u17c1\u17d4"
+            "Language field Cannot be empty": "\u179c\u17b6\u179b\u1797\u17b6\u179f\u17b6\u1798\u17b7\u1793\u17a2\u17b6\u1785\u1791\u1791\u17c1\u1794\u17b6\u1793\u1791\u17c1\u17d4",
+            "Username": "\u1788\u17d2\u1798\u17c4\u17c7\u200b\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb",
+            "Password": "\u1796\u17b6\u1780\u17d2\u1799\u179f\u1798\u17d2\u1784\u17b6\u178f\u17cb",
+            "Remember Me": "\u1785\u1784\u1785\u17b6\u17c6\u1781\u17d2\u1789\u17bb\u17c6",
+            "Sign In": "\u1785\u17bc\u179b",
+            "Repeat Password": "\u1796\u17b6\u1780\u17d2\u1799\u179f\u1798\u17d2\u1784\u17b6\u178f\u17cb\u1798\u17d2\u178f\u1784\u1791\u17c0\u178f",
+            "Please use a different username.": "\u179f\u17bc\u1798\u1794\u17d2\u179a\u17be\u1788\u17d2\u1798\u17c4\u17c7\u17a2\u17d2\u1793\u1780\u1794\u17d2\u179a\u17be\u1794\u17d2\u179a\u17b6\u179f\u17cb\u1795\u17d2\u179f\u17c1\u1784\u17d4",
+            "Please use a different email address.": "\u179f\u17bc\u1798\u1794\u17d2\u179a\u17be\u17a2\u17b6\u179f\u1799\u178a\u17d2\u178b\u17b6\u1793\u17a2\u17ca\u17b8\u1798\u17c2\u179b\u1795\u17d2\u179f\u17c1\u1784\u17d4"
       },
       "ko": {
             "Home": "\uc9d1",
@@ -517,7 +874,14 @@
             "Send": "\ubcf4\ub0b4\ub2e4",
             "Enter Language": "\uc5b8\uc5b4 \uc785\ub825",
             "Submit": "\uc81c\ucd9c\ud558\ub2e4",
-            "Language field Cannot be empty": "\uc5b8\uc5b4 \ud544\ub4dc\ub294 \ube44\uc6cc\ub458 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4."
+            "Language field Cannot be empty": "\uc5b8\uc5b4 \ud544\ub4dc\ub294 \ube44\uc6cc\ub458 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.",
+            "Username": "\uc0ac\uc6a9\uc790 \uc774\ub984",
+            "Password": "\ube44\ubc00\ubc88\ud638",
+            "Remember Me": "\ub0a0 \uae30\uc5b5\ud574",
+            "Sign In": "\ub85c\uadf8\uc778",
+            "Repeat Password": "\ube44\ubc00\ubc88\ud638 \ubc18\ubcf5",
+            "Please use a different username.": "\ub2e4\ub978 \uc0ac\uc6a9\uc790 \uc774\ub984\uc744 \uc0ac\uc6a9\ud558\uc2ed\uc2dc\uc624.",
+            "Please use a different email address.": "\ub2e4\ub978 \uc774\uba54\uc77c \uc8fc\uc18c\ub97c \uc0ac\uc6a9\ud558\uc138\uc694."
       },
       "ku": {
             "Home": "Xane",
@@ -527,7 +891,14 @@
             "Send": "\u015eandin",
             "Enter Language": "Ziman biniv\u00eese",
             "Submit": "Nermij\u00een",
-            "Language field Cannot be empty": "Qada ziman vala nabe"
+            "Language field Cannot be empty": "Qada ziman vala nabe",
+            "Username": "Nav\u00ea bikarh\u00eaner",
+            "Password": "\u015e\u00eefre",
+            "Remember Me": "Min b\u00eene b\u00eera xwe",
+            "Sign In": "T\u00eaketin",
+            "Repeat Password": "\u015e\u00eefreya Dubare bike",
+            "Please use a different username.": "Ji kerema xwe navek bikarh\u00eanerek din bikar b\u00eenin.",
+            "Please use a different email address.": "Ji kerema xwe navn\u00ee\u015fanek e-nameyek c\u00fbda bikar b\u00eenin."
       },
       "ky": {
             "Home": "\u04ae\u0439",
@@ -537,7 +908,14 @@
             "Send": "\u0416\u04e9\u043d\u04e9\u0442\u04af\u04af",
             "Enter Language": "Language",
             "Submit": "\u0422\u0430\u043f\u0448\u044b\u0440\u0443\u0443",
-            "Language field Cannot be empty": "\u0422\u0438\u043b \u0442\u0430\u043b\u0430\u0430\u0441\u044b \u0431\u043e\u0448 \u0431\u043e\u043b\u0443\u0448\u0443 \u043c\u04af\u043c\u043a\u04af\u043d \u044d\u043c\u0435\u0441"
+            "Language field Cannot be empty": "\u0422\u0438\u043b \u0442\u0430\u043b\u0430\u0430\u0441\u044b \u0431\u043e\u0448 \u0431\u043e\u043b\u0443\u0448\u0443 \u043c\u04af\u043c\u043a\u04af\u043d \u044d\u043c\u0435\u0441",
+            "Username": "\u041a\u043e\u043b\u0434\u043e\u043d\u0443\u0443\u0447\u0443\u043d\u0443\u043d \u0430\u0442\u044b",
+            "Password": "\u041a\u0443\u043f\u0443\u044f \u0441\u04e9\u0437",
+            "Remember Me": "\u041c\u0435\u043d\u0438 \u044d\u0441\u0442\u0435\u043f \u0436\u04af\u0440",
+            "Sign In": "\u041a\u0438\u0440\u04af\u04af",
+            "Repeat Password": "\u0421\u044b\u0440\u0441\u04e9\u0437\u0434\u04af \u043a\u0430\u0439\u0442\u0430\u043b\u0430\u04a3\u044b\u0437",
+            "Please use a different username.": "\u0421\u0443\u0440\u0430\u043d\u044b\u0447, \u0431\u0430\u0448\u043a\u0430 \u043a\u043e\u043b\u0434\u043e\u043d\u0443\u0443\u0447\u0443 \u0430\u0442\u044b\u043d \u043a\u043e\u043b\u0434\u043e\u043d\u0443\u04a3\u0443\u0437.",
+            "Please use a different email address.": "\u0411\u0430\u0448\u043a\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u0443\u043a \u043f\u043e\u0447\u0442\u0430 \u0434\u0430\u0440\u0435\u0433\u0438\u043d \u043a\u043e\u043b\u0434\u043e\u043d\u0443\u04a3\u0443\u0437."
       },
       "lo": {
             "Home": "\u0e9a\u0ec9\u0eb2\u0e99",
@@ -547,7 +925,14 @@
             "Send": "\u0eaa\u0ebb\u0ec8\u0e87",
             "Enter Language": "\u0ec3\u0eaa\u0ec8\u0e9e\u0eb2\u0eaa\u0eb2",
             "Submit": "\u0eaa\u0ebb\u0ec8\u0e87",
-            "Language field Cannot be empty": "\u0e8a\u0ec8\u0ead\u0e87\u0e82\u0ecd\u0ec9\u0ea1\u0eb9\u0e99\u0e9e\u0eb2\u0eaa\u0eb2\u0e9a\u0ecd\u0ec8\u0eaa\u0eb2\u0ea1\u0eb2\u0e94\u0eab\u0ea7\u0ec8\u0eb2\u0e87\u0ec0\u0e9b\u0ebb\u0ec8\u0eb2\u0ec4\u0e94\u0ec9"
+            "Language field Cannot be empty": "\u0e8a\u0ec8\u0ead\u0e87\u0e82\u0ecd\u0ec9\u0ea1\u0eb9\u0e99\u0e9e\u0eb2\u0eaa\u0eb2\u0e9a\u0ecd\u0ec8\u0eaa\u0eb2\u0ea1\u0eb2\u0e94\u0eab\u0ea7\u0ec8\u0eb2\u0e87\u0ec0\u0e9b\u0ebb\u0ec8\u0eb2\u0ec4\u0e94\u0ec9",
+            "Username": "\u0e8a\u0eb7\u0ec8\u0e9c\u0eb9\u0ec9\u0ec3\u0e8a\u0ec9",
+            "Password": "\u0ea5\u0eb0\u0eab\u0eb1\u0e94\u0e9c\u0ec8\u0eb2\u0e99",
+            "Remember Me": "\u0e88\u0eb7\u0ec8\u200b\u0e82\u0ec9\u0ead\u0e8d",
+            "Sign In": "\u0ec0\u0e82\u0ebb\u0ec9\u0eb2\u200b\u0eaa\u0eb9\u0ec8\u200b\u0ea5\u0eb0\u200b\u0e9a\u0ebb\u0e9a",
+            "Repeat Password": "\u0ea5\u0eb0\u0eab\u0eb1\u0e94\u0e9c\u0ec8\u0eb2\u0e99\u0e8a\u0ec9\u0eb3",
+            "Please use a different username.": "\u0e81\u0eb0\u0ea5\u0eb8\u0e99\u0eb2\u0ec3\u0e8a\u0ec9\u0e8a\u0eb7\u0ec8\u0e9c\u0eb9\u0ec9\u0ec3\u0e8a\u0ec9\u0ead\u0eb7\u0ec8\u0e99.",
+            "Please use a different email address.": "\u0e81\u0eb0\u0ea5\u0eb8\u0e99\u0eb2\u0ec3\u0e8a\u0ec9\u0e97\u0eb5\u0ec8\u0ea2\u0eb9\u0ec8\u0ead\u0eb5\u0ec0\u0ea1\u0ea7\u0ead\u0eb7\u0ec8\u0e99."
       },
       "la": {
             "Home": "Home",
@@ -557,7 +942,14 @@
             "Send": "Mitte",
             "Enter Language": "Intra Linguam",
             "Submit": "Submit",
-            "Language field Cannot be empty": "Lingua ager non potest esse inanis"
+            "Language field Cannot be empty": "Lingua ager non potest esse inanis",
+            "Username": "Username",
+            "Password": "Password",
+            "Remember Me": "memento mei",
+            "Sign In": "Inscribe",
+            "Repeat Password": "Iterare Password",
+            "Please use a different username.": "Quaeso uti alia cap.",
+            "Please use a different email address.": "Quaeso uti inscriptio alia."
       },
       "lv": {
             "Home": "M\u0101jas",
@@ -567,7 +959,14 @@
             "Send": "S\u016bt\u012bt",
             "Enter Language": "Ievadiet valodu",
             "Submit": "Iesniegt",
-            "Language field Cannot be empty": "Valodas lauks Nevar b\u016bt tuk\u0161s"
+            "Language field Cannot be empty": "Valodas lauks Nevar b\u016bt tuk\u0161s",
+            "Username": "Lietot\u0101jv\u0101rds",
+            "Password": "Parole",
+            "Remember Me": "Atceries mani",
+            "Sign In": "Ielogoties",
+            "Repeat Password": "Atk\u0101rtojiet paroli",
+            "Please use a different username.": "L\u016bdzu, izmantojiet citu lietot\u0101jv\u0101rdu.",
+            "Please use a different email address.": "L\u016bdzu, izmantojiet citu e-pasta adresi."
       },
       "lt": {
             "Home": "Namai",
@@ -577,7 +976,14 @@
             "Send": "Si\u0173sti",
             "Enter Language": "\u012eveskite kalb\u0105",
             "Submit": "Pateikti",
-            "Language field Cannot be empty": "Kalbos laukas negali b\u016bti tu\u0161\u010dias"
+            "Language field Cannot be empty": "Kalbos laukas negali b\u016bti tu\u0161\u010dias",
+            "Username": "Vartotojo vardas",
+            "Password": "Slapta\u017eodis",
+            "Remember Me": "Prisimink mane",
+            "Sign In": "Prisijungti",
+            "Repeat Password": "Pakartokite slapta\u017eod\u012f",
+            "Please use a different username.": "Naudokite kit\u0105 vartotojo vard\u0105.",
+            "Please use a different email address.": "Naudokite kit\u0105 el. pa\u0161to adres\u0105."
       },
       "lb": {
             "Home": "Doheem",
@@ -587,7 +993,14 @@
             "Send": "Sch\u00e9cken",
             "Enter Language": "Sprooch aginn",
             "Submit": "Ofginn",
-            "Language field Cannot be empty": "Sproochefeld Kann net eidel sinn"
+            "Language field Cannot be empty": "Sproochefeld Kann net eidel sinn",
+            "Username": "Benotzernumm",
+            "Password": "Passwuert",
+            "Remember Me": "Er\u00ebnner dech u mech",
+            "Sign In": "Umellen",
+            "Repeat Password": "Passwuert widderhuelen",
+            "Please use a different username.": "Benotzt w.e.g. en anere Benotzernumm.",
+            "Please use a different email address.": "Benotzt w.e.g. eng aner E-Mailadress."
       },
       "mk": {
             "Home": "\u0414\u043e\u043c\u0430",
@@ -597,7 +1010,14 @@
             "Send": "\u0418\u0441\u043f\u0440\u0430\u0442\u0438",
             "Enter Language": "\u0412\u043d\u0435\u0441\u0435\u0442\u0435 \u0458\u0430\u0437\u0438\u043a",
             "Submit": "\u041f\u043e\u0434\u043d\u0435\u0441\u0435\u0442\u0435",
-            "Language field Cannot be empty": "\u0408\u0430\u0437\u0438\u0447\u043d\u043e \u043f\u043e\u043b\u0435 \u041d\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0431\u0438\u0434\u0435 \u043f\u0440\u0430\u0437\u043d\u043e"
+            "Language field Cannot be empty": "\u0408\u0430\u0437\u0438\u0447\u043d\u043e \u043f\u043e\u043b\u0435 \u041d\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0431\u0438\u0434\u0435 \u043f\u0440\u0430\u0437\u043d\u043e",
+            "Username": "\u041a\u043e\u0440\u0438\u0441\u043d\u0438\u0447\u043a\u043e \u0438\u043c\u0435",
+            "Password": "\u041b\u043e\u0437\u0438\u043d\u043a\u0430",
+            "Remember Me": "\u0417\u0430\u043f\u043e\u043c\u043d\u0438 \u043c\u0435",
+            "Sign In": "\u041d\u0430\u0458\u0430\u0432\u0438 \u0441\u0435",
+            "Repeat Password": "\u041f\u043e\u0432\u0442\u043e\u0440\u0438 \u0458\u0430 \u043b\u043e\u0437\u0438\u043d\u043a\u0430\u0442\u0430",
+            "Please use a different username.": "\u0412\u0435 \u043c\u043e\u043b\u0438\u043c\u0435 \u043a\u043e\u0440\u0438\u0441\u0442\u0435\u0442\u0435 \u0434\u0440\u0443\u0433\u043e \u043a\u043e\u0440\u0438\u0441\u043d\u0438\u0447\u043a\u043e \u0438\u043c\u0435.",
+            "Please use a different email address.": "\u0412\u0435 \u043c\u043e\u043b\u0438\u043c\u0435 \u043a\u043e\u0440\u0438\u0441\u0442\u0435\u0442\u0435 \u0434\u0440\u0443\u0433\u0430 \u0430\u0434\u0440\u0435\u0441\u0430 \u0437\u0430 \u0435-\u043f\u043e\u0448\u0442\u0430."
       },
       "mg": {
             "Home": "an-trano",
@@ -607,7 +1027,14 @@
             "Send": "Alefaso",
             "Enter Language": "Ampidiro ny fiteny",
             "Submit": "manaiky",
-            "Language field Cannot be empty": "Sahan-teny tsy azo foanana"
+            "Language field Cannot be empty": "Sahan-teny tsy azo foanana",
+            "Username": "Anaran'ny mpampiasa",
+            "Password": "Password",
+            "Remember Me": "Tsarovy aho",
+            "Sign In": "Hiditra",
+            "Repeat Password": "Avereno ny tenimiafina",
+            "Please use a different username.": "Mampias\u00e0 solon'anarana hafa azafady.",
+            "Please use a different email address.": "Mampias\u00e0 adiresy mailaka hafa azafady."
       },
       "ms": {
             "Home": "Rumah",
@@ -617,7 +1044,14 @@
             "Send": "Hantar",
             "Enter Language": "Masukkan Bahasa",
             "Submit": "Hantar",
-            "Language field Cannot be empty": "Medan bahasa Tidak boleh kosong"
+            "Language field Cannot be empty": "Medan bahasa Tidak boleh kosong",
+            "Username": "Nama pengguna",
+            "Password": "Kata laluan",
+            "Remember Me": "Ingat Saya",
+            "Sign In": "Log Masuk",
+            "Repeat Password": "Ulang kata laluan",
+            "Please use a different username.": "Sila gunakan nama pengguna yang berbeza.",
+            "Please use a different email address.": "Sila gunakan alamat e-mel yang berbeza."
       },
       "ml": {
             "Home": "\u0d35\u0d40\u0d1f\u0d4d",
@@ -627,7 +1061,14 @@
             "Send": "\u0d05\u0d2f\u0d15\u0d4d\u0d15\u0d41\u0d15",
             "Enter Language": "\u0d2d\u0d3e\u0d37 \u0d28\u0d7d\u0d15\u0d41\u0d15",
             "Submit": "\u0d38\u0d2e\u0d7c\u0d2a\u0d4d\u0d2a\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d15",
-            "Language field Cannot be empty": "\u0d2d\u0d3e\u0d37\u0d3e \u0d2b\u0d40\u0d7d\u0d21\u0d4d \u0d36\u0d42\u0d28\u0d4d\u0d2f\u0d2e\u0d3e\u0d15\u0d4d\u0d15\u0d3e\u0d7b \u0d15\u0d34\u0d3f\u0d2f\u0d3f\u0d32\u0d4d\u0d32"
+            "Language field Cannot be empty": "\u0d2d\u0d3e\u0d37\u0d3e \u0d2b\u0d40\u0d7d\u0d21\u0d4d \u0d36\u0d42\u0d28\u0d4d\u0d2f\u0d2e\u0d3e\u0d15\u0d4d\u0d15\u0d3e\u0d7b \u0d15\u0d34\u0d3f\u0d2f\u0d3f\u0d32\u0d4d\u0d32",
+            "Username": "\u0d09\u0d2a\u0d2f\u0d4b\u0d15\u0d4d\u0d24\u0d43\u0d28\u0d3e\u0d2e\u0d02",
+            "Password": "Password",
+            "Remember Me": "\u0d0e\u0d28\u0d4d\u0d28\u0d46 \u0d13\u0d7c\u0d2e\u0d4d\u0d2e\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d15",
+            "Sign In": "\u0d38\u0d48\u0d7b \u0d07\u0d7b",
+            "Repeat Password": "\u0d2a\u0d3e\u0d38\u0d4d\u0d38\u0d4d\u0d35\u0d47\u0d7c\u0d21\u0d4d \u0d06\u0d35\u0d7c\u0d24\u0d4d\u0d24\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d15",
+            "Please use a different username.": "\u0d26\u0d2f\u0d35\u0d3e\u0d2f\u0d3f \u0d2e\u0d31\u0d4d\u0d31\u0d4a\u0d30\u0d41 \u0d09\u0d2a\u0d2f\u0d4b\u0d15\u0d4d\u0d24\u0d43\u0d28\u0d3e\u0d2e\u0d02 \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d15.",
+            "Please use a different email address.": "\u0d26\u0d2f\u0d35\u0d3e\u0d2f\u0d3f \u0d2e\u0d31\u0d4d\u0d31\u0d4a\u0d30\u0d41 \u0d07\u0d2e\u0d46\u0d2f\u0d3f\u0d7d \u0d35\u0d3f\u0d32\u0d3e\u0d38\u0d02 \u0d09\u0d2a\u0d2f\u0d4b\u0d17\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d15."
       },
       "mt": {
             "Home": "Dar",
@@ -637,7 +1078,14 @@
             "Send": "Ibg\u0127at",
             "Enter Language": "Da\u0127\u0127al Lingwa",
             "Submit": "Issottometti",
-            "Language field Cannot be empty": "Il-qasam tal-lingwa Ma jistax ikun vojt"
+            "Language field Cannot be empty": "Il-qasam tal-lingwa Ma jistax ikun vojt",
+            "Username": "Isem tal-utent",
+            "Password": "Password",
+            "Remember Me": "Tiftakarni",
+            "Sign In": "Id\u0127ol",
+            "Repeat Password": "Irrepeti l-Password",
+            "Please use a different username.": "Jekk jog\u0127\u0121bok u\u017ca username differenti.",
+            "Please use a different email address.": "Jekk jog\u0127\u0121bok u\u017ca indirizz elettroniku differenti."
       },
       "mi": {
             "Home": "Kainga",
@@ -647,7 +1095,14 @@
             "Send": "Tukua",
             "Enter Language": "Whakauru Reo",
             "Submit": "Tukuna",
-            "Language field Cannot be empty": "Kaore e taea te putua te mara reo"
+            "Language field Cannot be empty": "Kaore e taea te putua te mara reo",
+            "Username": "Ingoa Kaiwhakamahi",
+            "Password": "Kupuhipa",
+            "Remember Me": "Kia mahara ki ahau",
+            "Sign In": "Waitohu Mai",
+            "Repeat Password": "Tukurua Kupuhipa",
+            "Please use a different username.": "Whakamahia koa he ingoa kaiwhakamahi rereke.",
+            "Please use a different email address.": "Tena koa whakamahia he wahitau imeera rereke."
       },
       "mr": {
             "Home": "\u092e\u0941\u0916\u094d\u092f\u092a\u0943\u0937\u094d\u0920",
@@ -657,7 +1112,14 @@
             "Send": "\u092a\u093e\u0920\u0935\u093e",
             "Enter Language": "\u092d\u093e\u0937\u093e \u092a\u094d\u0930\u0935\u093f\u0937\u094d\u091f \u0915\u0930\u093e",
             "Submit": "\u092a\u094d\u0930\u0938\u094d\u0924\u0941\u0924 \u0915\u0930\u0923\u0947",
-            "Language field Cannot be empty": "\u092d\u093e\u0937\u093e \u092b\u0940\u0932\u094d\u0921 \u0930\u093f\u0915\u094d\u0924 \u0905\u0938\u0942 \u0936\u0915\u0924 \u0928\u093e\u0939\u0940"
+            "Language field Cannot be empty": "\u092d\u093e\u0937\u093e \u092b\u0940\u0932\u094d\u0921 \u0930\u093f\u0915\u094d\u0924 \u0905\u0938\u0942 \u0936\u0915\u0924 \u0928\u093e\u0939\u0940",
+            "Username": "\u0935\u093e\u092a\u0930\u0915\u0930\u094d\u0924\u093e\u0928\u093e\u0935",
+            "Password": "\u092a\u093e\u0938\u0935\u0930\u094d\u0921",
+            "Remember Me": "\u092e\u093e\u091d\u0940 \u0906\u0920\u0935\u0923 \u0920\u0947\u0935\u093e",
+            "Sign In": "\u0938\u093e\u0907\u0928 \u0907\u0928 \u0915\u0930\u093e",
+            "Repeat Password": "\u092a\u093e\u0938\u0935\u0930\u094d\u0921\u091a\u0940 \u092a\u0941\u0928\u0930\u093e\u0935\u0943\u0924\u094d\u0924\u0940 \u0915\u0930\u093e",
+            "Please use a different username.": "\u0915\u0943\u092a\u092f\u093e \u0935\u0947\u0917\u0933\u0947 \u0935\u093e\u092a\u0930\u0915\u0930\u094d\u0924\u093e\u0928\u093e\u0935 \u0935\u093e\u092a\u0930\u093e.",
+            "Please use a different email address.": "\u0915\u0943\u092a\u092f\u093e \u0935\u0947\u0917\u0933\u093e \u0908\u092e\u0947\u0932 \u092a\u0924\u094d\u0924\u093e \u0935\u093e\u092a\u0930\u093e."
       },
       "mn": {
             "Home": "\u0413\u044d\u0440",
@@ -667,7 +1129,14 @@
             "Send": "\u0418\u043b\u0433\u044d\u044d\u0445",
             "Enter Language": "\u0425\u044d\u043b \u043e\u0440\u0443\u0443\u043b\u043d\u0430 \u0443\u0443",
             "Submit": "\u0418\u043b\u0433\u044d\u044d\u0445",
-            "Language field Cannot be empty": "\u0425\u044d\u043b\u043d\u0438\u0439 \u0442\u0430\u043b\u0431\u0430\u0440 \u0445\u043e\u043e\u0441\u043e\u043d \u0431\u0430\u0439\u0436 \u0431\u043e\u043b\u043e\u0445\u0433\u04af\u0439"
+            "Language field Cannot be empty": "\u0425\u044d\u043b\u043d\u0438\u0439 \u0442\u0430\u043b\u0431\u0430\u0440 \u0445\u043e\u043e\u0441\u043e\u043d \u0431\u0430\u0439\u0436 \u0431\u043e\u043b\u043e\u0445\u0433\u04af\u0439",
+            "Username": "\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447\u0438\u0439\u043d \u043d\u044d\u0440",
+            "Password": "\u041d\u0443\u0443\u0446 \u04af\u0433",
+            "Remember Me": "\u041d\u0430\u043c\u0430\u0439\u0433 \u0441\u0430\u043d\u0430",
+            "Sign In": "\u041d\u044d\u0432\u0442\u0440\u044d\u0445",
+            "Repeat Password": "\u041d\u0443\u0443\u0446 \u04af\u0433\u044d\u044d \u0434\u0430\u0445\u0438\u043d \u043e\u0440\u0443\u0443\u043b\u0430\u0445",
+            "Please use a different username.": "\u04e8\u04e9\u0440 \u0445\u044d\u0440\u044d\u0433\u043b\u044d\u0433\u0447\u0438\u0439\u043d \u043d\u044d\u0440 \u0430\u0448\u0438\u0433\u043b\u0430\u043d\u0430 \u0443\u0443.",
+            "Please use a different email address.": "\u04e8\u04e9\u0440 \u0438\u043c\u044d\u0439\u043b \u0445\u0430\u044f\u0433 \u0430\u0448\u0438\u0433\u043b\u0430\u043d\u0430 \u0443\u0443."
       },
       "my": {
             "Home": "\u1021\u102d\u1019\u103a",
@@ -677,7 +1146,14 @@
             "Send": "\u1015\u102d\u102f\u1037\u1015\u102b\u104b",
             "Enter Language": "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038\u1011\u100a\u1037\u103a\u1015\u102b\u104b",
             "Submit": "\u1010\u1004\u103a\u1015\u103c\u1015\u102b\u104b",
-            "Language field Cannot be empty": "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038\u1021\u1000\u103d\u1000\u103a\u101e\u100a\u103a \u1017\u101c\u102c\u1019\u1016\u103c\u1005\u103a\u1014\u102d\u102f\u1004\u103a\u1015\u102b\u104b"
+            "Language field Cannot be empty": "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038\u1021\u1000\u103d\u1000\u103a\u101e\u100a\u103a \u1017\u101c\u102c\u1019\u1016\u103c\u1005\u103a\u1014\u102d\u102f\u1004\u103a\u1015\u102b\u104b",
+            "Username": "\u1021\u101e\u102f\u1036\u1038\u1015\u103c\u102f\u101e\u1030\u1021\u1019\u100a\u103a",
+            "Password": "\u1005\u1000\u102c\u1038\u101d\u103e\u1000\u103a",
+            "Remember Me": "\u1004\u102b\u1037\u1000\u102d\u102f\u101e\u1010\u102d\u101b\u1015\u102b",
+            "Sign In": "\u1006\u102d\u102f\u1004\u103a\u1038\u1021\u1004\u103a\u101c\u102f\u1015\u103a\u1001\u103c\u1004\u103a\u1038",
+            "Repeat Password": "\u1005\u1000\u102c\u1038\u101d\u103e\u1000\u103a\u1000\u102d\u102f\u1015\u103c\u1014\u103a\u101b\u102d\u102f\u1000\u103a\u1015\u102b",
+            "Please use a different username.": "\u1000\u103b\u1031\u1038\u1007\u1030\u1038\u1015\u103c\u102f\u104d \u1021\u1001\u103c\u102c\u1038\u1021\u101e\u102f\u1036\u1038\u1015\u103c\u102f\u101e\u1030\u1021\u1019\u100a\u103a\u1000\u102d\u102f \u1021\u101e\u102f\u1036\u1038\u1015\u103c\u102f\u1015\u102b\u104b",
+            "Please use a different email address.": "\u1000\u103b\u1031\u1038\u1007\u1030\u1038\u1015\u103c\u102f\u104d \u1021\u1001\u103c\u102c\u1038\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c\u1000\u102d\u102f \u1021\u101e\u102f\u1036\u1038\u1015\u103c\u102f\u1015\u102b\u104b"
       },
       "ne": {
             "Home": "\u0918\u0930",
@@ -687,7 +1163,14 @@
             "Send": "\u092a\u0920\u093e\u0909\u0928\u0941\u0939\u094b\u0938\u094d",
             "Enter Language": "\u092d\u093e\u0937\u093e \u092a\u094d\u0930\u0935\u093f\u0937\u094d\u091f \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d",
             "Submit": "\u092a\u0947\u0936 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d",
-            "Language field Cannot be empty": "\u092d\u093e\u0937\u093e \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0916\u093e\u0932\u0940 \u0939\u0941\u0928 \u0938\u0915\u094d\u0926\u0948\u0928"
+            "Language field Cannot be empty": "\u092d\u093e\u0937\u093e \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0916\u093e\u0932\u0940 \u0939\u0941\u0928 \u0938\u0915\u094d\u0926\u0948\u0928",
+            "Username": "\u092a\u094d\u0930\u092f\u094b\u0917\u0915\u0930\u094d\u0924\u093e \u0928\u093e\u092e",
+            "Password": "\u092a\u093e\u0938\u0935\u0930\u094d\u0921",
+            "Remember Me": "\u092e\u0932\u093e\u0908 \u0938\u092e\u094d\u091d\u0928\u0941\u0939\u094b\u0938\u094d",
+            "Sign In": "\u0938\u093e\u0907\u0928 \u0907\u0928 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d",
+            "Repeat Password": "\u092a\u093e\u0938\u0935\u0930\u094d\u0921 \u092b\u0947\u0930\u093f \u0926\u094b\u0939\u094b\u0930\u094d\u092f\u093e\u0909\u0901\u0928\u0941\u0939\u094b\u0938\u094d",
+            "Please use a different username.": "\u0915\u0943\u092a\u092f\u093e \u092b\u0930\u0915 \u092a\u094d\u0930\u092f\u094b\u0917\u0915\u0930\u094d\u0924\u093e \u0928\u093e\u092e \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964",
+            "Please use a different email address.": "\u0915\u0943\u092a\u092f\u093e \u092b\u0930\u0915 \u0907\u092e\u0947\u0932 \u0920\u0947\u0917\u093e\u0928\u093e \u092a\u094d\u0930\u092f\u094b\u0917 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964"
       },
       "no": {
             "Home": "Hjem",
@@ -697,7 +1180,14 @@
             "Send": "Sende",
             "Enter Language": "Skriv inn spr\u00e5k",
             "Submit": "Sende inn",
-            "Language field Cannot be empty": "Spr\u00e5kfeltet kan ikke v\u00e6re tomt"
+            "Language field Cannot be empty": "Spr\u00e5kfeltet kan ikke v\u00e6re tomt",
+            "Username": "Brukernavn",
+            "Password": "Passord",
+            "Remember Me": "Husk meg",
+            "Sign In": "Logg inn",
+            "Repeat Password": "Gjenta passord",
+            "Please use a different username.": "Vennligst bruk et annet brukernavn.",
+            "Please use a different email address.": "Vennligst bruk en annen e-postadresse."
       },
       "or": {
             "Home": "\u0b18\u0b30",
@@ -707,7 +1197,14 @@
             "Send": "\u0b2a\u0b20\u0b3e\u0b28\u0b4d\u0b24\u0b41 |",
             "Enter Language": "\u0b2d\u0b3e\u0b37\u0b3e \u0b2a\u0b4d\u0b30\u0b2c\u0b47\u0b36 \u0b15\u0b30\u0b28\u0b4d\u0b24\u0b41 |",
             "Submit": "\u0b26\u0b3e\u0b16\u0b32 \u0b15\u0b30\u0b28\u0b4d\u0b24\u0b41 |",
-            "Language field Cannot be empty": "\u0b2d\u0b3e\u0b37\u0b3e \u0b15\u0b4d\u0b37\u0b47\u0b24\u0b4d\u0b30 \u0b16\u0b3e\u0b32\u0b3f \u0b39\u0b4b\u0b07\u0b2a\u0b3e\u0b30\u0b3f\u0b2c \u0b28\u0b3e\u0b39\u0b3f\u0b01 |"
+            "Language field Cannot be empty": "\u0b2d\u0b3e\u0b37\u0b3e \u0b15\u0b4d\u0b37\u0b47\u0b24\u0b4d\u0b30 \u0b16\u0b3e\u0b32\u0b3f \u0b39\u0b4b\u0b07\u0b2a\u0b3e\u0b30\u0b3f\u0b2c \u0b28\u0b3e\u0b39\u0b3f\u0b01 |",
+            "Username": "\u0b09\u0b2a\u0b2f\u0b4b\u0b17\u0b15\u0b30\u0b4d\u0b24\u0b4d\u0b24\u0b3e \u0b28\u0b3e\u0b2e",
+            "Password": "\u0b2a\u0b3e\u0b38\u0b71\u0b3e\u0b30\u0b4d\u0b21",
+            "Remember Me": "\u0b2e\u0b4b\u0b24\u0b47 \u0b2e\u0b28\u0b47 \u0b30\u0b16\u0b3f\u0b2c\u0b47",
+            "Sign In": "\u0b1a\u0b41\u0b15\u0b4d\u0b24\u0b3f \u0b15\u0b30\u0b3f\u0b2c\u0b3e",
+            "Repeat Password": "\u0b2a\u0b3e\u0b38\u0b71\u0b3e\u0b30\u0b4d\u0b21 \u0b2a\u0b41\u0b28\u0b30\u0b3e\u0b2c\u0b43\u0b24\u0b4d\u0b24\u0b3f \u0b15\u0b30\u0b28\u0b4d\u0b24\u0b41 |",
+            "Please use a different username.": "\u0b26\u0b5f\u0b3e\u0b15\u0b30\u0b3f \u0b0f\u0b15 \u0b2d\u0b3f\u0b28\u0b4d\u0b28 \u0b09\u0b2a\u0b2f\u0b4b\u0b17\u0b15\u0b30\u0b4d\u0b24\u0b4d\u0b24\u0b3e \u0b28\u0b3e\u0b2e \u0b2c\u0b4d\u0b5f\u0b2c\u0b39\u0b3e\u0b30 \u0b15\u0b30\u0b28\u0b4d\u0b24\u0b41 |",
+            "Please use a different email address.": "\u0b26\u0b5f\u0b3e\u0b15\u0b30\u0b3f \u0b0f\u0b15 \u0b2d\u0b3f\u0b28\u0b4d\u0b28 \u0b07\u0b2e\u0b47\u0b32\u0b4d \u0b20\u0b3f\u0b15\u0b23\u0b3e \u0b2c\u0b4d\u0b5f\u0b2c\u0b39\u0b3e\u0b30 \u0b15\u0b30\u0b28\u0b4d\u0b24\u0b41 |"
       },
       "ps": {
             "Home": "\u06a9\u0648\u0631",
@@ -717,7 +1214,14 @@
             "Send": "\u0644\u06cc\u0696\u0644",
             "Enter Language": "\u0698\u0628\u0647 \u062f\u0646\u0646\u0647 \u06a9\u0693\u0626",
             "Submit": "\u0633\u067e\u0627\u0631\u0644",
-            "Language field Cannot be empty": "\u062f \u0698\u0628\u06d0 \u0689\u06ab\u0631 \u062e\u0627\u0644\u064a \u0646\u0647 \u0634\u064a"
+            "Language field Cannot be empty": "\u062f \u0698\u0628\u06d0 \u0689\u06ab\u0631 \u062e\u0627\u0644\u064a \u0646\u0647 \u0634\u064a",
+            "Username": "\u06a9\u0627\u0631\u0646 \u0646\u0648\u0645",
+            "Password": "\u0631\u0645\u0632",
+            "Remember Me": "\u0645\u0627 \u067e\u0647 \u06cc\u0627\u062f \u0648\u0644\u0631\u0647",
+            "Sign In": "\u0646\u0646\u0648\u0632\u0626",
+            "Repeat Password": "\u067e\u0627\u0633\u0648\u0631\u0689 \u062a\u06a9\u0631\u0627\u0631 \u06a9\u0693\u0626",
+            "Please use a different username.": "\u0645\u0647\u0631\u0628\u0627\u0646\u064a \u0648\u06a9\u0693\u0626 \u06cc\u0648 \u0628\u0644 \u06a9\u0627\u0631\u0646 \u0646\u0648\u0645 \u0648\u06a9\u0627\u0631\u0648\u0626.",
+            "Please use a different email address.": "\u0645\u0647\u0631\u0628\u0627\u0646\u064a \u0648\u06a9\u0693\u0626 \u06cc\u0648 \u0628\u0644 \u0628\u0631\u06cc\u069a\u0646\u0627\u0644\u06cc\u06a9 \u0622\u062f\u0631\u0633 \u0648\u06a9\u0627\u0631\u0648\u0626."
       },
       "fa": {
             "Home": "\u0635\u0641\u062d\u0647 \u0627\u0635\u0644\u06cc",
@@ -727,7 +1231,14 @@
             "Send": "\u0627\u0631\u0633\u0627\u0644",
             "Enter Language": "\u0632\u0628\u0627\u0646 \u0631\u0627 \u0648\u0627\u0631\u062f \u06a9\u0646\u06cc\u062f",
             "Submit": "\u0627\u0631\u0633\u0627\u0644",
-            "Language field Cannot be empty": "\u0641\u06cc\u0644\u062f \u0632\u0628\u0627\u0646 \u0646\u0645\u06cc \u062a\u0648\u0627\u0646\u062f \u062e\u0627\u0644\u06cc \u0628\u0627\u0634\u062f"
+            "Language field Cannot be empty": "\u0641\u06cc\u0644\u062f \u0632\u0628\u0627\u0646 \u0646\u0645\u06cc \u062a\u0648\u0627\u0646\u062f \u062e\u0627\u0644\u06cc \u0628\u0627\u0634\u062f",
+            "Username": "\u0646\u0627\u0645 \u06a9\u0627\u0631\u0628\u0631\u06cc",
+            "Password": "\u06a9\u0644\u0645\u0647 \u0639\u0628\u0648\u0631",
+            "Remember Me": "\u0645\u0631\u0627 \u0628\u0647 \u062e\u0627\u0637\u0631 \u0628\u0633\u067e\u0627\u0631",
+            "Sign In": "\u0648\u0631\u0648\u062f",
+            "Repeat Password": "\u062a\u06a9\u0631\u0627\u0631 \u0631\u0645\u0632 \u0639\u0628\u0648\u0631",
+            "Please use a different username.": "\u0644\u0637\u0641\u0627 \u0627\u0632 \u0646\u0627\u0645 \u06a9\u0627\u0631\u0628\u0631\u06cc \u062f\u06cc\u06af\u0631\u06cc \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u06a9\u0646\u06cc\u062f.",
+            "Please use a different email address.": "\u0644\u0637\u0641\u0627 \u0627\u0632 \u0622\u062f\u0631\u0633 \u0627\u06cc\u0645\u06cc\u0644 \u062f\u06cc\u06af\u0631\u06cc \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u06a9\u0646\u06cc\u062f."
       },
       "pl": {
             "Home": "Dom",
@@ -737,7 +1248,14 @@
             "Send": "Wys\u0142a\u0107",
             "Enter Language": "Wprowad\u017a j\u0119zyk",
             "Submit": "Sk\u0142ada\u0107",
-            "Language field Cannot be empty": "Pole j\u0119zyka nie mo\u017ce by\u0107 puste"
+            "Language field Cannot be empty": "Pole j\u0119zyka nie mo\u017ce by\u0107 puste",
+            "Username": "Nazwa u\u017cytkownika",
+            "Password": "Has\u0142o",
+            "Remember Me": "Zapami\u0119taj mnie",
+            "Sign In": "Zaloguj si\u0119",
+            "Repeat Password": "Powt\u00f3rz has\u0142o",
+            "Please use a different username.": "U\u017cyj innej nazwy u\u017cytkownika.",
+            "Please use a different email address.": "U\u017cyj innego adresu e-mail."
       },
       "pt": {
             "Home": "Casa",
@@ -747,7 +1265,14 @@
             "Send": "Mandar",
             "Enter Language": "Digite o idioma",
             "Submit": "Enviar",
-            "Language field Cannot be empty": "Campo de idioma N\u00e3o pode estar vazio"
+            "Language field Cannot be empty": "Campo de idioma N\u00e3o pode estar vazio",
+            "Username": "Nome de usu\u00e1rio",
+            "Password": "Senha",
+            "Remember Me": "Lembre de mim",
+            "Sign In": "Entrar",
+            "Repeat Password": "Repita a senha",
+            "Please use a different username.": "Por favor, use um nome de usu\u00e1rio diferente.",
+            "Please use a different email address.": "Por favor, use um endere\u00e7o de e-mail diferente."
       },
       "pa": {
             "Home": "\u0a18\u0a30",
@@ -757,7 +1282,14 @@
             "Send": "\u0a2d\u0a47\u0a1c\u0a4b",
             "Enter Language": "\u0a2d\u0a3e\u0a38\u0a3c\u0a3e \u0a26\u0a30\u0a1c \u0a15\u0a30\u0a4b",
             "Submit": "\u0a1c\u0a2e\u0a4d\u0a39\u0a3e\u0a02 \u0a15\u0a30\u0a4b",
-            "Language field Cannot be empty": "\u0a2d\u0a3e\u0a38\u0a3c\u0a3e \u0a16\u0a47\u0a24\u0a30 \u0a16\u0a3e\u0a32\u0a40 \u0a28\u0a39\u0a40\u0a02 \u0a39\u0a4b \u0a38\u0a15\u0a26\u0a3e"
+            "Language field Cannot be empty": "\u0a2d\u0a3e\u0a38\u0a3c\u0a3e \u0a16\u0a47\u0a24\u0a30 \u0a16\u0a3e\u0a32\u0a40 \u0a28\u0a39\u0a40\u0a02 \u0a39\u0a4b \u0a38\u0a15\u0a26\u0a3e",
+            "Username": "\u0a09\u0a2a\u0a2d\u0a4b\u0a17\u0a24\u0a3e \u0a28\u0a3e\u0a2e",
+            "Password": "\u0a2a\u0a3e\u0a38\u0a35\u0a30\u0a21",
+            "Remember Me": "\u0a2e\u0a47\u0a30\u0a40 \u0a2f\u0a3e\u0a26 \u0a39\u0a48",
+            "Sign In": "\u0a38\u0a3e\u0a08\u0a28 - \u0a07\u0a28",
+            "Repeat Password": "\u0a2a\u0a3e\u0a38\u0a35\u0a30\u0a21 \u0a26\u0a41\u0a39\u0a30\u0a3e\u0a0a",
+            "Please use a different username.": "\u0a15\u0a3f\u0a30\u0a2a\u0a3e \u0a15\u0a30\u0a15\u0a47 \u0a07\u0a71\u0a15 \u0a35\u0a71\u0a16\u0a30\u0a3e \u0a09\u0a2a\u0a2d\u0a4b\u0a17\u0a24\u0a3e \u0a28\u0a3e\u0a2e \u0a35\u0a30\u0a24\u0a4b\u0964",
+            "Please use a different email address.": "\u0a15\u0a3f\u0a30\u0a2a\u0a3e \u0a15\u0a30\u0a15\u0a47 \u0a07\u0a71\u0a15 \u0a35\u0a71\u0a16\u0a30\u0a3e \u0a08\u0a2e\u0a47\u0a32 \u0a2a\u0a24\u0a3e \u0a35\u0a30\u0a24\u0a4b\u0964"
       },
       "ro": {
             "Home": "Acas\u0103",
@@ -767,7 +1299,14 @@
             "Send": "Trimite",
             "Enter Language": "Introduce\u021bi limba",
             "Submit": "Trimite",
-            "Language field Cannot be empty": "C\u00e2mpul de limb\u0103 nu poate fi gol"
+            "Language field Cannot be empty": "C\u00e2mpul de limb\u0103 nu poate fi gol",
+            "Username": "Nume de utilizator",
+            "Password": "Parola",
+            "Remember Me": "Aminte\u0219te-\u021bi de mine",
+            "Sign In": "Conectare",
+            "Repeat Password": "Repeta parola",
+            "Please use a different username.": "V\u0103 rug\u0103m s\u0103 utiliza\u021bi un alt nume de utilizator.",
+            "Please use a different email address.": "V\u0103 rug\u0103m s\u0103 utiliza\u021bi o adres\u0103 de e-mail diferit\u0103."
       },
       "ru": {
             "Home": "\u0414\u043e\u043c",
@@ -777,7 +1316,14 @@
             "Send": "\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c",
             "Enter Language": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u044f\u0437\u044b\u043a",
             "Submit": "\u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c \u043d\u0430 \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u0438\u0435",
-            "Language field Cannot be empty": "\u041f\u043e\u043b\u0435 \u044f\u0437\u044b\u043a\u0430 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u043c"
+            "Language field Cannot be empty": "\u041f\u043e\u043b\u0435 \u044f\u0437\u044b\u043a\u0430 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u043c",
+            "Username": "\u0418\u043c\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+            "Password": "\u041f\u0430\u0440\u043e\u043b\u044c",
+            "Remember Me": "\u0417\u0430\u043f\u043e\u043c\u043d\u0438\u0442\u0435 \u043c\u0435\u043d\u044f",
+            "Sign In": "\u0412\u043e\u0439\u0442\u0438",
+            "Repeat Password": "\u041f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u0430\u0440\u043e\u043b\u044c",
+            "Please use a different username.": "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0434\u0440\u0443\u0433\u043e\u0435 \u0438\u043c\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f.",
+            "Please use a different email address.": "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0434\u0440\u0443\u0433\u043e\u0439 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b."
       },
       "sm": {
             "Home": "Aiga",
@@ -787,7 +1333,14 @@
             "Send": "Auina atu",
             "Enter Language": "Ulufale Gagana",
             "Submit": "Tuuina atu",
-            "Language field Cannot be empty": "Gagana gagana E le mafai ona gaogao"
+            "Language field Cannot be empty": "Gagana gagana E le mafai ona gaogao",
+            "Username": "Username",
+            "Password": "Numera e le iloa e sesi",
+            "Remember Me": "Manatua mai a'u",
+            "Sign In": "Saini ese j",
+            "Repeat Password": "Toe fai upu faataga",
+            "Please use a different username.": "Fa'amolemole fa'aaoga se isi igoa fa'aoga.",
+            "Please use a different email address.": "Fa'amolemole fa'aoga se isi tuatusi imeli."
       },
       "gd": {
             "Home": "Dhachaigh",
@@ -797,7 +1350,14 @@
             "Send": "Seol",
             "Enter Language": "Cuir a-steach C\u00e0nan",
             "Submit": "Cuir a-steach",
-            "Language field Cannot be empty": "Raon c\u00e0nain Chan fhaod a bhith falamh"
+            "Language field Cannot be empty": "Raon c\u00e0nain Chan fhaod a bhith falamh",
+            "Username": "Ainm-cleachdaidh",
+            "Password": "Facal-faire",
+            "Remember Me": "Cuimhnich ormsa",
+            "Sign In": "Soidhnig a-steach",
+            "Repeat Password": "D\u00e8an ath-aithris air Facal-faire",
+            "Please use a different username.": "Feuch an cleachd thu ainm-cleachdaidh eile.",
+            "Please use a different email address.": "Feuch an cleachd thu se\u00f2ladh puist-d eile."
       },
       "sr": {
             "Home": "\u041a\u0443\u045b\u0430",
@@ -807,7 +1367,14 @@
             "Send": "\u041f\u043e\u0448\u0430\u0459\u0438",
             "Enter Language": "\u0423\u043d\u0435\u0441\u0438\u0442\u0435 \u0458\u0435\u0437\u0438\u043a",
             "Submit": "\u043f\u0440\u0438\u0445\u0432\u0430\u0442\u0438",
-            "Language field Cannot be empty": "\u041f\u043e\u0459\u0435 \u0437\u0430 \u0458\u0435\u0437\u0438\u043a \u043d\u0435 \u043c\u043e\u0436\u0435 \u0431\u0438\u0442\u0438 \u043f\u0440\u0430\u0437\u043d\u043e"
+            "Language field Cannot be empty": "\u041f\u043e\u0459\u0435 \u0437\u0430 \u0458\u0435\u0437\u0438\u043a \u043d\u0435 \u043c\u043e\u0436\u0435 \u0431\u0438\u0442\u0438 \u043f\u0440\u0430\u0437\u043d\u043e",
+            "Username": "\u041a\u043e\u0440\u0438\u0441\u043d\u0438\u0447\u043a\u043e \u0438\u043c\u0435",
+            "Password": "\u041b\u043e\u0437\u0438\u043d\u043a\u0430",
+            "Remember Me": "\u0421\u0435\u0442\u0438 \u043c\u0435 \u0441\u0435",
+            "Sign In": "\u041f\u0440\u0438\u0458\u0430\u0432\u0438\u0442\u0435 \u0441\u0435",
+            "Repeat Password": "\u041f\u043e\u043d\u043e\u0432\u0438\u0442\u0435 \u043b\u043e\u0437\u0438\u043d\u043a\u0443",
+            "Please use a different username.": "\u041c\u043e\u043b\u0438\u043c\u043e \u043a\u043e\u0440\u0438\u0441\u0442\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u0430\u0447\u0438\u0458\u0435 \u043a\u043e\u0440\u0438\u0441\u043d\u0438\u0447\u043a\u043e \u0438\u043c\u0435.",
+            "Please use a different email address.": "\u041a\u043e\u0440\u0438\u0441\u0442\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u0443 \u0430\u0434\u0440\u0435\u0441\u0443 \u0435-\u043f\u043e\u0448\u0442\u0435."
       },
       "st": {
             "Home": "Lehae",
@@ -817,7 +1384,14 @@
             "Send": "Romela",
             "Enter Language": "Kena Puo",
             "Submit": "Kenya",
-            "Language field Cannot be empty": "Sebaka sa puo se ka se be le letho"
+            "Language field Cannot be empty": "Sebaka sa puo se ka se be le letho",
+            "Username": "Username",
+            "Password": "Password",
+            "Remember Me": "Nkhopole",
+            "Sign In": "Kena",
+            "Repeat Password": "Pheta senotlolo",
+            "Please use a different username.": "Ka kopo, sebelisa lebitso la mosebelisi le fapaneng.",
+            "Please use a different email address.": "Ka kopo sebelisa aterese e fapaneng ea lengolo-tsoibila."
       },
       "sn": {
             "Home": "Kumba",
@@ -827,7 +1401,14 @@
             "Send": "Send",
             "Enter Language": "Pinda Mutauro",
             "Submit": "Submit",
-            "Language field Cannot be empty": "Mutauro haugone kushaikwa"
+            "Language field Cannot be empty": "Mutauro haugone kushaikwa",
+            "Username": "Username",
+            "Password": "Pasiwedhi",
+            "Remember Me": "Ndirangarire",
+            "Sign In": "Nyorera mu",
+            "Repeat Password": "Dzokorora Password",
+            "Please use a different username.": "Ndapota shandisa zita rekushandisa rakasiyana.",
+            "Please use a different email address.": "Ndapota shandisa imwe email kero."
       },
       "sd": {
             "Home": "\u06af\u0647\u0631",
@@ -837,7 +1418,14 @@
             "Send": "\u0645\u0648\u06aa\u0644\u064a\u0648",
             "Enter Language": "\u067b\u0648\u0644\u064a \u062f\u0627\u062e\u0644 \u06aa\u0631\u064a\u0648",
             "Submit": "\u062c\u0645\u0639 \u06aa\u0631\u0627\u064a\u0648",
-            "Language field Cannot be empty": "\u067b\u0648\u0644\u064a \u062c\u0648 \u0645\u064a\u062f\u0627\u0646 \u062e\u0627\u0644\u064a \u0646\u0647 \u067f\u0648 \u067f\u064a \u0633\u06af\u06be\u064a"
+            "Language field Cannot be empty": "\u067b\u0648\u0644\u064a \u062c\u0648 \u0645\u064a\u062f\u0627\u0646 \u062e\u0627\u0644\u064a \u0646\u0647 \u067f\u0648 \u067f\u064a \u0633\u06af\u06be\u064a",
+            "Username": "\u064a\u0648\u0632\u0631 \u0646\u0627\u0644\u0648",
+            "Password": "\u067e\u0627\u0633\u0648\u0631\u068a",
+            "Remember Me": "\u0645\u0648\u0646\u06a9\u064a \u064a\u0627\u062f \u06aa\u064a\u0648",
+            "Sign In": "\u0633\u0627\u0626\u0646 \u0627\u0646 \u06aa\u0631\u064a\u0648",
+            "Repeat Password": "\u067e\u0627\u0633\u0648\u0631\u068a \u067b\u064a\u0647\u0631 \u0648\u0631\u062c\u0627\u064a\u0648",
+            "Please use a different username.": "\u0645\u06be\u0631\u0628\u0627\u0646\u064a \u06aa\u0631\u064a \u06aa\u0648 \u067b\u064a\u0648 \u0646\u0627\u0644\u0648 \u0627\u0633\u062a\u0639\u0645\u0627\u0644 \u06aa\u0631\u064a\u0648.",
+            "Please use a different email address.": "\u0645\u0647\u0631\u0628\u0627\u0646\u064a \u06aa\u0631\u064a \u0647\u06aa \u0645\u062e\u062a\u0644\u0641 \u0627\u064a \u0645\u064a\u0644 \u067e\u062a\u0648 \u0627\u0633\u062a\u0639\u0645\u0627\u0644 \u06aa\u0631\u064a\u0648."
       },
       "si": {
             "Home": "\u0db1\u0dd2\u0dc0\u0dc3",
@@ -847,7 +1435,14 @@
             "Send": "\u0dba\u0dc0\u0db1\u0dca\u0db1",
             "Enter Language": "\u0db7\u0dcf\u0dc2\u0dcf\u0dc0 \u0d87\u0dad\u0dd4\u0dbd\u0dad\u0dca \u0d9a\u0dbb\u0db1\u0dca\u0db1",
             "Submit": "\u0d89\u0daf\u0dd2\u0dbb\u0dd2\u0db4\u0dad\u0dca \u0d9a\u0dbb\u0db1\u0dca\u0db1",
-            "Language field Cannot be empty": "\u0db7\u0dcf\u0dc2\u0dcf \u0d9a\u0dca\u0dc2\u0dda\u0dad\u0dca\u200d\u0dbb\u0dba \u0dc4\u0dd2\u0dc3\u0dca \u0dc0\u0dd2\u0dba \u0db1\u0ddc\u0dc4\u0dd0\u0d9a"
+            "Language field Cannot be empty": "\u0db7\u0dcf\u0dc2\u0dcf \u0d9a\u0dca\u0dc2\u0dda\u0dad\u0dca\u200d\u0dbb\u0dba \u0dc4\u0dd2\u0dc3\u0dca \u0dc0\u0dd2\u0dba \u0db1\u0ddc\u0dc4\u0dd0\u0d9a",
+            "Username": "\u0db4\u0dbb\u0dd2\u0dc1\u0dd3\u0dbd\u0d9a \u0db1\u0dcf\u0db8\u0dba",
+            "Password": "\u0db8\u0dd4\u0dbb\u0db4\u0daf\u0dba",
+            "Remember Me": "\u0db8\u0dcf\u0dc0 \u0db8\u0dad\u0d9a \u0dad\u0db6\u0dcf \u0d9c\u0db1\u0dca\u0db1",
+            "Sign In": "\u0db4\u0dd4\u0dbb\u0db1\u0dca\u0db1",
+            "Repeat Password": "\u0db8\u0dd4\u0dbb\u0db4\u0daf\u0dba \u0db1\u0dd0\u0dc0\u0dad \u0d9a\u0dbb\u0db1\u0dca\u0db1",
+            "Please use a different username.": "\u0d9a\u0dbb\u0dd4\u0dab\u0dcf\u0d9a\u0dbb \u0dc0\u0dd9\u0db1\u0dad\u0dca \u0db4\u0dbb\u0dd2\u0dc1\u0dd3\u0dbd\u0d9a \u0db1\u0dcf\u0db8\u0dba\u0d9a\u0dca \u0db7\u0dcf\u0dc0\u0dd2\u0dad\u0dcf \u0d9a\u0dbb\u0db1\u0dca\u0db1.",
+            "Please use a different email address.": "\u0d9a\u0dbb\u0dd4\u0dab\u0dcf\u0d9a\u0dbb \u0dc0\u0dd9\u0db1\u0dad\u0dca \u0d8a\u0db8\u0dda\u0dbd\u0dca \u0dbd\u0dd2\u0db4\u0dd2\u0db1\u0dba\u0d9a\u0dca \u0db7\u0dcf\u0dc0\u0dd2\u0dad\u0dcf \u0d9a\u0dbb\u0db1\u0dca\u0db1."
       },
       "sk": {
             "Home": "Domov",
@@ -857,7 +1452,14 @@
             "Send": "Odosla\u0165",
             "Enter Language": "Zadajte jazyk",
             "Submit": "Predlo\u017ei\u0165",
-            "Language field Cannot be empty": "Pole jazyka nem\u00f4\u017ee by\u0165 pr\u00e1zdne"
+            "Language field Cannot be empty": "Pole jazyka nem\u00f4\u017ee by\u0165 pr\u00e1zdne",
+            "Username": "Pou\u017e\u00edvate\u013esk\u00e9 meno",
+            "Password": "heslo",
+            "Remember Me": "Pam\u00e4t\u00e1\u0161 si ma",
+            "Sign In": "Prihl\u00e1si\u0165 sa",
+            "Repeat Password": "Zopakujte heslo",
+            "Please use a different username.": "Pou\u017eite in\u00e9 pou\u017e\u00edvate\u013esk\u00e9 meno.",
+            "Please use a different email address.": "Pou\u017eite in\u00fa e-mailov\u00fa adresu."
       },
       "sl": {
             "Home": "Domov",
@@ -867,7 +1469,14 @@
             "Send": "Po\u0161lji",
             "Enter Language": "Vnesite jezik",
             "Submit": "Po\u0161lji",
-            "Language field Cannot be empty": "Jezikovno polje ne more biti prazno"
+            "Language field Cannot be empty": "Jezikovno polje ne more biti prazno",
+            "Username": "Uporabni\u0161ko ime",
+            "Password": "Geslo",
+            "Remember Me": "Zapomni si me",
+            "Sign In": "Vpis",
+            "Repeat Password": "Ponovite geslo",
+            "Please use a different username.": "Prosimo, uporabite drugo uporabni\u0161ko ime.",
+            "Please use a different email address.": "Prosimo, uporabite drug e-po\u0161tni naslov."
       },
       "so": {
             "Home": "Guriga",
@@ -877,7 +1486,14 @@
             "Send": "Dir",
             "Enter Language": "Geli Luuqadda",
             "Submit": "Gudbi",
-            "Language field Cannot be empty": "Goobta luqadda ma noqon karto mid madhan"
+            "Language field Cannot be empty": "Goobta luqadda ma noqon karto mid madhan",
+            "Username": "Magaca isticmaale",
+            "Password": "Furaha",
+            "Remember Me": "I xasuuso",
+            "Sign In": "Soo gal",
+            "Repeat Password": "Ku celi erayga sirta ah",
+            "Please use a different username.": "Fadlan isticmaal magac isticmaale oo kale.",
+            "Please use a different email address.": "Fadlan isticmaal ciwaan ka duwan iimaylka"
       },
       "es": {
             "Home": "Hogar",
@@ -887,7 +1503,14 @@
             "Send": "Enviar",
             "Enter Language": "Introducir idioma",
             "Submit": "Enviar",
-            "Language field Cannot be empty": "El campo de idioma no puede estar vac\u00edo"
+            "Language field Cannot be empty": "El campo de idioma no puede estar vac\u00edo",
+            "Username": "Nombre de usuario",
+            "Password": "Clave",
+            "Remember Me": "Recu\u00e9rdame",
+            "Sign In": "Registrarse",
+            "Repeat Password": "Repita la contrase\u00f1a",
+            "Please use a different username.": "Utilice un nombre de usuario diferente.",
+            "Please use a different email address.": "Por favor utilice una direcci\u00f3n de correo electr\u00f3nico diferente."
       },
       "su": {
             "Home": "Imah",
@@ -897,7 +1520,14 @@
             "Send": "Ngirim",
             "Enter Language": "Lebetkeun Basa",
             "Submit": "Kirimkeun",
-            "Language field Cannot be empty": "Widang basa Teu tiasa kosong"
+            "Language field Cannot be empty": "Widang basa Teu tiasa kosong",
+            "Username": "Ngaran pamak\u00e9",
+            "Password": "Sandi",
+            "Remember Me": "\u00c9mut abdi",
+            "Sign In": "Daptar",
+            "Repeat Password": "Uihan deui kecap konci",
+            "Please use a different username.": "Punten nganggo nami pangguna anu san\u00e9s.",
+            "Please use a different email address.": "Punten nganggo alamat email anu san\u00e9s."
       },
       "sw": {
             "Home": "Nyumbani",
@@ -907,7 +1537,14 @@
             "Send": "Tuma",
             "Enter Language": "Ingiza Lugha",
             "Submit": "Wasilisha",
-            "Language field Cannot be empty": "Sehemu ya lugha haiwezi kuwa tupu"
+            "Language field Cannot be empty": "Sehemu ya lugha haiwezi kuwa tupu",
+            "Username": "Jina la mtumiaji",
+            "Password": "Nenosiri",
+            "Remember Me": "Nikumbuke",
+            "Sign In": "Weka sahihi",
+            "Repeat Password": "Rudia neno siri",
+            "Please use a different username.": "Tafadhali tumia jina la mtumiaji tofauti.",
+            "Please use a different email address.": "Tafadhali tumia barua pepe tofauti."
       },
       "sv": {
             "Home": "Hem",
@@ -917,7 +1554,14 @@
             "Send": "Skicka",
             "Enter Language": "Ange spr\u00e5k",
             "Submit": "Skicka in",
-            "Language field Cannot be empty": "Spr\u00e5kf\u00e4ltet f\u00e5r inte vara tomt"
+            "Language field Cannot be empty": "Spr\u00e5kf\u00e4ltet f\u00e5r inte vara tomt",
+            "Username": "Anv\u00e4ndarnamn",
+            "Password": "L\u00f6senord",
+            "Remember Me": "Kom ih\u00e5g mig",
+            "Sign In": "Logga in",
+            "Repeat Password": "Repetera l\u00f6senord",
+            "Please use a different username.": "Anv\u00e4nd ett annat anv\u00e4ndarnamn.",
+            "Please use a different email address.": "Anv\u00e4nd en annan e-postadress."
       },
       "tg": {
             "Home": "\u0425\u043e\u043d\u0430",
@@ -927,7 +1571,14 @@
             "Send": "\u0424\u0438\u0440\u0438\u0441\u0442\u043e\u0434\u0430\u043d",
             "Enter Language": "\u0417\u0430\u0431\u043e\u043d\u0440\u043e \u0432\u043e\u0440\u0438\u0434 \u043a\u0443\u043d\u0435\u0434",
             "Submit": "\u041f\u0435\u0448\u043d\u0438\u04b3\u043e\u0434 \u043a\u0443\u043d\u0435\u0434",
-            "Language field Cannot be empty": "\u041c\u0430\u0439\u0434\u043e\u043d\u0438 \u0437\u0430\u0431\u043e\u043d \u0445\u043e\u043b\u04e3 \u0431\u0443\u0434\u0430 \u043d\u0430\u043c\u0435\u0442\u0430\u0432\u043e\u043d\u0430\u0434"
+            "Language field Cannot be empty": "\u041c\u0430\u0439\u0434\u043e\u043d\u0438 \u0437\u0430\u0431\u043e\u043d \u0445\u043e\u043b\u04e3 \u0431\u0443\u0434\u0430 \u043d\u0430\u043c\u0435\u0442\u0430\u0432\u043e\u043d\u0430\u0434",
+            "Username": "\u041d\u043e\u043c\u0438 \u043a\u043e\u0440\u0431\u0430\u0440",
+            "Password": "\u0420\u0430\u043c\u0437",
+            "Remember Me": "\u041c\u0430\u0440\u043e \u0434\u0430\u0440 \u0451\u0434 \u0434\u043e\u0440",
+            "Sign In": "\u0414\u0430\u0440\u043e\u043c\u0430\u0434",
+            "Repeat Password": "\u0422\u0430\u043a\u0440\u043e\u0440\u0438 \u043a\u0430\u043b\u0438\u0434\u0432\u043e\u0436\u0430",
+            "Please use a different username.": "\u041b\u0443\u0442\u0444\u0430\u043d \u043d\u043e\u043c\u0438 \u043a\u043e\u0440\u0431\u0430\u0440\u0438\u0438 \u0434\u0438\u0433\u0430\u0440\u0440\u043e \u0438\u0441\u0442\u0438\u0444\u043e\u0434\u0430 \u0431\u0430\u0440\u0435\u0434.",
+            "Please use a different email address.": "\u041b\u0443\u0442\u0444\u0430\u043d \u0441\u0443\u0440\u043e\u0493\u0430\u0438 \u043f\u043e\u0447\u0442\u0430\u0438 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u0438 \u0434\u0438\u0433\u0430\u0440\u0440\u043e \u0438\u0441\u0442\u0438\u0444\u043e\u0434\u0430 \u0431\u0430\u0440\u0435\u0434."
       },
       "ta": {
             "Home": "\u0bb5\u0bc0\u0b9f\u0bc1",
@@ -937,7 +1588,14 @@
             "Send": "\u0b85\u0ba9\u0bc1\u0baa\u0bcd\u0baa\u0bc1",
             "Enter Language": "\u0bae\u0bca\u0bb4\u0bbf\u0baf\u0bc8 \u0b89\u0bb3\u0bcd\u0bb3\u0bbf\u0b9f\u0bb5\u0bc1\u0bae\u0bcd",
             "Submit": "\u0b9a\u0bae\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bbf\u0b95\u0bcd\u0b95\u0bb5\u0bc1\u0bae\u0bcd",
-            "Language field Cannot be empty": "\u0bae\u0bca\u0bb4\u0bbf \u0baa\u0bc1\u0bb2\u0bae\u0bcd \u0b95\u0bbe\u0bb2\u0bbf\u0baf\u0bbe\u0b95 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bbe\u0ba4\u0bc1"
+            "Language field Cannot be empty": "\u0bae\u0bca\u0bb4\u0bbf \u0baa\u0bc1\u0bb2\u0bae\u0bcd \u0b95\u0bbe\u0bb2\u0bbf\u0baf\u0bbe\u0b95 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bbe\u0ba4\u0bc1",
+            "Username": "\u0baa\u0baf\u0ba9\u0bb0\u0bcd \u0baa\u0bc6\u0baf\u0bb0\u0bcd",
+            "Password": "\u0b95\u0b9f\u0bb5\u0bc1\u0b9a\u0bcd\u0b9a\u0bc6\u0bbe\u0bb2\u0bcd",
+            "Remember Me": "\u0b8e\u0ba9\u0bcd\u0ba9\u0bc8 \u0ba8\u0bbf\u0ba9\u0bc8\u0bb5\u0bbf\u0bb2\u0bcd \u0bb5\u0bc8\u0baf\u0bc1\u0b99\u0bcd\u0b95\u0bb3\u0bcd",
+            "Sign In": "\u0b89\u0bb3\u0bcd\u0ba8\u0bc1\u0bb4\u0bc8\u0baf\u0bb5\u0bc1\u0bae\u0bcd",
+            "Repeat Password": "\u0bb0\u0b95\u0b9a\u0bbf\u0baf \u0b95\u0bc1\u0bb1\u0bbf\u0baf\u0bc0\u0b9f\u0bcd\u0b9f\u0bc8 \u0ba4\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0b9a\u0bcd\u0b9a\u0bc6\u0bbe\u0bb2\u0bcd",
+            "Please use a different username.": "\u0ba4\u0baf\u0bb5\u0bc1\u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bc1 \u0bb5\u0bc7\u0bb1\u0bc1 \u0baa\u0baf\u0ba9\u0bb0\u0bcd\u0baa\u0bc6\u0baf\u0bb0\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bb5\u0bc1\u0bae\u0bcd.",
+            "Please use a different email address.": "\u0ba4\u0baf\u0bb5\u0bc1\u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bc1 \u0bb5\u0bc7\u0bb1\u0bc1 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bcd \u0bae\u0bc1\u0b95\u0bb5\u0bb0\u0bbf\u0baf\u0bc8\u0baa\u0bcd \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bb5\u0bc1\u0bae\u0bcd."
       },
       "te": {
             "Home": "\u0c39\u0c4b\u0c2e\u0c4d",
@@ -947,7 +1605,14 @@
             "Send": "\u0c2a\u0c02\u0c2a\u0c02\u0c21\u0c3f",
             "Enter Language": "\u0c2d\u0c3e\u0c37\u0c28\u0c41 \u0c28\u0c2e\u0c4b\u0c26\u0c41 \u0c1a\u0c47\u0c2f\u0c02\u0c21\u0c3f",
             "Submit": "\u0c38\u0c2e\u0c30\u0c4d\u0c2a\u0c3f\u0c02\u0c1a\u0c02\u0c21\u0c3f",
-            "Language field Cannot be empty": "\u0c2d\u0c3e\u0c37\u0c3e \u0c2b\u0c40\u0c32\u0c4d\u0c21\u0c4d \u0c16\u0c3e\u0c33\u0c40\u0c17\u0c3e \u0c09\u0c02\u0c21\u0c15\u0c42\u0c21\u0c26\u0c41"
+            "Language field Cannot be empty": "\u0c2d\u0c3e\u0c37\u0c3e \u0c2b\u0c40\u0c32\u0c4d\u0c21\u0c4d \u0c16\u0c3e\u0c33\u0c40\u0c17\u0c3e \u0c09\u0c02\u0c21\u0c15\u0c42\u0c21\u0c26\u0c41",
+            "Username": "\u0c35\u0c3f\u0c28\u0c3f\u0c2f\u0c4b\u0c17\u0c26\u0c3e\u0c30\u0c41 \u0c2a\u0c47\u0c30\u0c41",
+            "Password": "\u0c2a\u0c3e\u0c38\u0c4d\u0c35\u0c30\u0c4d\u0c21\u0c4d",
+            "Remember Me": "\u0c28\u0c28\u0c4d\u0c28\u0c41 \u0c17\u0c41\u0c30\u0c4d\u0c24\u0c41 \u0c2a\u0c46\u0c1f\u0c4d\u0c1f\u0c41\u0c15\u0c4b",
+            "Sign In": "\u0c38\u0c48\u0c28\u0c4d \u0c07\u0c28\u0c4d \u0c1a\u0c47\u0c2f\u0c02\u0c21\u0c3f",
+            "Repeat Password": "\u0c2a\u0c3e\u0c38\u0c4d\u0c35\u0c30\u0c4d\u0c21\u0c4d \u0c2e\u0c33\u0c4d\u0c33\u0c3f \u0c1a\u0c46\u0c2a\u0c4d\u0c2a\u0c02\u0c21\u0c3f",
+            "Please use a different username.": "\u0c26\u0c2f\u0c1a\u0c47\u0c38\u0c3f \u0c35\u0c47\u0c30\u0c47 \u0c35\u0c3f\u0c28\u0c3f\u0c2f\u0c4b\u0c17\u0c26\u0c3e\u0c30\u0c41 \u0c2a\u0c47\u0c30\u0c41\u0c28\u0c3f \u0c09\u0c2a\u0c2f\u0c4b\u0c17\u0c3f\u0c02\u0c1a\u0c02\u0c21\u0c3f.",
+            "Please use a different email address.": "\u0c26\u0c2f\u0c1a\u0c47\u0c38\u0c3f \u0c35\u0c47\u0c30\u0c47 \u0c07\u0c2e\u0c46\u0c2f\u0c3f\u0c32\u0c4d \u0c1a\u0c3f\u0c30\u0c41\u0c28\u0c3e\u0c2e\u0c3e\u0c28\u0c41 \u0c09\u0c2a\u0c2f\u0c4b\u0c17\u0c3f\u0c02\u0c1a\u0c02\u0c21\u0c3f."
       },
       "th": {
             "Home": "\u0e1a\u0e49\u0e32\u0e19",
@@ -957,7 +1622,14 @@
             "Send": "\u0e2a\u0e48\u0e07",
             "Enter Language": "\u0e43\u0e2a\u0e48\u0e20\u0e32\u0e29\u0e32",
             "Submit": "\u0e2a\u0e48\u0e07",
-            "Language field Cannot be empty": "\u0e0a\u0e48\u0e2d\u0e07\u0e20\u0e32\u0e29\u0e32\u0e44\u0e21\u0e48\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e40\u0e27\u0e49\u0e19\u0e27\u0e48\u0e32\u0e07\u0e44\u0e14\u0e49"
+            "Language field Cannot be empty": "\u0e0a\u0e48\u0e2d\u0e07\u0e20\u0e32\u0e29\u0e32\u0e44\u0e21\u0e48\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e40\u0e27\u0e49\u0e19\u0e27\u0e48\u0e32\u0e07\u0e44\u0e14\u0e49",
+            "Username": "\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49",
+            "Password": "\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19",
+            "Remember Me": "\u0e08\u0e14\u0e08\u0e33\u0e09\u0e31\u0e19",
+            "Sign In": "\u0e40\u0e02\u0e49\u0e32\u0e2a\u0e39\u0e48\u0e23\u0e30\u0e1a\u0e1a",
+            "Repeat Password": "\u0e23\u0e2b\u0e31\u0e2a\u0e1c\u0e48\u0e32\u0e19\u0e0b\u0e49\u0e33",
+            "Please use a different username.": "\u0e42\u0e1b\u0e23\u0e14\u0e43\u0e0a\u0e49\u0e0a\u0e37\u0e48\u0e2d\u0e1c\u0e39\u0e49\u0e43\u0e0a\u0e49\u0e2d\u0e37\u0e48\u0e19",
+            "Please use a different email address.": "\u0e42\u0e1b\u0e23\u0e14\u0e43\u0e0a\u0e49\u0e17\u0e35\u0e48\u0e2d\u0e22\u0e39\u0e48\u0e2d\u0e35\u0e40\u0e21\u0e25\u0e2d\u0e37\u0e48\u0e19"
       },
       "tr": {
             "Home": "Ev",
@@ -967,7 +1639,14 @@
             "Send": "G\u00f6ndermek",
             "Enter Language": "Dili Girin",
             "Submit": "G\u00f6ndermek",
-            "Language field Cannot be empty": "Dil alan\u0131 Bo\u015f olamaz"
+            "Language field Cannot be empty": "Dil alan\u0131 Bo\u015f olamaz",
+            "Username": "Kullan\u0131c\u0131 ad\u0131",
+            "Password": "\u015eifre",
+            "Remember Me": "Beni hat\u0131rla",
+            "Sign In": "Kay\u0131t olmak",
+            "Repeat Password": "\u015eifreyi tekrar girin",
+            "Please use a different username.": "L\u00fctfen farkl\u0131 bir kullan\u0131c\u0131 ad\u0131 kullan\u0131n.",
+            "Please use a different email address.": "L\u00fctfen farkl\u0131 bir e-posta adresi kullan\u0131n."
       },
       "uk": {
             "Home": "\u0414\u043e\u0434\u043e\u043c\u0443",
@@ -977,7 +1656,14 @@
             "Send": "\u041d\u0430\u0434\u0456\u0441\u043b\u0430\u0442\u0438",
             "Enter Language": "\u0412\u0432\u0435\u0434\u0456\u0442\u044c \u043c\u043e\u0432\u0443",
             "Submit": "\u041f\u043e\u0434\u0430\u0442\u0438",
-            "Language field Cannot be empty": "\u041f\u043e\u043b\u0435 \u043c\u043e\u0432\u0438 \u043d\u0435 \u043c\u043e\u0436\u0435 \u0431\u0443\u0442\u0438 \u043f\u043e\u0440\u043e\u0436\u043d\u0456\u043c"
+            "Language field Cannot be empty": "\u041f\u043e\u043b\u0435 \u043c\u043e\u0432\u0438 \u043d\u0435 \u043c\u043e\u0436\u0435 \u0431\u0443\u0442\u0438 \u043f\u043e\u0440\u043e\u0436\u043d\u0456\u043c",
+            "Username": "\u0406\u043c'\u044f \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430",
+            "Password": "\u041f\u0430\u0440\u043e\u043b\u044c",
+            "Remember Me": "\u041f\u0430\u043c'\u044f\u0442\u0430\u0439 \u043c\u0435\u043d\u0435",
+            "Sign In": "\u0423\u0432\u0456\u0439\u0442\u0438",
+            "Repeat Password": "\u041f\u043e\u0432\u0442\u043e\u0440\u0456\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c",
+            "Please use a different username.": "\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0439\u0442\u0435 \u0456\u043d\u0448\u0435 \u0456\u043c\u2019\u044f \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0447\u0430.",
+            "Please use a different email address.": "\u0411\u0443\u0434\u044c \u043b\u0430\u0441\u043a\u0430, \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u043e\u0432\u0443\u0439\u0442\u0435 \u0456\u043d\u0448\u0443 \u0430\u0434\u0440\u0435\u0441\u0443 \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0457 \u043f\u043e\u0448\u0442\u0438."
       },
       "ur": {
             "Home": "\u06af\u06be\u0631",
@@ -987,7 +1673,14 @@
             "Send": "\u0628\u06be\u06cc\u062c\u06cc\u06ba",
             "Enter Language": "\u0632\u0628\u0627\u0646 \u062f\u0631\u062c \u06a9\u0631\u06cc\u06ba\u06d4",
             "Submit": "\u062c\u0645\u0639 \u06a9\u0631\u0627\u0626\u06cc\u06ba",
-            "Language field Cannot be empty": "\u0632\u0628\u0627\u0646 \u06a9\u06cc \u0641\u06cc\u0644\u0688 \u062e\u0627\u0644\u06cc \u0646\u06c1\u06cc\u06ba \u06c1\u0648 \u0633\u06a9\u062a\u06cc"
+            "Language field Cannot be empty": "\u0632\u0628\u0627\u0646 \u06a9\u06cc \u0641\u06cc\u0644\u0688 \u062e\u0627\u0644\u06cc \u0646\u06c1\u06cc\u06ba \u06c1\u0648 \u0633\u06a9\u062a\u06cc",
+            "Username": "\u0635\u0627\u0631\u0641 \u0646\u0627\u0645",
+            "Password": "\u067e\u0627\u0633 \u0648\u0631\u0688",
+            "Remember Me": "\u0645\u062c\u06be\u06d2 \u067e\u06c1\u0686\u0627\u0646\u062a\u06d2 \u06c1\u0648",
+            "Sign In": "\u0633\u0627\u0626\u0646 \u0627\u0646",
+            "Repeat Password": "\u067e\u0627\u0633 \u0648\u0631\u0688 \u062f\u0648\u0628\u0627\u0631\u06c1 \u0644\u06a9\u06be\u06cc\u06d2",
+            "Please use a different username.": "\u0628\u0631\u0627\u06c1 \u06a9\u0631\u0645 \u0627\u06cc\u06a9 \u0645\u062e\u062a\u0644\u0641 \u0635\u0627\u0631\u0641 \u0646\u0627\u0645 \u0627\u0633\u062a\u0639\u0645\u0627\u0644 \u06a9\u0631\u06cc\u06ba\u06d4",
+            "Please use a different email address.": "\u0628\u0631\u0627\u06c1 \u06a9\u0631\u0645 \u0627\u06cc\u06a9 \u0645\u062e\u062a\u0644\u0641 \u0627\u06cc \u0645\u06cc\u0644 \u067e\u062a\u06c1 \u0627\u0633\u062a\u0639\u0645\u0627\u0644 \u06a9\u0631\u06cc\u06ba\u06d4"
       },
       "ug": {
             "Home": "\u0626\u06c6\u064a",
@@ -997,7 +1690,14 @@
             "Send": "\u0626\u06d5\u06cb\u06d5\u062a\u0649\u06ad",
             "Enter Language": "\u062a\u0649\u0644 \u0643\u0649\u0631\u06af\u06c8\u0632\u06c8\u06ad",
             "Submit": "\u064a\u0648\u0644\u0644\u0627\u06ad",
-            "Language field Cannot be empty": "\u062a\u0649\u0644 \u0645\u06d5\u064a\u062f\u0627\u0646\u0649 \u0642\u06c7\u0631\u06c7\u0642 \u0628\u0648\u0644\u0627\u0644\u0645\u0627\u064a\u062f\u06c7"
+            "Language field Cannot be empty": "\u062a\u0649\u0644 \u0645\u06d5\u064a\u062f\u0627\u0646\u0649 \u0642\u06c7\u0631\u06c7\u0642 \u0628\u0648\u0644\u0627\u0644\u0645\u0627\u064a\u062f\u06c7",
+            "Username": "\u0626\u0649\u0634\u0644\u06d5\u062a\u0643\u06c8\u0686\u0649 \u0626\u0649\u0633\u0645\u0649",
+            "Password": "\u067e\u0627\u0631\u0648\u0644",
+            "Remember Me": "\u0645\u06d0\u0646\u0649 \u0626\u06d5\u0633\u0644\u06d5\u06ad",
+            "Sign In": "\u062a\u0649\u0632\u0649\u0645\u0644\u0649\u062a\u0649\u06ad",
+            "Repeat Password": "\u067e\u0627\u0631\u0648\u0644\u0646\u0649 \u062a\u06d5\u0643\u0631\u0627\u0631\u0644\u0627\u06ad",
+            "Please use a different username.": "\u0628\u0627\u0634\u0642\u0627 \u0626\u0649\u0634\u0644\u06d5\u062a\u0643\u06c8\u0686\u0649 \u0646\u0627\u0645\u0649\u0646\u0649 \u0626\u0649\u0634\u0644\u0649\u062a\u0649\u06ad.",
+            "Please use a different email address.": "\u0628\u0627\u0634\u0642\u0627 \u0626\u06d0\u0644\u062e\u06d5\u062a \u0626\u0627\u062f\u0631\u06d0\u0633\u0649\u0646\u0649 \u0626\u0649\u0634\u0644\u0649\u062a\u0649\u06ad."
       },
       "uz": {
             "Home": "Uy",
@@ -1007,7 +1707,14 @@
             "Send": "Yuborish",
             "Enter Language": "Tilni kiriting",
             "Submit": "Yuborish",
-            "Language field Cannot be empty": "Til maydoni bo\u02bbsh bo\u02bblishi mumkin emas"
+            "Language field Cannot be empty": "Til maydoni bo\u02bbsh bo\u02bblishi mumkin emas",
+            "Username": "Foydalanuvchi nomi",
+            "Password": "Parol",
+            "Remember Me": "Meni eslaysizmi",
+            "Sign In": "Tizimga kirish",
+            "Repeat Password": "Parolni qaytadan kiriting",
+            "Please use a different username.": "Boshqa foydalanuvchi nomidan foydalaning.",
+            "Please use a different email address.": "Boshqa elektron pochta manzilidan foydalaning."
       },
       "vi": {
             "Home": "Nh\u00e0",
@@ -1017,7 +1724,14 @@
             "Send": "G\u1eedi",
             "Enter Language": "Nh\u1eadp ng\u00f4n ng\u1eef",
             "Submit": "N\u1ed9p",
-            "Language field Cannot be empty": "Tr\u01b0\u1eddng ng\u00f4n ng\u1eef kh\u00f4ng \u0111\u01b0\u1ee3c \u0111\u1ec3 tr\u1ed1ng"
+            "Language field Cannot be empty": "Tr\u01b0\u1eddng ng\u00f4n ng\u1eef kh\u00f4ng \u0111\u01b0\u1ee3c \u0111\u1ec3 tr\u1ed1ng",
+            "Username": "t\u00ean t\u00e0i kho\u1ea3n",
+            "Password": "M\u1eadt kh\u1ea9u",
+            "Remember Me": "Nh\u1edb t\u00f4i",
+            "Sign In": "\u0110\u0103ng nh\u1eadp",
+            "Repeat Password": "L\u1eb7p l\u1ea1i m\u1eadt kh\u1ea9u",
+            "Please use a different username.": "Vui l\u00f2ng s\u1eed d\u1ee5ng m\u1ed9t t\u00ean ng\u01b0\u1eddi d\u00f9ng kh\u00e1c.",
+            "Please use a different email address.": "Xin vui l\u00f2ng s\u1eed d\u1ee5ng m\u1ed9t \u0111\u1ecba ch\u1ec9 email kh\u00e1c."
       },
       "cy": {
             "Home": "Cartref",
@@ -1027,7 +1741,14 @@
             "Send": "Anfon",
             "Enter Language": "Rhowch Iaith",
             "Submit": "Cyflwyno",
-            "Language field Cannot be empty": "Maes iaith Methu bod yn wag"
+            "Language field Cannot be empty": "Maes iaith Methu bod yn wag",
+            "Username": "Enw defnyddiwr",
+            "Password": "Cyfrinair",
+            "Remember Me": "Cofiwch fi",
+            "Sign In": "Mewngofnodi",
+            "Repeat Password": "Ailadrodd Cyfrinair",
+            "Please use a different username.": "Defnyddiwch enw defnyddiwr gwahanol.",
+            "Please use a different email address.": "Defnyddiwch gyfeiriad e-bost gwahanol."
       },
       "xh": {
             "Home": "Ekhaya",
@@ -1037,7 +1758,14 @@
             "Send": "Thumela",
             "Enter Language": "Ngena Ulwimi",
             "Submit": "Ngenisa",
-            "Language field Cannot be empty": "Indawo yolwimi ayinakungabi nanto"
+            "Language field Cannot be empty": "Indawo yolwimi ayinakungabi nanto",
+            "Username": "Igama lomsebenzisi",
+            "Password": "Inombolo yokuvula",
+            "Remember Me": "Ndikhumbule",
+            "Sign In": "Ngena",
+            "Repeat Password": "Phinda iphasiwedi",
+            "Please use a different username.": "Nceda sebenzisa igama lomsebenzisi elahlukileyo.",
+            "Please use a different email address.": "Nceda usebenzise idilesi ye-imeyile eyahlukileyo."
       },
       "yi": {
             "Home": "\u05d4\u05d9\u05d9\u05dd",
@@ -1047,7 +1775,14 @@
             "Send": "\u05e9\u05d9\u05e7\u05df",
             "Enter Language": "\u05d0\u05b7\u05e8\u05d9\u05d9\u05b7\u05df \u05e9\u05e4\u05bc\u05e8\u05d0\u05b7\u05da",
             "Submit": "\u05e4\u05d0\u05b8\u05e8\u05dc\u05d9\u05d9\u05d2\u05df",
-            "Language field Cannot be empty": "\u05e9\u05e4\u05bc\u05e8\u05d0\u05b7\u05da \u05e4\u05e2\u05dc\u05d3 \u05e7\u05e2\u05e0\u05e2\u05df \u05e0\u05d9\u05d8 \u05d6\u05d9\u05d9\u05df \u05dc\u05d9\u05d9\u05d3\u05d9\u05e7"
+            "Language field Cannot be empty": "\u05e9\u05e4\u05bc\u05e8\u05d0\u05b7\u05da \u05e4\u05e2\u05dc\u05d3 \u05e7\u05e2\u05e0\u05e2\u05df \u05e0\u05d9\u05d8 \u05d6\u05d9\u05d9\u05df \u05dc\u05d9\u05d9\u05d3\u05d9\u05e7",
+            "Username": "\u05e0\u05d0\u05de\u05e2\u05df",
+            "Password": "\u05e9\u05e4\u05bc\u05e8\u05d9\u05db\u05d5\u05d5\u05d0\u05b8\u05e8\u05d8",
+            "Remember Me": "\u05d2\u05e2\u05d3\u05e2\u05e0\u05e7 \u05de\u05d9\u05da",
+            "Sign In": "\u05e1\u05d9\u05d9\u05df \u05d0\u05e8\u05d9\u05d9\u05df",
+            "Repeat Password": "\u05d0\u05d9\u05d1\u05e2\u05e8\u05d7\u05d6\u05e8\u05df \u05e9\u05e4\u05bc\u05e8\u05d9\u05db\u05d5\u05d5\u05d0\u05b8\u05e8\u05d8",
+            "Please use a different username.": "\u05d1\u05d9\u05d8\u05e2 \u05e0\u05d5\u05e6\u05df \u05d0\u05df \u05d0\u05e0\u05d3\u05e2\u05e8 \u05e0\u05d0\u05de\u05e2\u05df.",
+            "Please use a different email address.": "\u05d1\u05d9\u05d8\u05e2 \u05e0\u05d5\u05e6\u05df \u05d0\u05b7 \u05d0\u05b7\u05e0\u05d3\u05e2\u05e8\u05e9 \u05d1\u05dc\u05d9\u05e6\u05e4\u05bc\u05d0\u05b8\u05e1\u05d8 \u05d0\u05b7\u05d3\u05e8\u05e2\u05e1."
       },
       "yo": {
             "Home": "Ile",
@@ -1057,7 +1792,14 @@
             "Send": "Firan\u1e63\u1eb9",
             "Enter Language": "T\u1eb9 Ede sii",
             "Submit": "Fi sil\u1eb9",
-            "Language field Cannot be empty": "Aaye ede Ko le j\u1eb9 ofo"
+            "Language field Cannot be empty": "Aaye ede Ko le j\u1eb9 ofo",
+            "Username": "Oruk\u1ecd olumulo",
+            "Password": "\u1eccr\u1ecdigbaniw\u1ecdle",
+            "Remember Me": "Ranti mi",
+            "Sign In": "W\u1ecdle",
+            "Repeat Password": "Tun oro igbaniwolle se",
+            "Please use a different username.": "J\u1ecdw\u1ecd lo oruk\u1ecd olumulo ti o yat\u1ecd.",
+            "Please use a different email address.": "J\u1ecdw\u1ecd lo adir\u1eb9si imeeli ti o yat\u1ecd."
       },
       "zu": {
             "Home": "Ikhaya",
@@ -1067,6 +1809,13 @@
             "Send": "Thumela",
             "Enter Language": "Faka Ulimi",
             "Submit": "Thumela",
-            "Language field Cannot be empty": "Inkambu yolimi ayikwazi ukungabi nalutho"
+            "Language field Cannot be empty": "Inkambu yolimi ayikwazi ukungabi nalutho",
+            "Username": "Igama lomsebenzisi",
+            "Password": "Iphasiwedi",
+            "Remember Me": "Uyangikhumbula",
+            "Sign In": "Ngena ngemvume",
+            "Repeat Password": "Phinda iphasiwedi",
+            "Please use a different username.": "Sicela usebenzise igama lomsebenzisi elehlukile.",
+            "Please use a different email address.": "Sicela usebenzise ikheli le-imeyili elehlukile."
       }
 }

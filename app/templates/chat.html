@@ -33,6 +33,7 @@
       socket.on('connect', function () {
         console.log('{{current_user.username}}');
         const lang = sessionStorage.getItem('lang');
+        console.log(lang);
         socket.emit('client_connected', { 'lang': lang });
 
         {% if chats %}

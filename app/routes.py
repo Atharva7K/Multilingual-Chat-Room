@@ -1,3 +1,4 @@
+from crypt import methods
 from flask import render_template, flash, redirect, request, url_for, session
 from flask_login import current_user, login_user, logout_user, login_required
 from app import app
@@ -10,11 +11,15 @@ from googletrans import Translator
 from datetime import datetime
 from dateutil import tz
 from sqlalchemy import or_, asc
+import json
 
 sid2username = {}
 sid2lang = {}
 translator = Translator()
 
+map = {}
+with open('assetMap.json', 'r', encoding='utf-8') as file:
+    map = json.load(file)
 def broadcast(sender_sid, sender_id, msg, sid2lang, translator, sid2username, user_id, socket):
     self_chat = Chat(body = msg,
                      timestamp = datetime.utcnow(),
@@ -44,56 +49,56 @@ def client_disconnected():
     print(f'disconnected {request.sid}')
     del(sid2lang[request.sid])
     del(sid2username[request.sid])
-    #print(f'session is {session}')
-    #session.clear()
-    #print(sid2lang)
-    #print(sid2username)
 
 @socketio.on('client_connected')
 def client_connected(data):
-    #print(f'Username: {session}')
-    #print(f'connected {request.sid} {data["lang"]}')
     sid2lang[request.sid] = data['lang']
     sid2username[request.sid] = current_user.username
-    #print(f' sid2username {sid2username}')
-    #print(f'sid2lang {sid2lang}')
+    print(sid2lang)
+    print(sid2username)
 
 @socketio.on('send')
 def event(data):
-    #print(f'Senders username {current_user.username}; senders sid {request.sid}')
     broadcast(request.sid, current_user.id,
              data['msg'], sid2lang,
              translator, sid2username,
              current_user.id, socketio)
-    #broadcast(current_user.username, data['msg'], sid2lang, translator, socketio)
-
-    #socketio.emit('recieve', data['msg'], broadcast=True)
 
 @app.route('/')
 @app.route('/home', methods=['GET', 'POST'])
 def home():
-    return render_template('index.html')
+    return render_template('lang.html')
+
+@app.route('/index', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        lang = request.form.get('lang')
+        #print(lang)
+        return render_template('index.html', map=map[lang])
+    return redirect(url_for('home'))
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:
-        return redirect(url_for('lang'))
+        return redirect(url_for('chat'))
 
     form = RegistrationForm()
     if form.validate_on_submit():
-        user = User(username=form.username.data, email=form.email.data)
+        user = User(username=form.username.data, email=form.email.data,
+                    lang=form.lang.data)
         user.set_password(form.password.data)
         db.session.add(user)
         db.session.commit()
         flash('Congratulations, you are now a registered user!')
         return redirect(url_for('login'))
-    return render_template('register.html', form=form)
+    return render_template('register.html', form=form, map=map[request.cookies.get('lang')])
 
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    print('yo', request.cookies.get('lang'))
     if current_user.is_authenticated:
-        return redirect(url_for('lang'))
+        return redirect(url_for('chat'))
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
@@ -101,14 +106,14 @@ def login():
             flash('Invalid username or password')
             return redirect(url_for('login'))
         login_user(user, remember=form.remember_me.data)
-        return redirect(url_for('lang'))
-    return render_template('login.html', form=form)
+        return redirect(url_for('chat'))
+    return render_template('login.html', form=form, map=map[request.cookies.get('lang')])
+
 
 @app.route('/logout', methods=['GET', 'POST'])
 def logout():
     logout_user()
-    session.clear()
-    return redirect(url_for('home'))
+    return redirect(url_for('index'))
 
 @app.route('/lang', methods=['GET', 'POST'])
 @login_required

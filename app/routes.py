@@ -1,5 +1,6 @@
 from crypt import methods
 from flask import render_template, flash, redirect, request, url_for, session
+import flask_login
 from flask_login import current_user, login_user, logout_user, login_required
 from app import app
 from app.models import User, Chat
@@ -13,56 +14,58 @@ from dateutil import tz
 from sqlalchemy import or_, asc
 import json
 
-sid2username = {}
-sid2lang = {}
+# sid2username = {}
+# sid2lang = {}
+sid2user = {}
 translator = Translator()
-
+clients = []
 map = {}
 with open('assetMap.json', 'r', encoding='utf-8') as file:
     map = json.load(file)
-def broadcast(sender_sid, sender_id, msg, sid2lang, translator, sid2username, user_id, socket):
+
+def broadcast(sender_sid, msg, translator, socket):
     self_chat = Chat(body = msg,
                      timestamp = datetime.utcnow(),
-                     sender_id = sender_id,
-                     reciever_id = sender_id)
+                     sender_id = sid2user[sender_sid]["id"],
+                     reciever_id = sid2user[sender_sid]["id"])
     db.session.add(self_chat)
     db.session.commit()
     #print(sid2username)
-    src = sid2lang[sender_sid]
-    for reciever_sid, lang in sid2lang.items():
-        dest = lang
+    src = sid2user[sender_sid]['lang']
+    sender = sid2user[sender_sid]
+    for reciever_sid in sid2user:
         if reciever_sid != sender_sid:
+            reciever = sid2user[reciever_sid]
+            dest = reciever['lang']
             #print(f'reciever_sid is {sid2username[reciever_sid]}')
             translated = translator.translate(msg, src=src, dest=dest).text
-            socket.emit('recieve', data=(translated, sid2username[sender_sid]), room=reciever_sid)
-            print(f'Msg from {sid2username[sender_sid]} to {sid2username[reciever_sid]}')
-            reciever_id = User.query.filter_by(username=sid2username[reciever_sid]).first().id
+            socket.emit('recieve', data=(translated, sender['username']), room=reciever_sid)
+            print(f'---------------Meesage from {sender_sid} to {reciever_sid} src{sender["lang"]} dest {reciever["lang"]}-----------')
+            reciever_id = reciever['id']
             chat = Chat(body = translated,
                         timestamp = datetime.utcnow(),
-                        sender_id = user_id,
+                        sender_id = sender['id'],
                         reciever_id = reciever_id)
             db.session.add(chat)
             db.session.commit()
 
 @socketio.on('client_disconnected')
 def client_disconnected():
-    print(f'disconnected {request.sid}')
-    del(sid2lang[request.sid])
-    del(sid2username[request.sid])
+    print(f'disconnected {current_user.username}')
+    # del(sid2lang[request.sid])
+    # del(sid2username[request.sid])
+    print(f'Removing {current_user.username} with sid {request.sid}')
+    del(sid2user[request.sid])
 
 @socketio.on('client_connected')
-def client_connected(data):
-    sid2lang[request.sid] = data['lang']
-    sid2username[request.sid] = current_user.username
-    print(sid2lang)
-    print(sid2username)
+def connect():
+    print(current_user)
+    sid2user[request.sid] = vars(current_user)
 
 @socketio.on('send')
 def event(data):
-    broadcast(request.sid, current_user.id,
-             data['msg'], sid2lang,
-             translator, sid2username,
-             current_user.id, socketio)
+    broadcast(request.sid, data['msg'],
+              translator, socketio)
 
 @app.route('/')
 @app.route('/home', methods=['GET', 'POST'])
@@ -96,7 +99,6 @@ def register():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    print('yo', request.cookies.get('lang'))
     if current_user.is_authenticated:
         return redirect(url_for('chat'))
     form = LoginForm()

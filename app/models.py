@@ -22,8 +22,9 @@ class User(UserMixin, db.Model):
 
     def set_lang(self, lang):
         self.lang = lang
+
     def __repr__(self):
-        return '<User {}>'.format(self.username)
+        return f'User {self.id} {self.username} lang {self.lang}'
 
 class Chat(db.Model):
     id = db.Column(db.Integer, primary_key=True)

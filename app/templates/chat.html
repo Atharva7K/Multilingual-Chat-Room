@@ -8,34 +8,30 @@
 
   <script type="text/javascript">
 
-    $(document).ready(function () {
+    function formatAMPM(date) {
 
-      function formatAMPM(date) {
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+                      "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      var hours = date.getHours();
+      var _date = date.getDate();
+      var month = date.getMonth();
+      var year = date.getFullYear();
+      var minutes = date.getMinutes();
+      var ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // the hour '0' should be '12'
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      var strTime = _date + ' ' + months[month] + ' ' + year + ' ' + hours + ':' + minutes + ' ' + ampm;
 
-        var hours = date.getHours();
-        var _date = date.getDate();
-        var month = date.getMonth();
-        var year = date.getFullYear();
-        var minutes = date.getMinutes();
-        var ampm = hours >= 12 ? 'PM' : 'AM';
-        hours = hours % 12;
-        hours = hours ? hours : 12; // the hour '0' should be '12'
-        minutes = minutes < 10 ? '0' + minutes : minutes;
-        var strTime = _date + ' ' + months[month] + ' ' + year + ' ' + hours + ':' + minutes + ' ' + ampm;
-
-        return strTime;
-      }
+      return strTime;
+    }
 
       const socket = io();
-
-      socket.on('connect', function () {
-        console.log('{{current_user.username}}');
-        const lang = sessionStorage.getItem('lang');
-        console.log(lang);
-        socket.emit('client_connected', { 'lang': lang });
-
+      // const lang = sessionStorage.getItem('lang');
+      socket.on('connect', function(){
+        socket.emit('client_connected');
+      });
         {% if chats %}
         {% for chat in chats %}
 
@@ -45,11 +41,10 @@
                       {% else %}
                                 '[You]'
                       {% endif %}
-      + ' ' + '{{chat.body}}' + '</li>';
-    $('#messages').append(txt);
-    {% endfor %}
-    {% endif %}
-    });
+          + ' ' + '{{chat.body}}' + '</li>';
+          $('#messages').append(txt);
+          {% endfor %}
+          {% endif %}
 
     // $(window).onbeforeunload(function () {
     //           socket.emit('client_disconnected');
@@ -77,7 +72,7 @@
     }
     );
 
-    });
+
 
 
   </script>

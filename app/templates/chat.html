@@ -5,7 +5,8 @@
   <ul id="messages"></ul>
   <input type="text" id="myMessage">
   <button id="sendbutton">Send</button><br>
-
+  <ul id="clients" style="text-align:right"></ul>
+  <a href="{{url_for('logout')}}">{{map['Logout']}}</a>
   <script type="text/javascript">
 
     function formatAMPM(date) {
@@ -27,6 +28,7 @@
       return strTime;
     }
 
+      var clients = new Array();
       const socket = io();
       // const lang = sessionStorage.getItem('lang');
       socket.on('connect', function(){
@@ -72,8 +74,15 @@
     }
     );
 
+    socket.on('client_joined', function(data){
+      console.log(data.username);
+      let text = `<li id="${data.username}" style="text-align:right"">${data.username}</li>`;
+      $('#clients').append(text);
+    })
 
-
+    socket.on('client_left', function(data){
+      $(`#${data.username}`).remove()
+    })
 
   </script>
 </body>

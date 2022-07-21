@@ -13,63 +13,40 @@ from datetime import datetime
 from dateutil import tz
 from sqlalchemy import or_, asc
 import json
-
-# sid2username = {}
-# sid2lang = {}
+from app.client_manager import ClientManager
 sid2user = {}
 translator = Translator()
 clients = []
 map = {}
+manager = ClientManager()
+
 with open('assetMap.json', 'r', encoding='utf-8') as file:
     map = json.load(file)
-
-def broadcast(sender_sid, msg, translator, socket):
-    self_chat = Chat(body = msg,
-                     timestamp = datetime.utcnow(),
-                     sender_id = sid2user[sender_sid]["id"],
-                     reciever_id = sid2user[sender_sid]["id"])
-    db.session.add(self_chat)
-    db.session.commit()
-    #print(sid2username)
-    src = sid2user[sender_sid]['lang']
-    sender = sid2user[sender_sid]
-    for reciever_sid in sid2user:
-        if reciever_sid != sender_sid:
-            reciever = sid2user[reciever_sid]
-            dest = reciever['lang']
-            #print(f'reciever_sid is {sid2username[reciever_sid]}')
-            translated = translator.translate(msg, src=src, dest=dest).text
-            socket.emit('recieve', data=(translated, sender['username']), room=reciever_sid)
-            print(f'---------------Meesage from {sender_sid} to {reciever_sid} src{sender["lang"]} dest {reciever["lang"]}-----------')
-            reciever_id = reciever['id']
-            chat = Chat(body = translated,
-                        timestamp = datetime.utcnow(),
-                        sender_id = sender['id'],
-                        reciever_id = reciever_id)
-            db.session.add(chat)
-            db.session.commit()
-
-@socketio.on('client_disconnected')
-def client_disconnected():
-    print(f'disconnected {current_user.username}')
-    # del(sid2lang[request.sid])
-    # del(sid2username[request.sid])
-    print(f'Removing {current_user.username} with sid {request.sid}')
-    del(sid2user[request.sid])
 
 @socketio.on('client_connected')
 def connect():
     print(current_user)
     sid2user[request.sid] = vars(current_user)
+    manager.add_client(request.sid, current_user)
+    manager.notify_client_join(request.sid, socketio)
+
+@socketio.on('client_disconnected')
+def client_disconnected():
+    print(f'Disconnected {current_user.username} with sid {request.sid}')
+    manager.notify_client_leave(request.sid, socketio)
+    manager.remove_client(request.sid)
 
 @socketio.on('send')
 def event(data):
-    broadcast(request.sid, data['msg'],
+    manager.broadcast(request.sid, data['msg'],
               translator, socketio)
 
 @app.route('/')
 @app.route('/home', methods=['GET', 'POST'])
 def home():
+    # if current_user.is_authenticated:
+    #     return redirect(url_for('chat'))
+
     return render_template('lang.html')
 
 @app.route('/index', methods=['GET', 'POST'])
@@ -134,6 +111,6 @@ def chat():
     for chat in chats:
         chat.timestamp = chat.timestamp.replace(tzinfo=from_zone).astimezone(to_zone)
     if len(chats) != 0:
-        return render_template('chat.html', chats = chats)
+        return render_template('chat.html', chats = chats, map=map)
     else:
-        return render_template('chat.html')
+        return render_template('chat.html', map=map)

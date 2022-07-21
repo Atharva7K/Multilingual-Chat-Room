@@ -2,7 +2,7 @@
 {% block form %}
 <body>
   <form action="{{ url_for('index') }}" method="POST">
-    <select id="lang" name="lang"><br>
+    <select id="lang" name="lang" class="form-select"><br>
 
       <option value="af">afrikaans</option>
       <option value="sq">shqip</option>
@@ -113,7 +113,7 @@
       <option value="zu">zulu</option>
 </select>
 
-    <input type="submit" value="Submit" onclick="save_lang()"><br>
+    <input type="submit" value="Submit" onclick="save_lang()" class="btn btn-success"><br>
 </form>
 
 <script>

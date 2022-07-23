@@ -29,7 +29,7 @@
     }
 
       var clients = new Array();
-      const socket = io();
+      const socket = io({transports: ['websocket'], upgrade: false});
       // const lang = sessionStorage.getItem('lang');
       socket.on('connect', function(){
         socket.emit('client_connected');

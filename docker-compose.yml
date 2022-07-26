@@ -2,6 +2,9 @@ version: "2.4"
 
 services:
   app:
+    container_name: app
     build: .
     ports:
       - 8000:8000
+    volumes:
+      - E:/Multilingual-Chat-Room:/socketio

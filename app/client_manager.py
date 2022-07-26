@@ -1,16 +1,24 @@
-from app.models import Chat
+import json
 from datetime import datetime
+
 from app import db
+from app.models import Chat
+
+
 class ClientManager:
 
+    sid2client = {}
     def __init__(self):
-        self.sid2client = {}
+        pass
+
 
     def add_client(self, req_sid, client):
         self.sid2client[req_sid] = vars(client)
 
-    def remove_client(self, req_sid):
+
+    def delete_client(self, req_sid):
         del self.sid2client[req_sid]
+
 
     def broadcast(self, sender_sid, msg, translator, socket):
         self_chat = Chat(body = msg, timestamp = datetime.utcnow(),
@@ -38,12 +46,36 @@ class ClientManager:
                 db.session.add(chat)
                 db.session.commit()
 
+
     def notify_client_join(self, new_client_sid, socket):
         username = self.sid2client[new_client_sid]['username']
         socket.emit('client_joined', {'username':username}, broadcast=True, include_self=False)
 
+
     def notify_client_leave(self, left_client_sid, socket):
         username = self.sid2client[left_client_sid]['username']
-        for client_sid in self.sid2client:
-            if client_sid != left_client_sid:
-                socket.emit('client_left', {'username':username}, broadcast=True, include_self=False)
+        socket.emit('client_left', {'username':username}, broadcast=True, include_self=False)
+
+
+    def notify_inroom_clients(self, new_client_sid, socket):
+        print('---------notifying clients--------')
+        usernames = ''
+        for i, client_sid in enumerate(self.sid2client):
+            if client_sid != new_client_sid:
+                if i == 0:
+                    usernames = usernames + self.sid2client[client_sid]['username']
+                else:
+                    usernames = usernames + ' ' + self.sid2client[client_sid]['username']
+        print(usernames)
+        socket.emit('inroom_clients', usernames, room=new_client_sid)
+
+
+    def add_new_client(self, new_client_sid, client, socket):
+        self.add_client(new_client_sid, client)
+        self.notify_client_join(new_client_sid, socket)
+        self.notify_inroom_clients(new_client_sid, socket)
+
+
+    def remove_client(self, client_sid, socket):
+        self.notify_client_leave(client_sid, socket)
+        self.delete_client(client_sid)

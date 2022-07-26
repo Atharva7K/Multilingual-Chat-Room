@@ -4,9 +4,9 @@
 <body>
   <ul id="messages"></ul>
   <input type="text" id="myMessage">
-  <button id="sendbutton">Send</button><br>
+  <button id="sendbutton">Sends</button><br>
   <ul id="clients" style="text-align:right"></ul>
-  <a href="{{url_for('logout')}}">{{map['Logout']}}</a>
+  <a href="{{url_for('logout')}}">logout</a>
   <script type="text/javascript">
 
     function formatAMPM(date) {
@@ -33,6 +33,12 @@
       // const lang = sessionStorage.getItem('lang');
       socket.on('connect', function(){
         socket.emit('client_connected');
+
+        // socket.on('disconnect', function(){
+        //   console.log('disconnect');
+        //   socket.emit('client_disconnected');
+        // });
+
       });
         {% if chats %}
         {% for chat in chats %}
@@ -48,12 +54,10 @@
           {% endfor %}
           {% endif %}
 
-    // $(window).onbeforeunload(function () {
-    //           socket.emit('client_disconnected');
-    //         });
-    window.onbeforeunload = function () {
-      socket.emit('client_disconnected');
-    }
+    window.addEventListener("onunload", function () {
+          console.log('Reloading');
+          socket.emit('client_disconnected');
+      });
 
     socket.on('recieve', function (msg, sender) {
       var now = formatAMPM(new Date());
@@ -67,7 +71,7 @@
       if (msg != '') {
         console.log(`from chat.html send event ${socket.id}`);
         socket.emit('send', { msg: msg });
-        let newMsg = '<li>' + now + ' [You] ' + msg + '</li>';
+        let newMsg = '<li align="right">' + now + ' [You] ' + msg + '</li>';
         $('#messages').append(newMsg);
         $('#myMessage').val('');
       }
@@ -75,14 +79,21 @@
     );
 
     socket.on('client_joined', function(data){
-      console.log(data.username);
+      console.log('client_joined');
       let text = `<li id="${data.username}" style="text-align:right"">${data.username}</li>`;
       $('#clients').append(text);
     })
 
     socket.on('client_left', function(data){
-      $(`#${data.username}`).remove()
+      console.log(`Removing ${data.username}`);
+      $(`#${data.username}`).remove();
     })
+
+    socket.on('inroom_clients', function(data){
+      console.log('inroom_clients');
+      console.log(data);
+    })
+
 
   </script>
 </body>

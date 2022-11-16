@@ -1,0 +1,145 @@
+.body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.chatBox{
+    width: 100%;
+    display: flex;
+    margin: 90px 20px;
+}
+.chatBox input{
+    width: 50%;
+
+}
+.buttonn{
+    width: 100px;
+    height: 45px;
+    font-weight: 300;
+    text-decoration: none;
+    background:#339900;
+    border: 2px solid greem;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin-left: 20px;
+    margin: 20px;
+}
+.logButton{
+    height: 14vh;
+    width: 100%;
+    /* margin: 20px 20px; */
+    padding: 25px;
+    display: flex;
+    margin-bottom: 40px;
+    background :#006400;
+}
+.second p{
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-top:10px;
+}
+.first{
+    height: 5vh;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    /* margin: 20px 0 20px 0; */
+}
+.second{
+    height: 5vh;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 1.4rem;
+    color: white;
+    /* margin: 20px 0 20px 0; */
+}
+.second a{
+        width: 125px;
+        height: 50px;
+        font-weight: 300;
+        text-decoration: none;
+        background:red;
+        border: 2px solid red;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        line-height: 25px;
+        margin-left: 1px;
+    
+}
+.texts{
+    text-align:right;
+     margin: 30px 30px;
+}
+
+ul{
+    list-style: none;
+}
+.cont1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.cont2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.users{
+    width: auto;
+    height: auto;
+    background: rgb(88, 7, 129);
+    color: white;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+.yourMsg{
+    width: 40%;
+    height: auto;
+    background: #006400;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    
+}
+
+.otherMsg{
+    width: 40%;
+    height: auto;
+    background: #6a6e6a;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    
+}

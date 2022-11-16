@@ -1,0 +1,102 @@
+body{
+    height: 100vh; 
+    background: url('../static/back.jpg') center / cover no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.layoutBody {
+    height: 5vh;
+    width: 100%;
+    margin: 20px 20px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+.layoutBody a{
+    margin-right: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    width: 105px;
+    height: 40px;
+    background: #228B22;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+.first{
+    height: 5vh;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    /* margin: 20px 0 20px 0; */
+}
+.second{
+    height: 5vh;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-right: 20px;
+    /* margin: 20px 0 20px 0; */
+}
+
+.heading{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 40px;
+    font-weight: 900;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 400px;
+    height: 380px;
+}
+
+.form{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+   
+}
+.buttonn{
+    width: 125px;
+    height: 50px;
+    font-weight: 300;
+    text-decoration: none;
+    background:green;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.buttonn:hover{
+    background: green;
+    border: 2px solid green;
+}

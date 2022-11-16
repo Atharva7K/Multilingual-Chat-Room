@@ -2,53 +2,57 @@
 {% block form %}
 
 <body>
+    <div class="heading">
+        <h1>Register</h1>
+    </div>
+    <div class="form">
+        <form action="" method="post">
+            {{ form.hidden_tag() }}
+            <p>
+                <!-- {{ form.username.label }} -->
+                {{ map['Username'] }}
+                <!-- {{ form.username.label(class="form-label")}} -->
+                {{ form.username(size=32, class="form-control")}}
 
-    <h1>Register</h1>
-    <form action="" method="post">
-        {{ form.hidden_tag() }}
-        <p>
-            <!-- {{ form.username.label }}<br> -->
-            {{ map['Username'] }}<br>
-            {{ form.username(size=32) }}<br>
-            {% for error in form.username.errors %}
-            <span style="color: red;">[{{ error }}]</span>
-            {% endfor %}
-        </p>
-        <p>
-            {{ form.email.label }}<br>
-            {{ form.email(size=64) }}<br>
-            {% for error in form.email.errors %}
-            <span style="color: red;">[{{ error }}]</span>
-            {% endfor %}
-        </p>
-        <p>
-            <!-- {{ form.password.label }}<br> -->
-            {{ map['Password'] }}<br>
-            {{ form.password(size=32) }}<br>
-            {% for error in form.password.errors %}
-            <span style="color: red;">[{{ error }}]</span>
-            {% endfor %}
-        </p>
-        <p>
-            <!-- {{ form.password2.label }}<br> -->
-            {{ map['Repeat Password'] }}<br>
-            {{ form.password2(size=32) }}<br>
-            {% for error in form.password2.errors %}
-            <span style="color: red;">[{{ error }}]</span>
-            {% endfor %}
-        </p>
+                {% for error in form.username.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </p>
+            <p>
+                {{ form.email.label }}
+                {{ form.email(size=64, class="form-control") }}
+                {% for error in form.email.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </p>
+            <p>
+                <!-- {{ form.password.label }} -->
+                {{ map['Password'] }}
+                {{ form.password(size=32,class="form-control") }}
+                {% for error in form.password.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </p>
+            <p>
+                <!-- {{ form.password2.label }} -->
+                {{ map['Repeat Password'] }}
+                {{ form.password2(size=32,class="form-control") }}
+                {% for error in form.password2.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </p>
 
-        <p>
-          <!-- {{ form.lang.label }}<br> -->
-          {{ map['Enter Language'] }}<br>
-          {{ form.lang() }}
-          {% for error in form.password.errors %}
-          <span style="color: red;">[{{ error }}]</span>
-          {% endfor %}
+            <p>
+                <!-- {{ form.lang.label }} -->
+                {{ map['Enter Language'] }}
+                {{ form.lang(class="form-select") }} <br>
+                {% for error in form.password.errors %}
+                <span style="color: red;">[{{ error }}]</span>
+                {% endfor %}
+            </p>
 
-        </p>
-
-        <p>{{ form.submit(value=map['Register']) }}</p>
-    </form>
+            <p>{{ form.submit(value=map['Register'], class="buttonn") }}</p>
+        </form>
+    </div>
 </body>
 {% endblock %}

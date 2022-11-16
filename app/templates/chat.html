@@ -1,18 +1,51 @@
-{% extends "layout.html" %}
-{% block form %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chat Room</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"
+    integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/chat.css">
+</head>
+
 
 <body>
+  <div class="logButton">
+    <div class="first">
+      Chat Window
+    </div>
+    <div class="second">
+      <p>Welcome, {{current_user.username}}</p>
+      <a href="{{url_for('logout')}}">logout</a>
+    </div>
+  </div>
+  <ul id="clients" class="texts">
+   
+  </ul>
   <ul id="messages"></ul>
-  <input type="text" id="myMessage">
-  <button id="sendbutton">Sends</button><br>
-  <ul id="clients" style="text-align:right"></ul>
-  <a href="{{url_for('logout')}}">logout</a>
+  <div class="chatBox">
+    <input class="form-control" type="text" id="myMessage">
+    <button id="sendbutton" class="buttonn">Send</button>
+  </div>
+
+  
+
   <script type="text/javascript">
 
     function formatAMPM(date) {
 
       const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
-                      "Aug", "Sep", "Oct", "Nov", "Dec"];
+        "Aug", "Sep", "Oct", "Nov", "Dec"];
 
       var hours = date.getHours();
       var _date = date.getDate();
@@ -28,40 +61,43 @@
       return strTime;
     }
 
-      var clients = new Array();
-      const socket = io({transports: ['websocket'], upgrade: false});
-      // const lang = sessionStorage.getItem('lang');
-      socket.on('connect', function(){
-        socket.emit('client_connected');
+    var clients = new Array();
+    const socket = io({ transports: ['websocket'], upgrade: false });
+    // const lang = sessionStorage.getItem('lang');
+    socket.on('connect', function () {
+      socket.emit('client_connected');
 
-        // socket.on('disconnect', function(){
-        //   console.log('disconnect');
-        //   socket.emit('client_disconnected');
-        // });
+      // socket.on('disconnect', function(){
+      //   console.log('disconnect');
+      //   socket.emit('client_disconnected');
+      // });
 
-      });
-        {% if chats %}
-        {% for chat in chats %}
+    });
+    {% if chats %}
+    {% for chat in chats %}
 
-        var txt = '<li>' + '{{ chat.timestamp.strftime(' %d %b %Y %I:%M %p') }}'
-          + ' ' + {% if chat.sender.username != current_user.username %}
-                               '[{{chat.sender.username}}]'
-                      {% else %}
-                                '[You]'
-                      {% endif %}
-          + ' ' + '{{chat.body}}' + '</li>';
-          $('#messages').append(txt);
-          {% endfor %}
-          {% endif %}
+    var txt = '<li>' + '{{ chat.timestamp.strftime(' % d % b % Y % I:% M % p') }}'
+      + ' ' + {% if chat.sender.username != current_user.username %}
+    '[{{chat.sender.username}}]'
+    {% else %}
+    '[You]'
+    {% endif %}
+    + ' ' + '{{chat.body}}' + '</li>';
+    $('#messages').append(txt);
+    {% endfor %}
+    {% endif %}
 
     window.addEventListener("onunload", function () {
-          console.log('Reloading');
-          socket.emit('client_disconnected');
-      });
+      console.log('Reloading');
+      socket.emit('client_disconnected');
+    });
 
     socket.on('recieve', function (msg, sender) {
+      var start = performance.now();
       var now = formatAMPM(new Date());
-      $('#messages').append('<li>' + now + ' ' + ` [${sender}] ` + ' ' + msg + '</li>');
+      $('#messages').append('<div class="cont1"><div class="otherMsg"><li>' + now + ' ' + `<b> [ ${sender} ] </b>` + ' ' + msg + '</li></div></div>');
+      var end = performance.now();
+      console.log(`Msg sending took ${end - start} milliseconds.`)
     });
 
     $("#sendbutton").click(function () {
@@ -70,30 +106,34 @@
       let msg = $('#myMessage').val();
       if (msg != '') {
         console.log(`from chat.html send event ${socket.id}`);
+        var s = performance.now();
         socket.emit('send', { msg: msg });
-        let newMsg = '<li align="right">' + now + ' [You] ' + msg + '</li>';
+        let newMsg = '<div class="cont"><div class="yourMsg"><li align="right">' + now + ' <b> [You] </b> ' + msg + '</li></div></div>';
         $('#messages').append(newMsg);
+        var e = performance.now();
+        console.log(`Msg sending took ${e- s} milliseconds.`)
         $('#myMessage').val('');
       }
     }
     );
 
-    socket.on('client_joined', function(data){
+    socket.on('client_joined', function (data) {
       console.log('client_joined');
-      let text = `<li id="${data.username}" style="text-align:right"">${data.username}</li>`;
-      $('#clients').append(text);
+      let text = `<div class="cont2"><div class="users"><li id="${data.username}" style="text-align:right"">${data.username}</li></div></div>`;
+      <!-- $('#clients').append(text);  -->
     })
 
-    socket.on('client_left', function(data){
+    socket.on('client_left', function (data) {
       console.log(`Removing ${data.username}`);
       $(`#${data.username}`).remove();
     })
 
-    socket.on('inroom_clients', function(data){
+    socket.on('inroom_clients', function (data) {
       console.log('inroom_clients');
       console.log(data);
     })
 
   </script>
 </body>
-{% endblock %}
+
+</html>
